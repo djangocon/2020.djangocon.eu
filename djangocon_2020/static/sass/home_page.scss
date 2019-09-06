@@ -1,0 +1,167 @@
+$BgBlue: #094383;
+$TextBlue: #0078ff;
+
+.header {
+  height: 100vh;
+  background-image: url("/static/images/porto_1920x800.jpg");
+  background-color: $BgBlue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+
+  .nav {
+    li {
+      vertical-align: middle;
+      line-height: 80px;
+
+      &.active, &:hover {
+        a {
+          text-decoration: underline;
+        }
+      }
+
+      a {
+        color: white !important;
+      }
+    }
+  }
+
+  .home-title {
+    margin-top: 10%;
+
+    h1 {
+      font-size: 58px;
+      margin-bottom: 25px;
+    }
+
+
+    h1, h3 {
+      color: white;
+    }
+
+    .btn {
+      margin-top: 20px;
+      color: white;
+      border: 2px solid white;
+      width: 15%;
+    }
+  }
+}
+
+.home-about {
+  padding: 40px;
+
+  .title {
+    text-align: center;
+    color: $TextBlue
+  }
+}
+
+.latest-news {
+  background-color: $BgBlue;
+  color: white;
+  padding: 40px;
+
+  .title {
+    text-align: center;
+    color: $TextBlue;
+  }
+
+  .card {
+    background: transparent;
+    border: none;
+    padding: 0;
+
+    .card-img-top {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 2px solid white;
+      margin-bottom: 15px;
+    }
+
+    .card-body {
+      padding: 0;
+    }
+  }
+}
+
+.porto-info {
+  .porto-image {
+    background-image: url("/static/images/ravelos.jpg");
+    background-color: $BgBlue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
+
+  .content {
+    padding: 90px;
+
+    h1 {
+      color: $TextBlue;
+    }
+
+    .btn {
+      width: 30%;
+      color: $TextBlue;
+      border: 1px solid $TextBlue;
+    }
+  }
+}
+
+.home-sponsors {
+  padding: 40px;
+
+  .title {
+    color: $TextBlue;
+  }
+
+  .col-6 {
+    margin-bottom: 25px;
+  }
+
+  .pub {
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+  }
+}
+
+.mailing-list {
+  background: lightgray;
+  padding: 40px;
+
+  .mailing-input {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    background: transparent;
+  }
+
+  .button {
+    text-align: center;
+
+    .btn {
+      text-align: center;
+      margin-top: 25px;
+      width: 20%;
+      border: 1px solid $TextBlue;
+      color: $TextBlue;
+    }
+  }
+}
+
+.custom-footer{
+  padding: 40px;
+  background-color: $BgBlue;
+  color: white;
+}
+
+.button-footer{
+  background-color: $TextBlue;
+  padding: 15px;
+  color: white;
+}

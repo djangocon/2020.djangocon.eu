@@ -1,0 +1,11 @@
+{% load markdow_extras %}
+<div class="container">
+  <div class="row">
+    <div class="col-3 title"><h2>about</h2></div>
+    <div class="col-9 content">
+      <p>
+        {{ content | markdown | safe }}
+      </p>
+    </div>
+  </div>
+</div>
