@@ -3,11 +3,9 @@ $TextBlue: #0078ff;
 
 .header {
   height: 100vh;
-  background-image: url("/static/images/porto_1920x800.jpg");
-  background-color: $BgBlue;
+  background-image: url("/static/images/home/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: multiply;
 
   .nav {
     li {
@@ -88,11 +86,9 @@ $TextBlue: #0078ff;
 
 .porto-info {
   .porto-image {
-    background-image: url("/static/images/ravelos.jpg");
-    background-color: $BgBlue;
+    background-image: url("/static/images/home/rabelos.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: multiply;
   }
 
   .content {

@@ -39,48 +39,27 @@
 
     {#  ABOUT#}
   <div class="container-fluid home-about">
-      {% include 'modules/home-about.html' with content=about %}
+      {% include 'modules/home/about.html' with content=about %}
   </div>
 
     {#  LATEST-NEWS#}
   <div class="container-fluid latest-news">
-      {% include 'modules/last-news.html' %}
+      {% include 'modules/home/news.html' %}
   </div>
 
     {#  PORTO-INFO#}
   <div class="container-fluid porto-info">
-      {% include 'modules/porto-info.html' with content=porto %}
+      {% include 'modules/home/porto.html' with content=porto %}
   </div>
 
     {#  SPONSORS#}
   <div class="container home-sponsors">
-      {% include 'modules/home-sponsors.html' %}
+      {% include 'modules/home/sponsors.html' %}
   </div>
 
     {#  MAILING-LIST#}
   <div class="container-fluid mailing-list">
       {% include 'modules/mailing.html' %}
-  </div>
-
-    {#  FOOTER#}
-  <div class="container-fluid custom-footer">
-      {% include 'modules/footer.html' %}
-  </div>
-
-  <div class="container-fluid button-footer">
-    <div class="row">
-      <div class="col-6">
-        DjangoPorto 2020 All Rights Reserved
-      </div>
-      <div class="col-1">
-      </div>
-      <div class="col-3">
-        Designed by: playdust.design
-      </div>
-      <div class="col-2">
-        Developed by: evolutio.pt
-      </div>
-    </div>
   </div>
 
 {% endblock body_content %}

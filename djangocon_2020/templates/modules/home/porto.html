@@ -1,0 +1,9 @@
+{% load staticfiles %}
+{% load markdow_extras %}
+
+<div class="row">
+  <div class="col-5 porto-image"></div>
+  <div class="col-7 content">
+    {{ content | markdown | safe }}
+  </div>
+</div>

@@ -10,11 +10,9 @@
 
 .header {
   height: 100vh;
-  background-image: url("/static/images/porto_1920x800.jpg");
-  background-color: #094383;
+  background-image: url("/static/images/home/background.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: multiply; }
+  background-size: cover; }
   .header .nav li {
     vertical-align: middle;
     line-height: 80px; }
@@ -62,11 +60,9 @@
       padding: 0; }
 
 .porto-info .porto-image {
-  background-image: url("/static/images/ravelos.jpg");
-  background-color: #094383;
+  background-image: url("/static/images/home/rabelos.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: multiply; }
+  background-size: cover; }
 
 .porto-info .content {
   padding: 90px; }
