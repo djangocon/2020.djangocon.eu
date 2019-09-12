@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_content %}
+
+{% include 'modules/header.html'%}
+
+<div class="container-fluid inner">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>party</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=party %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock body_content %}

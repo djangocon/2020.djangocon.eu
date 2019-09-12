@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_content %}
+
+{% include 'modules/header.html'%}
+
+<div class="container-fluid inner">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>porto city</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=porto_city %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid inner bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>getting here</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=getting_here %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid inner">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>getting around</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=getting_around %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock body_content %}

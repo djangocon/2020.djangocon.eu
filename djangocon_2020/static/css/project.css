@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+body {
+  font-family: 'Ubuntu', sans-serif; }
+
 .alert-debug {
   background-color: #fff;
   border-color: #d6e9c6;
@@ -8,44 +12,47 @@
   border-color: #eed3d7;
   color: #b94a48; }
 
-.header {
+.home-header {
   height: 100vh;
   background-image: url("/static/images/home/background.png");
   background-repeat: no-repeat;
   background-size: cover; }
-  .header .nav li {
-    vertical-align: middle;
-    line-height: 80px; }
-    .header .nav li.active a, .header .nav li:hover a {
+  .home-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 120px; }
+  .home-header .nav li {
+    vertical-align: middle; }
+    .home-header .nav li.active a, .home-header .nav li:hover a {
       text-decoration: underline; }
-    .header .nav li a {
+    .home-header .nav li a {
       color: white !important; }
-  .header .home-title {
+  .home-header .home-title {
     margin-top: 10%; }
-    .header .home-title h1 {
+    .home-header .home-title h1 {
       font-size: 58px;
       margin-bottom: 25px; }
-    .header .home-title h1, .header .home-title h3 {
+    .home-header .home-title h1, .home-header .home-title h3 {
       color: white; }
-    .header .home-title .btn {
+    .home-header .home-title .btn {
       margin-top: 20px;
       color: white;
       border: 2px solid white;
-      width: 15%; }
+      width: 150px; }
 
 .home-about {
   padding: 40px; }
   .home-about .title {
-    text-align: center;
     color: #0078ff; }
 
 .latest-news {
   background-color: #094383;
   color: white;
   padding: 40px; }
-  .latest-news .title {
-    text-align: center;
-    color: #0078ff; }
   .latest-news .card {
     background: transparent;
     border: none;
@@ -68,10 +75,6 @@
   padding: 90px; }
   .porto-info .content h1 {
     color: #0078ff; }
-  .porto-info .content .btn {
-    width: 30%;
-    color: #0078ff;
-    border: 1px solid #0078ff; }
 
 .home-sponsors {
   padding: 40px; }
@@ -94,14 +97,6 @@
     border-right: none;
     text-align: center;
     background: transparent; }
-  .mailing-list .button {
-    text-align: center; }
-    .mailing-list .button .btn {
-      text-align: center;
-      margin-top: 25px;
-      width: 20%;
-      border: 1px solid #0078ff;
-      color: #0078ff; }
 
 .custom-footer {
   padding: 40px;
@@ -112,3 +107,86 @@
   background-color: #0078ff;
   padding: 15px;
   color: white; }
+
+.title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
+  font-weight: bold; }
+
+html, body {
+  height: 100%; }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.innerBody {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto; }
+
+.footer {
+  -ms-flex-negative: 0;
+      flex-shrink: 0; }
+
+.header .menu {
+  background: #120E3D; }
+  .header .menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 120px; }
+
+.header .submenu {
+  background: #0078ff; }
+  .header .submenu .nav li {
+    line-height: 30px; }
+
+.header .nav li {
+  vertical-align: middle; }
+  .header .nav li.active a, .header .nav li:hover a {
+    text-decoration: underline; }
+  .header .nav li a {
+    color: white !important; }
+
+.header .home-title {
+  margin-top: 10%; }
+  .header .home-title h1 {
+    font-size: 58px;
+    margin-bottom: 25px; }
+  .header .home-title h1, .header .home-title h3 {
+    color: white; }
+  .header .home-title .btn {
+    margin-top: 20px;
+    color: white;
+    border: 2px solid white;
+    width: 15%; }
+
+table, td, th {
+  border: 1px solid black; }
+
+td, th {
+  padding: 10px; }
+
+.inner {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .inner h1 {
+    color: #0078ff; }
+
+.bg-grey {
+  background: #F4F4F4; }
+
+.btn {
+  color: #0078ff;
+  border: 1px solid #0078ff; }
+
+.btn:hover {
+  color: #0078ff;
+  text-decoration: underline; }

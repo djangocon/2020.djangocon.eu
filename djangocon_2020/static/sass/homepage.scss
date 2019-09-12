@@ -1,16 +1,18 @@
-$BgBlue: #094383;
-$TextBlue: #0078ff;
-
-.header {
+.home-header {
   height: 100vh;
   background-image: url("/static/images/home/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 
+  ul {
+    display: flex;
+    align-items: center;
+    height: 120px;
+  }
+
   .nav {
     li {
       vertical-align: middle;
-      line-height: 80px;
 
       &.active, &:hover {
         a {
@@ -41,7 +43,7 @@ $TextBlue: #0078ff;
       margin-top: 20px;
       color: white;
       border: 2px solid white;
-      width: 15%;
+      width: 150px;
     }
   }
 }
@@ -50,8 +52,7 @@ $TextBlue: #0078ff;
   padding: 40px;
 
   .title {
-    text-align: center;
-    color: $TextBlue
+    color: $TextBlue;
   }
 }
 
@@ -60,10 +61,6 @@ $TextBlue: #0078ff;
   color: white;
   padding: 40px;
 
-  .title {
-    text-align: center;
-    color: $TextBlue;
-  }
 
   .card {
     background: transparent;
@@ -97,12 +94,6 @@ $TextBlue: #0078ff;
     h1 {
       color: $TextBlue;
     }
-
-    .btn {
-      width: 30%;
-      color: $TextBlue;
-      border: 1px solid $TextBlue;
-    }
   }
 }
 
@@ -135,18 +126,6 @@ $TextBlue: #0078ff;
     border-right: none;
     text-align: center;
     background: transparent;
-  }
-
-  .button {
-    text-align: center;
-
-    .btn {
-      text-align: center;
-      margin-top: 25px;
-      width: 20%;
-      border: 1px solid $TextBlue;
-      color: $TextBlue;
-    }
   }
 }
 

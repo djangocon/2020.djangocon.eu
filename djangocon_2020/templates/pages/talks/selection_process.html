@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_content %}
+
+{% include 'modules/header.html'%}
+
+<div class="container-fluid inner">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>selection process</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=selection_process %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid inner bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>composition</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=composition %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid inner">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>reviewing</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=reviewing %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock body_content %}

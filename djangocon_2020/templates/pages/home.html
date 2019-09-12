@@ -3,29 +3,28 @@
 {% block body_content %}
 
     {#  HEADER#}
-  <div class="container-fluid header">
-
-    <ul class="nav nav-pills nav-fill">
+  <div class="container-fluid home-header">
+    <ul class="container nav nav-pills nav-fill">
       <li class="nav-item">
-        <a class="nav-link" href="#">ABOUT</a>
+        <a class="nav-link" href="/about/tickets/">ABOUT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">TALKS</a>
+        <a class="nav-link" href="/talks/talks/">TALKS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">INFORMATION</a>
+        <a class="nav-link" href="/information/venue/">INFORMATION</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="80px"></a>
+        <a class="nav-link" href="/"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="80px"></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">NEWS</a>
+        <a class="nav-link" href="/news/news/">NEWS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">JOBS</a>
+        <a class="nav-link" href="/sponsors/sponsors/">SPONSORS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">CONDUCT</a>
+        <a class="nav-link" href="/conduct/code_of_conduct/">CONDUCT</a>
       </li>
     </ul>
 
@@ -34,7 +33,6 @@
       <h3>Five days of talks, sprints, and<br> tutorials in Porto.</h3>
       <button class="btn">BUY TICKETS</button>
     </div>
-
   </div>
 
     {#  ABOUT#}

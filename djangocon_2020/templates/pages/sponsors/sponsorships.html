@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_content %}
+
+{% include 'modules/header.html'%}
+
+<div class="container-fluid inner">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>sponsorships</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=sponsorships %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid inner bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>visibility options</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=visibility_options %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid inner">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>who is attending?</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=who_is_attending %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid inner bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>why sponsor us?</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=why_sponsor_us %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid inner">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>should your employer contribute?</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=employer_contribute %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock body_content %}

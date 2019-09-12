@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
-
-
-
-// project specific CSS goes here
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
 
 ////////////////////////////////
-		//Variables//
+//Variables//
 ////////////////////////////////
+
+$HeaderBlue: #120E3D;
+$BgBlue: #094383;
+$TextBlue: #0078ff;
+$BgGrey: #F4F4F4;
 
 // Alert colors
 
@@ -18,7 +23,7 @@ $dark-pink: #eed3d7;
 $red: #b94a48;
 
 ////////////////////////////////
-		//Alerts//
+//Alerts//
 ////////////////////////////////
 
 // bootstrap alert CSS, translated to the django-standard levels of
@@ -36,4 +41,119 @@ $red: #b94a48;
   color: $red;
 }
 
-@import "home_page";
+@import "homepage";
+
+.title {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+}
+
+// force footer to the bottom
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.innerBody {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+// header
+.header {
+  .menu {
+    background: $HeaderBlue;
+    ul {
+      display: flex;
+      align-items: center;
+      height: 120px;
+    }
+  }
+
+  .submenu {
+    background: $TextBlue;
+    .nav {
+      li {
+        line-height: 30px;
+      }
+    }
+  }
+
+  .nav {
+    li {
+      vertical-align: middle;
+
+      &.active, &:hover {
+        a {
+          text-decoration: underline;
+        }
+      }
+
+      a {
+        color: white !important;
+      }
+    }
+  }
+
+  .home-title {
+    margin-top: 10%;
+
+    h1 {
+      font-size: 58px;
+      margin-bottom: 25px;
+    }
+
+
+    h1, h3 {
+      color: white;
+    }
+
+    .btn {
+      margin-top: 20px;
+      color: white;
+      border: 2px solid white;
+      width: 15%;
+    }
+  }
+}
+
+// table
+table, td, th {
+  border: 1px solid black;
+}
+
+td, th {
+  padding: 10px;
+}
+
+.inner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h1 {
+    color: $TextBlue;
+  }
+}
+
+.bg-grey {
+  background: $BgGrey;
+}
+
+.btn {
+  color: $TextBlue;
+  border: 1px solid $TextBlue;
+}
+
+.btn:hover {
+  color: $TextBlue;
+  text-decoration: underline;
+}
+
+

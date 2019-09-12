@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_content %}
+
+{% include 'modules/header.html'%}
+
+<div class="container-fluid inner">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>contact</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=contact %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid inner bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>merch</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=merch %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid inner">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>assets</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=assets %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock body_content %}

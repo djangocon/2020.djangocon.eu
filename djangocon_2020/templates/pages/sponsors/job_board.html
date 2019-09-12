@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block body_content %}
+
+{% include 'modules/header.html'%}
+
+<div class="container-fluid inner">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>job board</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=job_board %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid inner bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>submit a job ad</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=submit_job_ad %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid inner">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 title"><h1>job ad prices</h1></div>
+      <div class="col-9 content">
+        {% include 'modules/default.html' with content=job_ad_prices %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock body_content %}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{% block title %}DjangoCon-2020{% endblock title %}</title>
+    <title>{% block title %}DjangoCon EU 2020{% endblock title %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -34,8 +34,10 @@
 
   <body>
 
-  {% block body_content %}
-  {% endblock body_content %}
+    <div class="innerBody">
+      {% block body_content %}
+      {% endblock body_content %}
+    </div>
 
     {% comment %} <div class="mb-1">
       <nav class="navbar navbar-expand-md navbar-light bg-light">

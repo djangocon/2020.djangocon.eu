@@ -1,0 +1,6 @@
+{% load staticfiles %}
+{% load markdown_extras %}
+
+<div class="col-9 content">
+  {{ content | markdown | safe }}
+</div>
