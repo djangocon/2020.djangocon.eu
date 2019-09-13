@@ -4,6 +4,6 @@ The attendees is a mixed crowd with various professional positions and levels. A
 
 Participants are from all over Europe and this edition is heavily represented by the Nordic countries.
 
-We have room for 400 attendees at the venue and at present have sold 3/4 of the tickets.
+We have room for 500 attendees and the event usually sells out.
 
 DjangoCons exist world-wide and the community and audience are from all continents (except perhaps Antarctica?).
