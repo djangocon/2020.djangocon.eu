@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap');
 
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -67,6 +67,30 @@ body {
   flex-shrink: 0;
 }
 
+// modules layout
+.simple-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  .title {
+    color: $TextBlue;
+  }
+}
+
+.half_image-container {
+  .image {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .content {
+    padding: 90px;
+    h1 {
+      color: $TextBlue;
+    }
+  }
+}
+
 // header
 .header {
   .menu {
@@ -83,22 +107,6 @@ body {
     .nav {
       li {
         line-height: 30px;
-      }
-    }
-  }
-
-  .nav {
-    li {
-      vertical-align: middle;
-
-      &.active, &:hover {
-        a {
-          text-decoration: underline;
-        }
-      }
-
-      a {
-        color: white !important;
       }
     }
   }
@@ -123,6 +131,34 @@ body {
       width: 15%;
     }
   }
+}
+
+.nav {
+  li {
+    vertical-align: middle;
+    font-weight: 300;
+
+    &.active {
+      a {
+        font-weight: 900;
+      }
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    a {
+      color: white;
+    }
+  }
+}
+
+//footer
+.custom-footer{
+  padding: 40px;
+  background-color: $BgBlue;
+  color: white;
 }
 
 // table

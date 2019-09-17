@@ -2,7 +2,7 @@
 {% load staticfiles %}
 {% block body_content %}
 
-    {#  HEADER#}
+  {#  HEADER#}
   <div class="container-fluid home-header">
     <ul class="container nav nav-pills nav-fill">
       <li class="nav-item">
@@ -35,29 +35,19 @@
     </div>
   </div>
 
-    {#  ABOUT#}
-  <div class="container-fluid home-about">
-      {% include 'modules/home/about.html' with content=about %}
-  </div>
+  {#  ABOUT#}
+  {% include 'modules/default.html' with content=files.0 %}
 
-    {#  LATEST-NEWS#}
-  <div class="container-fluid latest-news">
-      {% include 'modules/home/news.html' %}
-  </div>
+  {#  LATEST-NEWS#}
+  {% include 'modules/home/news.html' %}
 
-    {#  PORTO-INFO#}
-  <div class="container-fluid porto-info">
-      {% include 'modules/home/porto.html' with content=porto %}
-  </div>
+  {#  PORTO-INFO#}
+  {% include 'modules/default.html' with content=files.1 %}
 
-    {#  SPONSORS#}
-  <div class="container home-sponsors">
-      {% include 'modules/home/sponsors.html' %}
-  </div>
+  {#  SPONSORS#}
+  {% include 'modules/home/sponsors.html' %}
 
-    {#  MAILING-LIST#}
-  <div class="container-fluid mailing-list">
-      {% include 'modules/mailing.html' %}
-  </div>
+  {#  MAILING-LIST#}
+  {% include 'modules/home/mailing.html' %}
 
 {% endblock body_content %}

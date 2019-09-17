@@ -10,22 +10,6 @@
     height: 120px;
   }
 
-  .nav {
-    li {
-      vertical-align: middle;
-
-      &.active, &:hover {
-        a {
-          text-decoration: underline;
-        }
-      }
-
-      a {
-        color: white !important;
-      }
-    }
-  }
-
   .home-title {
     margin-top: 10%;
 
@@ -37,6 +21,7 @@
 
     h1, h3 {
       color: white;
+      font-weight: 300;
     }
 
     .btn {
@@ -45,14 +30,6 @@
       border: 2px solid white;
       width: 150px;
     }
-  }
-}
-
-.home-about {
-  padding: 40px;
-
-  .title {
-    color: $TextBlue;
   }
 }
 
@@ -77,22 +54,6 @@
 
     .card-body {
       padding: 0;
-    }
-  }
-}
-
-.porto-info {
-  .porto-image {
-    background-image: url("/static/images/home/rabelos.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .content {
-    padding: 90px;
-
-    h1 {
-      color: $TextBlue;
     }
   }
 }
@@ -129,11 +90,7 @@
   }
 }
 
-.custom-footer{
-  padding: 40px;
-  background-color: $BgBlue;
-  color: white;
-}
+
 
 .button-footer{
   background-color: $TextBlue;

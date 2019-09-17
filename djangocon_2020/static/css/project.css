@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap");
 body {
   font-family: 'Ubuntu', sans-serif; }
 
@@ -25,29 +25,19 @@ body {
         -ms-flex-align: center;
             align-items: center;
     height: 120px; }
-  .home-header .nav li {
-    vertical-align: middle; }
-    .home-header .nav li.active a, .home-header .nav li:hover a {
-      text-decoration: underline; }
-    .home-header .nav li a {
-      color: white !important; }
   .home-header .home-title {
     margin-top: 10%; }
     .home-header .home-title h1 {
       font-size: 58px;
       margin-bottom: 25px; }
     .home-header .home-title h1, .home-header .home-title h3 {
-      color: white; }
+      color: white;
+      font-weight: 300; }
     .home-header .home-title .btn {
       margin-top: 20px;
       color: white;
       border: 2px solid white;
       width: 150px; }
-
-.home-about {
-  padding: 40px; }
-  .home-about .title {
-    color: #0078ff; }
 
 .latest-news {
   background-color: #094383;
@@ -65,16 +55,6 @@ body {
       margin-bottom: 15px; }
     .latest-news .card .card-body {
       padding: 0; }
-
-.porto-info .porto-image {
-  background-image: url("/static/images/home/rabelos.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.porto-info .content {
-  padding: 90px; }
-  .porto-info .content h1 {
-    color: #0078ff; }
 
 .home-sponsors {
   padding: 40px; }
@@ -97,11 +77,6 @@ body {
     border-right: none;
     text-align: center;
     background: transparent; }
-
-.custom-footer {
-  padding: 40px;
-  background-color: #094383;
-  color: white; }
 
 .button-footer {
   background-color: #0078ff;
@@ -132,6 +107,21 @@ body {
   -ms-flex-negative: 0;
       flex-shrink: 0; }
 
+.simple-container {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .simple-container .title {
+    color: #0078ff; }
+
+.half_image-container .image {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.half_image-container .content {
+  padding: 90px; }
+  .half_image-container .content h1 {
+    color: #0078ff; }
+
 .header .menu {
   background: #120E3D; }
   .header .menu ul {
@@ -148,13 +138,6 @@ body {
   .header .submenu .nav li {
     line-height: 30px; }
 
-.header .nav li {
-  vertical-align: middle; }
-  .header .nav li.active a, .header .nav li:hover a {
-    text-decoration: underline; }
-  .header .nav li a {
-    color: white !important; }
-
 .header .home-title {
   margin-top: 10%; }
   .header .home-title h1 {
@@ -167,6 +150,21 @@ body {
     color: white;
     border: 2px solid white;
     width: 15%; }
+
+.nav li {
+  vertical-align: middle;
+  font-weight: 300; }
+  .nav li.active a {
+    font-weight: 900; }
+  .nav li:hover {
+    text-decoration: underline; }
+  .nav li a {
+    color: white; }
+
+.custom-footer {
+  padding: 40px;
+  background-color: #094383;
+  color: white; }
 
 table, td, th {
   border: 1px solid black; }

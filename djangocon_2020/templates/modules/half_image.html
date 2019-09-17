@@ -1,0 +1,12 @@
+{% load staticfiles %}
+
+<div class="row">
+  <div class="col-6 image"
+       style="background-image: url('{% static content.meta.img.0 %}');">
+  </div>
+  <div class="col-6 content">
+    <h1>{{ content.meta.title.0 | safe }}</h1>
+    {{ content.html | safe }}
+  </div>
+</div>
+

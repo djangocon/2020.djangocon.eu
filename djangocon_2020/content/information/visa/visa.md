@@ -1,3 +1,6 @@
+title: visa
+layout: simple
+
 If your country is not part of the [Schengen Agreement](https://www.schengenvisainfo.com/who-needs-schengen-visa/), you will need to request a tourist Visa in the Portuguese Embassy. Please refer to your local embassy for information on processing time. According to the information provided by the Portuguese Ministry of Foreign Affairs, we have compiled this list with the necessary documents to obtain a [Short Stay Visa](https://www.vistos.mne.pt/en/short-stay-visas-schengen/required-documentation/short-stay-visa#refer-to-the-harmonized-documents-table-concerning-required-documents-for-visa-application-lodging-in-specific-countries).
 
 * An invitation letter from the DjangoCon organisation team
