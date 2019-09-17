@@ -15,7 +15,8 @@ urlpatterns = [
 	    path("accounts/", include("allauth.urls")),
 	    # Your stuff: custom urls includes go here
 	    path("", default_view),
-	    path("<slug:menu>/<slug:submenu>/", default_view)
+        path("<slug:menu>/", default_view),
+        path("<slug:menu>/<slug:submenu>/", default_view)
 	] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:
