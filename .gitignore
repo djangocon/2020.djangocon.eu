@@ -336,5 +336,5 @@ pip-selfcheck.json
 djangocon_2020/media/
 
 .pytest_cache/
-
+manage.py
 
