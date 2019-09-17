@@ -13,7 +13,7 @@ body {
   color: #b94a48; }
 
 .home-header {
-  height: 100vh;
+  height: calc(100vh - 54px);
   background-image: url("/static/images/home/background.png");
   background-repeat: no-repeat;
   background-size: cover; }
