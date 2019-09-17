@@ -1,0 +1,28 @@
+{
+  "project_name": "djangoCon2020",
+  "stages": {
+    "stable": {
+      "name": "stable",
+      "host": "176.31.24.157",
+      "user": "django",
+      "git_branch": "master",
+      "code_src_directory": "/home/django/django",
+      "requirements_file": "requirements/production.txt",
+      "venv_directory": "/home/django/.virtualenvs/django",
+      "restart_command": "sudo supervisorctl restart django-python-wsgi-2"
+    },
+    "development": {
+      "name": "stage",
+      "host": "",
+      "user": "",
+      "git_branch": "",
+      "code_src_directory": "",
+      "venv_directory": "",
+      "restart_command": ""
+    }
+  },
+  "local": {
+    "code_src_directory": "/Users/vduarte/PycharmProjects/djangocon_2020",
+    "venv_python_executable": ""
+  }
+}

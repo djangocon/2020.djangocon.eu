@@ -17,3 +17,6 @@ django-redis==4.10.0  # https://github.com/niwinz/django-redis
 djangorestframework==3.10.2  # https://github.com/encode/django-rest-framework
 coreapi==2.3.3  # https://github.com/core-api/python-client
 django-lineage==0.2.0
+fabric3
+fabric3-virtualenv
+unipath
