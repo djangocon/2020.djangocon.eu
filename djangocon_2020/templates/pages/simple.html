@@ -2,7 +2,7 @@
 {% load staticfiles %}
 {% block body_content %}
 
-  {#  HEADER#}
+    {#  HEADER#}
   <div class="container-fluid home-header">
     <ul class="container nav nav-pills nav-fill">
       <li class="nav-item">
@@ -17,15 +17,21 @@
     </div>
   </div>
 
-  <div class="row  button-footer">
-    <div class="col-3">
-      designed by <a class="text-white font-weight-bold" href="https://playdust.design" target="_blank">playdust.design</a>
-    </div>
-    <div class="col-6 text-center">
-      developed in <a class="text-white font-weight-bold" href="https://www.djangoproject.com" target="_blank">django</a> with ♥ by <a class="text-white font-weight-bold" href="https://evolutio.pt" target="_blank">evolutio.pt</a>
-    </div>
-    <div class="col-3 text-right">
-      help us improve on <a class="text-white font-weight-bold" href="https://github.com/djangocon/2020.djangocon.eu" target="_blank">GitHub</a>
+  <div class="container-fluid button-footer">
+    <div class="row">
+      <div class="col-3">
+        designed by <a class="text-white font-weight-bold" href="https://playdust.design" target="_blank">playdust.design</a>
+      </div>
+      <div class="col-6 text-center">
+        developed in <a class="text-white font-weight-bold" href="https://www.djangoproject.com"
+                        target="_blank">django</a> with ♥ by <a class="text-white font-weight-bold"
+                                                                href="https://evolutio.pt"
+                                                                target="_blank">evolutio.pt</a>
+      </div>
+      <div class="col-3 text-right">
+        help us improve on <a class="text-white font-weight-bold" href="https://github.com/djangocon/2020.djangocon.eu"
+                              target="_blank">GitHub</a>
+      </div>
     </div>
   </div>
 {% endblock body_content %}
