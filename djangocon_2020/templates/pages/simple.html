@@ -3,7 +3,8 @@
 {% block body_content %}
 
     {#  HEADER#}
-  <div class="container-fluid home-header">
+  <div class="container-fluid home-header simple">
+
     <ul class="container nav nav-pills nav-fill">
       <li class="nav-item">
         <img src="{% static 'images/logo.svg' %}" alt="Logo" height="80px">
@@ -15,20 +16,31 @@
       <h3>Five days of talks, sprints, and<br> tutorials in Porto.</h3>
       <button class="btn">+ info soon</button>
     </div>
+
+
+    <div class='credits'>
+    designed by <a class="text-white font-weight-bold" href="https://playdust.design" target="_blank">playdust.design</a><br>
+    developed in <a class="text-white font-weight-bold" href="https://www.djangoproject.com"
+                        target="_blank">django</a> with ♥ by <a class="text-white font-weight-bold"
+                                                                href="https://evolutio.pt"
+                                                                target="_blank">evolutio.pt</a><br>
+    help us improve on <a class="text-white font-weight-bold" href="https://github.com/djangocon/2020.djangocon.eu"
+                              target="_blank">GitHub</a>
+    </div>
   </div>
 
   <div class="container-fluid button-footer">
     <div class="row">
-      <div class="col-3">
+      <div class="col-md-3">
         designed by <a class="text-white font-weight-bold" href="https://playdust.design" target="_blank">playdust.design</a>
       </div>
-      <div class="col-6 text-center">
+      <div class="col-md-6 text-center">
         developed in <a class="text-white font-weight-bold" href="https://www.djangoproject.com"
                         target="_blank">django</a> with ♥ by <a class="text-white font-weight-bold"
                                                                 href="https://evolutio.pt"
                                                                 target="_blank">evolutio.pt</a>
       </div>
-      <div class="col-3 text-right">
+      <div class="col-md-3 text-right">
         help us improve on <a class="text-white font-weight-bold" href="https://github.com/djangocon/2020.djangocon.eu"
                               target="_blank">GitHub</a>
       </div>

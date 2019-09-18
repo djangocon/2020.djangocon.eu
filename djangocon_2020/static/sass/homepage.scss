@@ -1,5 +1,33 @@
+@media only screen and (max-width: 768px) {
+  .simple {
+    height: 100vh !important;
+
+    .credits {
+      padding: 20px;
+      display: block !important;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      color: white;
+      font-size: 12px
+    }
+  }
+
+  .button-footer {
+    display: none !important
+  }
+}
+
 .home-header {
-  height: calc(100vh - 54px);
+  &.simple {
+    height: calc(100vh - 54px);
+
+    .credits {
+      display: none
+    }
+  }
+
+  height: 100%;
   background-image: url("/static/images/home/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +47,8 @@
     }
 
 
-    h1, h3 {
+    h1,
+    h3 {
       color: white;
       font-weight: 300;
     }
@@ -92,7 +121,7 @@
 
 
 
-.button-footer{
+.button-footer {
   background-color: $TextBlue;
   padding: 15px;
   color: white;

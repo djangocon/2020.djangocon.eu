@@ -12,11 +12,29 @@ body {
   border-color: #eed3d7;
   color: #b94a48; }
 
+@media only screen and (max-width: 768px) {
+  .simple {
+    height: 100vh !important; }
+    .simple .credits {
+      padding: 20px;
+      display: block !important;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      color: white;
+      font-size: 12px; }
+  .button-footer {
+    display: none !important; } }
+
 .home-header {
-  height: calc(100vh - 54px);
+  height: 100%;
   background-image: url("/static/images/home/background.png");
   background-repeat: no-repeat;
   background-size: cover; }
+  .home-header.simple {
+    height: calc(100vh - 54px); }
+    .home-header.simple .credits {
+      display: none; }
   .home-header ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -30,7 +48,8 @@ body {
     .home-header .home-title h1 {
       font-size: 58px;
       margin-bottom: 25px; }
-    .home-header .home-title h1, .home-header .home-title h3 {
+    .home-header .home-title h1,
+    .home-header .home-title h3 {
       color: white;
       font-weight: 300; }
     .home-header .home-title .btn {
