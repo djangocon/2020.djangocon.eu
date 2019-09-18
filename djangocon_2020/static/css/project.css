@@ -28,7 +28,7 @@ body {
 
 .home-header {
   height: 100%;
-  background-image: url("/static/images/home/background.png");
+  background-image: url("/static/images/home/background.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   .home-header.simple {

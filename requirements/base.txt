@@ -20,3 +20,5 @@ django-lineage==0.2.0
 fabric3
 fabric3-virtualenv
 unipath
+
+whitenoise==4.1.3
