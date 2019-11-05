@@ -1,12 +1,12 @@
 <img src="djangocon_2020/static/images/logo_blue.svg" height=150/>
 
+🌍 djangocon.eu\
+📍 Porto, Portugal\
+📅 May 27 - 31
+
 [![built-with](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-blue.svg)](https://github.com/pydanny/cookiecutter-django/)
 [![code-style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)]()
-
-🌍 djangocon.eu\
-📍 Porto, Portugal\
-📅 May 18 - 22
 
 ## Running
 
