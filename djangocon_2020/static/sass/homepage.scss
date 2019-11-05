@@ -1,33 +1,30 @@
-@media only screen and (max-width: 768px) {
-  .simple {
-    height: 100vh !important;
+.bg-screen-footer {
+  background-color: $TextBlue;
+  padding: 15px;
+  color: white;
+}
 
-    .credits {
-      padding: 20px;
-      display: block !important;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      color: white;
-      font-size: 12px
-    }
+.sm-screen-footer {
+  padding: 10px;
+  background-color: $TextBlue;
+  color: white;
+  font-size: 12px
+}
+
+@media only screen and (max-width: 800px) {
+  .bg-screen-footer {
+    display: none !important
   }
+}
 
-  .button-footer {
+@media only screen and (min-width: 800px) {
+  .sm-screen-footer {
     display: none !important
   }
 }
 
 .home-header {
-  &.simple {
-    height: calc(100vh - 54px);
-
-    .credits {
-      display: none
-    }
-  }
-
-  height: 100%;
+  height: 100vh;
   background-image: url("/static/images/home/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,10 +116,3 @@
   }
 }
 
-
-
-.button-footer {
-  background-color: $TextBlue;
-  padding: 15px;
-  color: white;
-}

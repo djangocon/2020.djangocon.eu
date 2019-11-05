@@ -1,6 +1,6 @@
 <img src="djangocon_2020/static/images/logo_blue.svg" height=150/>
 
-🌍 djangocon.eu\
+🌍 [2020.djangocon.eu](https://2020.djangocon.eu/)\
 📍 Porto, Portugal\
 📅 May 27 - 31
 

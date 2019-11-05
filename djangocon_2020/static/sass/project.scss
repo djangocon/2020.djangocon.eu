@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap');
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
   font-family: 'Ubuntu', sans-serif;
 }
