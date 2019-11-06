@@ -11,6 +11,8 @@ Portugal 🇵🇹
 
 ![venue](/static/images/information/jardins_palacio_cristal.jpg){.w-100}
 
+<p><iframe width="100%" height="315" src="https://www.youtube.com/embed/4zgNG4-VDOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 <iframe width="100%" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=superbock%20arena&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
 There are both bus and tram stops close to the venue.

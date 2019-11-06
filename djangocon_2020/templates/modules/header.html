@@ -2,103 +2,235 @@
 {% load lineage %}
 
 <div class="header">
-  <div class="container-fluid menu">
-    <ul class="container nav nav-pills nav-fill">
-      <li class="nav-item {% ancestor '/about/' %}">
-        <a class="nav-link" href="/about/tickets/">ABOUT</a>
-      </li>
-      <li class="nav-item {% ancestor '/talks/' %}">
-        <a class="nav-link" href="/talks/talks/">TALKS</a>
-      </li>
-      <li class="nav-item {% ancestor '/information/' %}">
-        <a class="nav-link" href="/information/venue/">INFORMATION</a>
+  <!-- small screens -->
+  <div class="d-block d-lg-none menu">
+    <ul class="nav nav-pills nav-fill">
+      <li class="nav-item">
+        &emsp;
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/home"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="80px"></a>
+        <a class="nav-link" href="/home"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="60px" style="margin: 10px;"></a>
       </li>
-      <li class="nav-item {% ancestor '/news/' %}">
-        <a class="nav-link" href="/news/news/">NEWS</a>
-      </li>
-      <li class="nav-item {% ancestor '/sponsors/' %}">
-        <a class="nav-link" href="/sponsors/sponsors/">SPONSORS</a>
-      </li>
-      <li class="nav-item {% ancestor '/conduct/' %}">
-        <a class="nav-link" href="/conduct/code_of_conduct/">CONDUCT</a>
+      <li class="nav-item">
+        <button class="navbar-toggler navbar-light bg-white" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </li>
     </ul>
+    <div class="collapse collapsible" id="navbarToggleExternalContent">
+      <ul class="container nav">
+        <li class="nav-item {% ancestor '/about/' %}">
+          <button data-toggle="collapse" data-target="#submenu-about" aria-expanded="false">
+            <a class="nav-link">ABOUT</a>
+          </button>
+        </li>
+        <li class="collapse" id="submenu-about">
+          <ul class="container submenu">
+            <li class="nav-item {% ancestor '/about/tickets/' %}">
+              <a class="nav-link" href="/about/tickets/">TICKETS</a>
+            </li>
+            <li class="nav-item {% ancestor '/about/contact/' %}">
+              <a class="nav-link" href="/about/contact/">CONTACT</a>
+            </li>
+            <li class="nav-item {% ancestor '/about/credits/' %}">
+              <a class="nav-link" href="/about/credits/">CREDITS</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item {% ancestor '/talks/' %}">
+          <button data-toggle="collapse" data-target="#submenu-talks" aria-expanded="false">
+            <a class="nav-link">TALKS</a>
+          </button>
+        </li>
+        <li class="collapse" id="submenu-talks">
+          <ul class="container submenu">
+            <li class="nav-item {% ancestor '/talks/talks/' %}">
+              <a class="nav-link" href="/talks/talks/">TALKS</a>
+            </li>
+            <li class="nav-item {% ancestor '/talks/cfp/' %}">
+              <a class="nav-link" href="/talks/cfp/">CFP</a>
+            </li>
+            <li class="nav-item {% ancestor '/talks/schedule/' %}">
+              <a class="nav-link" href="/talks/schedule/">SCHEDULE</a>
+            </li>
+            <li class="nav-item {% ancestor '/talks/selection_process/' %}">
+              <a class="nav-link" href="/talks/selection_process/">SELECTION PROCESS</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item {% ancestor '/information/' %}">
+          <button data-toggle="collapse" data-target="#submenu-information" aria-expanded="false">
+            <a class="nav-link">INFORMATION</a>
+          </button>
+        </li>
+        <li class="collapse" id="submenu-information">
+          <ul class="container submenu">
+            <li class="nav-item {% ancestor '/information/venue/' %}">
+              <a class="nav-link" href="/information/venue/">VENUE</a>
+            </li>
+            <li class="nav-item {% ancestor '/information/porto/' %}">
+              <a class="nav-link" href="/information/porto/">PORTO</a>
+            </li>
+            <li class="nav-item {% ancestor '/information/hospitality/' %}">
+              <a class="nav-link" href="/information/hospitality/">HOSPITALITY</a>
+            </li>
+            <li class="nav-item {% ancestor '/information/party/' %}">
+              <a class="nav-link" href="/information/party/">PARTY</a>
+            </li>
+            <li class="nav-item {% ancestor '/information/sprints/' %}">
+              <a class="nav-link" href="/information/sprints/">SPRINTS</a>
+            </li>
+            <li class="nav-item {% ancestor '/information/visa/' %}">
+              <a class="nav-link" href="/information/visa/">VISA</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item {% ancestor '/news/' %}">
+          <a class="nav-link" href="/news/news/">NEWS</a>
+        </li>
+
+        <li class="nav-item {% ancestor '/sponsors/' %}">
+          <button data-toggle="collapse" data-target="#submenu-sponsors" aria-expanded="false">
+            <a class="nav-link">SPONSORS</a>
+          </button>
+        </li>
+        <li class="collapse" id="submenu-sponsors">
+          <ul class="container submenu">
+            <li class="nav-item {% ancestor '/sponsors/sponsors/' %}">
+              <a class="nav-link" href="/sponsors/sponsors/">SPONSORS</a>
+            </li>
+            <li class="nav-item {% ancestor '/sponsors/sponsorships/' %}">
+              <a class="nav-link" href="/sponsors/sponsorships/">SPONSORSHIPS</a>
+            </li>
+            <li class="nav-item {% ancestor '/sponsors/job_board/' %}">
+              <a class="nav-link" href="/sponsors/job_board/">JOB BOARD</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item {% ancestor '/sponsors/' %}">
+          <button data-toggle="collapse" data-target="#submenu-conduct" aria-expanded="false">
+            <a class="nav-link">CONDUCT</a>
+          </button>
+        </li>
+        <li class="collapse" id="submenu-conduct">
+          <ul class="container submenu">
+            <li class="nav-item {% ancestor '/conduct/code_of_conduct/' %}">
+              <a class="nav-link" href="/conduct/code_of_conduct/">CODE OF CONDUCT</a>
+            </li>
+            <li class="nav-item {% ancestor '/conduct/response_guide/' %}">
+              <a class="nav-link" href="/conduct/response_guide/">RESPONSE GUIDE</a>
+            </li>
+          </ul>
+        </li>
+        <br/>
+      </ul>
+    </div>
   </div>
 
-  <div class="container-fluid submenu">
-    <ul class="container nav nav-pills nav-fill">
-      {% ifancestor '/about/' %}
-      <li class="nav-item {% ancestor '/about/tickets/' %}">
-        <a class="nav-link" href="/about/tickets/">TICKETS</a>
-      </li>
-      <li class="nav-item {% ancestor '/about/contact/' %}">
-        <a class="nav-link" href="/about/contact/">CONTACT</a>
-      </li>
-      <li class="nav-item {% ancestor '/about/credits/' %}">
-        <a class="nav-link" href="/about/credits/">CREDITS</a>
-      </li>
-      {% endifancestor %}
+  <!-- big screens -->
+  <div class="d-none d-lg-block">
+    <div class="menu">
+      <ul class="container nav nav-pills nav-fill">
+        <li class="nav-item {% ancestor '/about/' %}">
+          <a class="nav-link" href="/about/tickets/">ABOUT</a>
+        </li>
+        <li class="nav-item {% ancestor '/talks/' %}">
+          <a class="nav-link" href="/talks/talks/">TALKS</a>
+        </li>
+        <li class="nav-item {% ancestor '/information/' %}">
+          <a class="nav-link" href="/information/venue/">INFORMATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/home"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="80px"></a>
+        </li>
+        <li class="nav-item {% ancestor '/news/' %}">
+          <a class="nav-link" href="/news/news/">NEWS</a>
+        </li>
+        <li class="nav-item {% ancestor '/sponsors/' %}">
+          <a class="nav-link" href="/sponsors/sponsors/">SPONSORS</a>
+        </li>
+        <li class="nav-item {% ancestor '/conduct/' %}">
+          <a class="nav-link" href="/conduct/code_of_conduct/">CONDUCT</a>
+        </li>
+      </ul>
+    </div>
 
-      {% ifancestor '/talks/' %}
-      <li class="nav-item {% ancestor '/talks/talks/' %}">
-        <a class="nav-link" href="/talks/talks/">TALKS</a>
-      </li>
-      <li class="nav-item {% ancestor '/talks/cfp/' %}">
-        <a class="nav-link" href="/talks/cfp/">CFP</a>
-      </li>
-      <li class="nav-item {% ancestor '/talks/schedule/' %}">
-        <a class="nav-link" href="/talks/schedule/">SCHEDULE</a>
-      </li>
-      <li class="nav-item {% ancestor '/talks/selection_process/' %}">
-        <a class="nav-link" href="/talks/selection_process/">SELECTION PROCESS</a>
-      </li>
-      {% endifancestor %}
+    <div class="submenu">
+      <ul class="container nav nav-pills nav-fill">
+        {% ifancestor '/about/' %}
+        <li class="nav-item {% ancestor '/about/tickets/' %}">
+          <a class="nav-link" href="/about/tickets/">TICKETS</a>
+        </li>
+        <li class="nav-item {% ancestor '/about/contact/' %}">
+          <a class="nav-link" href="/about/contact/">CONTACT</a>
+        </li>
+        <li class="nav-item {% ancestor '/about/credits/' %}">
+          <a class="nav-link" href="/about/credits/">CREDITS</a>
+        </li>
+        {% endifancestor %}
+
+        {% ifancestor '/talks/' %}
+        <li class="nav-item {% ancestor '/talks/talks/' %}">
+          <a class="nav-link" href="/talks/talks/">TALKS</a>
+        </li>
+        <li class="nav-item {% ancestor '/talks/cfp/' %}">
+          <a class="nav-link" href="/talks/cfp/">CFP</a>
+        </li>
+        <li class="nav-item {% ancestor '/talks/schedule/' %}">
+          <a class="nav-link" href="/talks/schedule/">SCHEDULE</a>
+        </li>
+        <li class="nav-item {% ancestor '/talks/selection_process/' %}">
+          <a class="nav-link" href="/talks/selection_process/">SELECTION PROCESS</a>
+        </li>
+        {% endifancestor %}
 
 
-      {% ifancestor '/information/' %}
-      <li class="nav-item {% ancestor '/information/venue/' %}">
-        <a class="nav-link" href="/information/venue/">VENUE</a>
-      </li>
-      <li class="nav-item {% ancestor '/information/porto/' %}">
-        <a class="nav-link" href="/information/porto/">PORTO</a>
-      </li>
-      <li class="nav-item {% ancestor '/information/hospitality/' %}">
-        <a class="nav-link" href="/information/hospitality/">HOSPITALITY</a>
-      </li>
-      <li class="nav-item {% ancestor '/information/party/' %}">
-        <a class="nav-link" href="/information/party/">PARTY</a>
-      </li>
-      <li class="nav-item {% ancestor '/information/sprints/' %}">
-        <a class="nav-link" href="/information/sprints/">SPRINTS</a>
-      </li>
-      <li class="nav-item {% ancestor '/information/visa/' %}">
-        <a class="nav-link" href="/information/visa/">VISA</a>
-      </li>
-      {% endifancestor %}
+        {% ifancestor '/information/' %}
+        <li class="nav-item {% ancestor '/information/venue/' %}">
+          <a class="nav-link" href="/information/venue/">VENUE</a>
+        </li>
+        <li class="nav-item {% ancestor '/information/porto/' %}">
+          <a class="nav-link" href="/information/porto/">PORTO</a>
+        </li>
+        <li class="nav-item {% ancestor '/information/hospitality/' %}">
+          <a class="nav-link" href="/information/hospitality/">HOSPITALITY</a>
+        </li>
+        <li class="nav-item {% ancestor '/information/party/' %}">
+          <a class="nav-link" href="/information/party/">PARTY</a>
+        </li>
+        <li class="nav-item {% ancestor '/information/sprints/' %}">
+          <a class="nav-link" href="/information/sprints/">SPRINTS</a>
+        </li>
+        <li class="nav-item {% ancestor '/information/visa/' %}">
+          <a class="nav-link" href="/information/visa/">VISA</a>
+        </li>
+        {% endifancestor %}
 
-      {% ifancestor '/sponsors/' %}
-      <li class="nav-item {% ancestor '/sponsors/sponsors/' %}">
-        <a class="nav-link" href="/sponsors/sponsors/">SPONSORS</a>
-      </li>
-      <li class="nav-item {% ancestor '/sponsors/sponsorships/' %}">
-        <a class="nav-link" href="/sponsors/sponsorships/">SPONSORSHIPS</a>
-      </li>
-      <li class="nav-item {% ancestor '/sponsors/job_board/' %}">
-        <a class="nav-link" href="/sponsors/job_board/">JOB BOARD</a>
-      </li>
-      {% endifancestor %}
+        {% ifancestor '/sponsors/' %}
+        <li class="nav-item {% ancestor '/sponsors/sponsors/' %}">
+          <a class="nav-link" href="/sponsors/sponsors/">SPONSORS</a>
+        </li>
+        <li class="nav-item {% ancestor '/sponsors/sponsorships/' %}">
+          <a class="nav-link" href="/sponsors/sponsorships/">SPONSORSHIPS</a>
+        </li>
+        <li class="nav-item {% ancestor '/sponsors/job_board/' %}">
+          <a class="nav-link" href="/sponsors/job_board/">JOB BOARD</a>
+        </li>
+        {% endifancestor %}
 
-      {% ifancestor '/conduct/' %}
-      <li class="nav-item {% ancestor '/conduct/code_of_conduct/' %}">
-        <a class="nav-link" href="/conduct/code_of_conduct/">CODE OF CONDUCT</a>
-      </li>
-      <li class="nav-item {% ancestor '/conduct/response_guide/' %}">
-        <a class="nav-link" href="/conduct/response_guide/">RESPONSE GUIDE</a>
-      </li>
-      {% endifancestor %}
-    </ul>
+        {% ifancestor '/conduct/' %}
+        <li class="nav-item {% ancestor '/conduct/code_of_conduct/' %}">
+          <a class="nav-link" href="/conduct/code_of_conduct/">CODE OF CONDUCT</a>
+        </li>
+        <li class="nav-item {% ancestor '/conduct/response_guide/' %}">
+          <a class="nav-link" href="/conduct/response_guide/">RESPONSE GUIDE</a>
+        </li>
+        {% endifancestor %}
+      </ul>
+    </div>
   </div>
 </div>

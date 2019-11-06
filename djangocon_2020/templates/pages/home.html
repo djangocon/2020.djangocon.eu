@@ -3,35 +3,167 @@
 {% block body_content %}
 
   {#  HEADER#}
-  <div class="container-fluid home-header">
-    <ul class="container nav nav-pills nav-fill">
-      <li class="nav-item">
-        <a class="nav-link" href="/about/tickets/">ABOUT</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/talks/talks/">TALKS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/information/venue/">INFORMATION</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/home"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="80px"></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/news/news/">NEWS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/sponsors/sponsors/">SPONSORS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/conduct/code_of_conduct/">CONDUCT</a>
-      </li>
-    </ul>
+  <div class=" home-header">
+    <!-- small screens -->
+    <div class="d-block d-lg-none menu">
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          &emsp;
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/home"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="60px" style="margin: 10px;"></a>
+        </li>
+        <li class="nav-item">
+          <button class="navbar-toggler navbar-light bg-white" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </li>
+      </ul>
+      <div class="collapse collapsible" id="navbarToggleExternalContent">
+        <ul class="nav">
+          <li class="nav-item">
+            <button data-toggle="collapse" data-target="#submenu-h-about" aria-expanded="false">
+              <a class="nav-link">ABOUT</a>
+            </button>
+          </li>
+          <li class="collapse" id="submenu-h-about">
+            <ul class="container submenu">
+              <li class="nav-item">
+                <a class="nav-link" href="/about/tickets/">TICKETS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about/contact/">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about/credits/">CREDITS</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <button data-toggle="collapse" data-target="#submenu-h-talks" aria-expanded="false">
+              <a class="nav-link">TALKS</a>
+            </button>
+          </li>
+          <li class="collapse" id="submenu-h-talks">
+            <ul class="container submenu">
+              <li class="nav-item">
+                <a class="nav-link" href="/talks/talks/">TALKS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/talks/cfp/">CFP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/talks/schedule/">SCHEDULE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/talks/selection_process/">SELECTION PROCESS</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <button data-toggle="collapse" data-target="#submenu-h-information" aria-expanded="false">
+              <a class="nav-link">INFORMATION</a>
+            </button>
+          </li>
+          <li class="collapse" id="submenu-h-information">
+            <ul class="container submenu">
+              <li class="nav-item">
+                <a class="nav-link" href="/information/venue/">VENUE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/information/porto/">PORTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/information/hospitality/">HOSPITALITY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/information/party/">PARTY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/information/sprints/">SPRINTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/information/visa/">VISA</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/news/news/">NEWS</a>
+          </li>
+
+          <li class="nav-item">
+            <button data-toggle="collapse" data-target="#submenu-h-sponsors" aria-expanded="false">
+              <a class="nav-link">SPONSORS</a>
+            </button>
+          </li>
+          <li class="collapse" id="submenu-h-sponsors">
+            <ul class="container submenu">
+              <li class="nav-item">
+                <a class="nav-link" href="/sponsors/sponsors/">SPONSORS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/sponsors/sponsorships/">SPONSORSHIPS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/sponsors/job_board/">JOB BOARD</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <button data-toggle="collapse" data-target="#submenu-h-conduct" aria-expanded="false">
+              <a class="nav-link">CONDUCT</a>
+            </button>
+          </li>
+          <li class="collapse" id="submenu-h-conduct">
+            <ul class="container submenu">
+              <li class="nav-item">
+                <a class="nav-link" href="/conduct/code_of_conduct/">CODE OF CONDUCT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/conduct/response_guide/">RESPONSE GUIDE</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- big screens -->
+    <div class="d-none d-lg-block menu">
+      <ul class="container nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link" href="/about/tickets/">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/talks/talks/">TALKS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/information/venue/">INFORMATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/home"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="80px"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/news/news/">NEWS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/sponsors/sponsors/">SPONSORS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/conduct/code_of_conduct/">CONDUCT</a>
+        </li>
+      </ul>
+    </div>
 
     <div class="container home-title">
       <h1>PORTO, PORTUGAL<br><strong>MAY 27 - 31</strong></h1>
       <h3>Five days of talks, sprints, and<br> tutorials in Porto.</h3>
       <button class="btn">BUY TICKETS</button>
+      <br/><br/>
     </div>
   </div>
 

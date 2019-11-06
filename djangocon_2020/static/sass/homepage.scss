@@ -1,30 +1,5 @@
-.bg-screen-footer {
-  background-color: $TextBlue;
-  padding: 15px;
-  color: white;
-}
-
-.sm-screen-footer {
-  padding: 10px;
-  background-color: $TextBlue;
-  color: white;
-  font-size: 12px
-}
-
-@media only screen and (max-width: 800px) {
-  .bg-screen-footer {
-    display: none !important
-  }
-}
-
-@media only screen and (min-width: 800px) {
-  .sm-screen-footer {
-    display: none !important
-  }
-}
-
 .home-header {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("/static/images/home/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,6 +8,31 @@
     display: flex;
     align-items: center;
     height: 120px;
+  }
+
+  .collapsible {
+    ul {
+      display: inline !important;
+      text-align: center;
+
+      button {
+        all: unset;
+        color: white;
+        width: 100%;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      ul.submenu {
+        li {
+          a {
+            background-color: rgba($TextBlue, 0.5);
+          }
+        }
+      }
+    }
   }
 
   .home-title {

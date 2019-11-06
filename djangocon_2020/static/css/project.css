@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap");
+html, body {
+  overflow-x: hidden; }
+
 body {
   font-family: 'Ubuntu', sans-serif; }
 
@@ -12,29 +15,11 @@ body {
   border-color: #eed3d7;
   color: #b94a48; }
 
-@media only screen and (max-width: 768px) {
-  .simple {
-    height: 100vh !important; }
-    .simple .credits {
-      padding: 20px;
-      display: block !important;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      color: white;
-      font-size: 12px; }
-  .button-footer {
-    display: none !important; } }
-
 .home-header {
-  height: 100%;
+  min-height: 100vh;
   background-image: url("/static/images/home/background.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
-  .home-header.simple {
-    height: calc(100vh - 54px); }
-    .home-header.simple .credits {
-      display: none; }
   .home-header ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -43,6 +28,17 @@ body {
         -ms-flex-align: center;
             align-items: center;
     height: 120px; }
+  .home-header .collapsible ul {
+    display: inline !important;
+    text-align: center; }
+    .home-header .collapsible ul button {
+      all: unset;
+      color: white;
+      width: 100%; }
+      .home-header .collapsible ul button:hover {
+        cursor: pointer; }
+    .home-header .collapsible ul ul.submenu li a {
+      background-color: rgba(0, 120, 255, 0.5); }
   .home-header .home-title {
     margin-top: 10%; }
     .home-header .home-title h1 {
@@ -97,11 +93,6 @@ body {
     text-align: center;
     background: transparent; }
 
-.button-footer {
-  background-color: #0078ff;
-  padding: 15px;
-  color: white; }
-
 .title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
   font-weight: bold; }
 
@@ -150,7 +141,18 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 120px; }
+    padding: 10px 0; }
+  .header .menu .collapsible ul {
+    display: inline !important;
+    text-align: center; }
+  .header .menu .collapsible button {
+    all: unset;
+    color: white;
+    width: 100%; }
+    .header .menu .collapsible button:hover {
+      cursor: pointer; }
+  .header .menu .collapsible ul.submenu li a {
+    background-color: #0078ff; }
 
 .header .submenu {
   background: #0078ff; }
@@ -170,14 +172,14 @@ body {
     border: 2px solid white;
     width: 15%; }
 
-.nav li {
+.nav .nav-item {
   vertical-align: middle;
   font-weight: 300; }
-  .nav li.active a {
+  .nav .nav-item.active a {
     font-weight: 900; }
-  .nav li:hover {
+  .nav .nav-item:hover {
     text-decoration: underline; }
-  .nav li a {
+  .nav .nav-item a {
     color: white; }
 
 .custom-footer {
@@ -207,3 +209,14 @@ td, th {
 .btn:hover {
   color: #0078ff;
   text-decoration: underline; }
+
+.credits-lg {
+  background-color: #0078ff;
+  padding: 15px;
+  color: white; }
+
+.credits-sm {
+  padding: 10px 55px;
+  background-color: #0078ff;
+  color: white;
+  font-size: 12px; }
