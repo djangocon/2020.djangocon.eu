@@ -85,6 +85,9 @@ body {
   .image {
     background-repeat: no-repeat;
     background-size: cover;
+    @media (max-width: 992px) {
+      min-height: 400px;
+    }
   }
 
   .content {
@@ -182,7 +185,10 @@ body {
 
 //footer
 .custom-footer{
-  padding: 40px;
+  div {
+    padding-top: 20px;
+  }
+  padding: 0 40px 30px 40px;
   background-color: $BgBlue;
   color: white;
 }

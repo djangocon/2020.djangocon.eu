@@ -28,7 +28,7 @@
       ul.submenu {
         li {
           a {
-            background-color: rgba($TextBlue, 0.5);
+            background-color: rgba($TextBlue, 0.6);
           }
         }
       }
@@ -62,25 +62,13 @@
 .latest-news {
   background-color: $BgBlue;
   color: white;
-  padding: 40px;
 
-
-  .card {
-    background: transparent;
-    border: none;
-    padding: 0;
-
-    .card-img-top {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      border: 2px solid white;
-      margin-bottom: 15px;
-    }
-
-    .card-body {
-      padding: 0;
-    }
+  .card-img-top {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 15px;
   }
 }
 
