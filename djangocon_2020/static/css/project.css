@@ -38,7 +38,7 @@ body {
       .home-header .collapsible ul button:hover {
         cursor: pointer; }
     .home-header .collapsible ul ul.submenu li a {
-      background-color: rgba(0, 120, 255, 0.5); }
+      background-color: rgba(0, 120, 255, 0.6); }
   .home-header .home-title {
     margin-top: 10%; }
     .home-header .home-title h1 {
@@ -56,20 +56,13 @@ body {
 
 .latest-news {
   background-color: #094383;
-  color: white;
-  padding: 40px; }
-  .latest-news .card {
-    background: transparent;
-    border: none;
-    padding: 0; }
-    .latest-news .card .card-img-top {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      border: 2px solid white;
-      margin-bottom: 15px; }
-    .latest-news .card .card-body {
-      padding: 0; }
+  color: white; }
+  .latest-news .card-img-top {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 15px; }
 
 .home-sponsors {
   padding: 40px; }
@@ -126,6 +119,9 @@ body {
 .half_image-container .image {
   background-repeat: no-repeat;
   background-size: cover; }
+  @media (max-width: 992px) {
+    .half_image-container .image {
+      min-height: 400px; } }
 
 .half_image-container .content {
   padding: 90px; }
@@ -183,9 +179,11 @@ body {
     color: white; }
 
 .custom-footer {
-  padding: 40px;
+  padding: 0 40px 30px 40px;
   background-color: #094383;
   color: white; }
+  .custom-footer div {
+    padding-top: 20px; }
 
 table, td, th {
   border: 1px solid black; }
@@ -220,3 +218,13 @@ td, th {
   background-color: #0078ff;
   color: white;
   font-size: 12px; }
+
+.sponsor {
+  height: 50px;
+  margin: 15px 30px 15px 0; }
+
+.sponsor.big {
+  height: 70px; }
+
+.sponsor.small {
+  height: 40px; }

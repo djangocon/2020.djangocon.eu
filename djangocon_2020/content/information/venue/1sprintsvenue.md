@@ -2,7 +2,10 @@ title: sprints venue
 layout: simple
 class: bg-grey
 
-**FCUP Department of Computer Sciences**
+The sprints will take place in the Department of Computer Sciences from the Faculty of Sciences of the University of Porto. This venue is also located very close the city centre.
+
+[![dcc](/static/images/sponsors/dcc.png){:class='sponsor big'}](https://www.dcc.fc.up.pt/){:target="_blank"} [![fcup](/static/images/sponsors/fcup.png){:class='sponsor big'}](https://sigarra.up.pt/fcup/){:target="_blank"}
+**FCUP Department of Computer Sciences (DCC)**
 Rua do Campo Alegre 1021/1055
 4169-007 Porto
 

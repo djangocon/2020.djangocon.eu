@@ -5,7 +5,9 @@
        style="background-image: url('{% static content.meta.img.0 %}');">
   </div>
   <div class="col-md-6 col-12 content">
-    <h1>{{ content.meta.title.0 | safe }}</h1>
+    <a name="{{ content.meta.title.0 | escape }}">
+      <h1>{{ content.meta.title.0 | safe }}</h1>
+    </a>
     {{ content.html | safe }}
   </div>
 </div>

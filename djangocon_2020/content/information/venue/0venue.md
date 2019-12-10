@@ -25,4 +25,4 @@ There are both bus and tram stops close to the venue.
 <sup>1</sup> connection to the beach 🏖️ 
 <sup>2</sup> connection to the airport ✈️
 
-More information about the public transport in Porto can be read [here](/information/porto/).
+More information about the public transport in Porto can be read [here](/information/porto/#getting%20around).

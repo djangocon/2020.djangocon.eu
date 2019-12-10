@@ -3,7 +3,9 @@ layout: simple
 class: bg-grey
 
 <!-- TODO: complete review team -->
-Our review team is made up of 6 people from the organiser team and 1 from outside. We are a mix of organisers, some core developers and DSF (Django Software Foundation) members, and some Django Girls members/organisers.
+<!-- Our review team is made up of 6 people from the organiser team and 1 from outside. We are a mix of organisers, some core developers and DSF (Django Software Foundation) members, and some Django Girls members/organisers. -->
+
+Our review team is still in the making - volunteers are welcome [here](#).
 
 Reviewers will be asked to look at a set of submissions and submit a review (both a few words and a rough rating). After the review period is over, we will go through the talks by category and select the talks based on accumulated reviews. If we can't make the decision among two or three talks, we'll check back with the reviewers and ask them for their opinion.
 

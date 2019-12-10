@@ -1,4 +1,4 @@
 title: sprints
 layout: simple
 
-Don't forget to register at the [Sprints](#) attendance on April 30 - May 1 on the [pretix website](#).
+Don't forget to register at the [Sprints](#) attendance on May 30 - 31 on the [pretix website](#).

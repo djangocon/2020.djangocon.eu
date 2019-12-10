@@ -107,9 +107,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="/sponsors/sponsorships/">SPONSORSHIPS</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/sponsors/job_board/">JOB BOARD</a>
-              </li>
             </ul>
           </li>
 
@@ -171,13 +168,13 @@
   {% include 'modules/default.html' with content=files.0 %}
 
   {#  LATEST-NEWS#}
-  {% include 'modules/home/news.html' %}
+{#  {% include 'modules/home/news.html' %}#}
 
   {#  PORTO-INFO#}
   {% include 'modules/default.html' with content=files.1 %}
 
   {#  SPONSORS#}
-  {% include 'modules/home/sponsors.html' %}
+  {% include 'modules/default.html' with content=files.2 %}
 
   {#  MAILING-LIST#}
   {% include 'modules/home/mailing.html' %}

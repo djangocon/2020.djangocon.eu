@@ -20,8 +20,10 @@ def default_view(request, menu='simple', submenu=None):
         ctx['files'].append(content)
 
     if menu == 'home' or menu == 'simple':
-        page = menu
+        page += 'pages/' + menu
+    elif len(files) == 0:
+        page += '404'
     else:
-        page = 'default'
+        page += 'pages/' + 'default'
 
-    return render(request, 'pages/' + page + '.html', ctx)
+    return render(request, page + '.html', ctx)
