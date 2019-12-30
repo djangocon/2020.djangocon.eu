@@ -21,10 +21,11 @@ If your employer is paying for the ticket or reimbursing you for your conference
 Choose this ticket type if you or your employer want to especially support us doing this conference.
 [For sponsorship options please see here](#).
 
-<center>[<button class="btn">Get your ticket here!</button>](#){:target="_blank"}</center>
+<!--<center>[<button class="btn">Get your ticket here!</button>](#){:target="_blank"}</center>-->
+<center><button class="btn">Ticket sales opening really soon ...</button></center>
 
 ---
 
 Please get in touch, if you have a ticket claim, for instance through a sponsorship or as a speaker at [2020@djangocon.eu](mailto:2019@djangocon.eu).
 
-Our ticket sales are proudly powered by [pretix](https://pretix.eu/about/en/){:target="_blank"}.
+<!--Our ticket sales are proudly powered by [pretix](https://pretix.eu/about/en/){:target="_blank"}.-->
