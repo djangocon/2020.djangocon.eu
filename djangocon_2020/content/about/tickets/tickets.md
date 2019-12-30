@@ -1,7 +1,7 @@
 title: tickets
 layout: simple
 
-The **early bird ticket sales** <u>ends January 31</u>. DjangoCon Europe always sells out, and we have a limited number of tickets for sale. Therefore, we strongly encourage you to buy your ticket before they sell out, which in addition gives you more time to plan your trip and can save money on accommodation and transport.
+The **early bird ticket sales** <u>ends February 29</u>. DjangoCon Europe always sells out, and we have a limited number of tickets for sale. Therefore, we strongly encourage you to buy your ticket before they sell out, which in addition gives you more time to plan your trip and can save money on accommodation and transport.
 
 All tickets include access to all 3 conference days (May 27 - 29) and the 2 [sprints](#) days (May 30 - 31). 
 
