@@ -14,7 +14,7 @@ Why should you sponsor?
 
 **Networking** If you want to stand out from the crowd with your company, network and seek new potential collaborations and partners, DjangoCon Europe is the place to be. Also, with most sponsor packages are tickets included and your employees will, therefore, attend a conference with valuable education from talks and workshops.
 
-See detailed descriptions and custom opportunities in our [Sponsorships Brochure here (PDF)](#).
+See detailed descriptions and custom opportunities in our [Sponsorships Brochure here (PDF)](/static/docs/sponsorships_brochure.pdf){:target="_blank"}.
 
 We would love to hear your needs and are open for customising the packages to fit your business, brand and organisation.
 Please contact [sponsors@djangocon.eu](mailto:sponsors@djangocon.eu) and we'll get back to you within 24 hours!

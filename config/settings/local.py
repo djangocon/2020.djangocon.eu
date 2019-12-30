@@ -52,4 +52,3 @@ INSTALLED_APPS += ["django_extensions", 'whitenoise.runserver_nostatic']  # noqa
 
 # Your stuff...
 # ------------------------------------------------------------------------------
-INSTALLED_APPS += ["lineage"]

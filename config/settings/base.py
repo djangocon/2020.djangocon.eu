@@ -266,3 +266,5 @@ SOCIALACCOUNT_ADAPTER = "djangocon_2020.users.adapters.SocialAccountAdapter"
 # Your stuff...
 # ------------------------------------------------------------------------------
 HOST_SCHEME = "http://"
+
+INSTALLED_APPS += ["lineage"]

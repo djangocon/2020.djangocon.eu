@@ -13,4 +13,4 @@ Buses operate daytime services (from 05:00 until 00:30 with some lines only runn
 
 ### taxis and ride-sharing
 
-Taxis in Porto are not very expensive, however ride-sharing apps such as [Uber](https://www.uber.com), [Bolt](https://bolt.eu) and [Cabify](https://cabify.com) are usually cheaper.
+Taxis in Porto are usually not very expensive, however ride-sharing apps such as [Uber](https://www.uber.com), [Bolt](https://bolt.eu) and [Kapten](https://www.kapten.com/) are also available.

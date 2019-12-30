@@ -1,7 +1,7 @@
 title: tickets
 layout: simple
 
-The **early bird ticket sales** <u>ends January 31</u>. DjangoCon Europe always sells out, and we have a limited number of tickets for sale. Therefore, we strongly encourage you to buy your ticket before they sell out, which in addition gives you more time to plan your trip and can save money on accommodation and transport.
+The **early bird ticket sales** <u>ends February 29</u>. DjangoCon Europe always sells out, and we have a limited number of tickets for sale. Therefore, we strongly encourage you to buy your ticket before they sell out, which in addition gives you more time to plan your trip and can save money on accommodation and transport.
 
 All tickets include access to all 3 conference days (May 27 - 29) and the 2 [sprints](#) days (May 30 - 31). 
 
@@ -21,10 +21,11 @@ If your employer is paying for the ticket or reimbursing you for your conference
 Choose this ticket type if you or your employer want to especially support us doing this conference.
 [For sponsorship options please see here](#).
 
-<center>[<button class="btn">Get your ticket here!</button>](#){:target="_blank"}</center>
+<!--<center>[<button class="btn">Get your ticket here!</button>](#){:target="_blank"}</center>-->
+<center><button class="btn">Ticket sales opening really soon ...</button></center>
 
 ---
 
 Please get in touch, if you have a ticket claim, for instance through a sponsorship or as a speaker at [2020@djangocon.eu](mailto:2019@djangocon.eu).
 
-Our ticket sales are proudly powered by [pretix](https://pretix.eu/about/en/){:target="_blank"}.
+<!--Our ticket sales are proudly powered by [pretix](https://pretix.eu/about/en/){:target="_blank"}.-->
