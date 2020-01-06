@@ -7,7 +7,7 @@ layout: simple
 
 ##### Grants
 
-[![dsf](/static/images/sponsors/dsf.png){:class='sponsor big'}](https://www.djangoproject.com/){:target="_blank"}
+[![dsf](/static/images/sponsors/dsf.png){:class='sponsor big'}](https://www.djangoproject.com/){:target="_blank"} [![psf](/static/images/sponsors/psf.png){:class='sponsor'}](https://www.python.org/psf/){:target="_blank"}
 
 ##### Official Carrier
 
