@@ -1,9 +1,8 @@
-# Contributing to DjangoCon EU 2020
+# Contributing to DjangoCon Europe 2020
 
 Thank you so much for taking the time to contribute!
 
-The following is a set of guidelines for contributing to DjangoCon EU 2020.
-
+The following is a set of guidelines for contributing to DjangoCon Europe 2020.
 
 ## How Can I Help?
 
