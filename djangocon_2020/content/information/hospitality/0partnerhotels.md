@@ -1,4 +1,4 @@
-###Get a discount on your Porto accommodation for **DjangoCon 2020**
+### Get a discount on your Porto accommodation for **DjangoCon 2020**
 
 
 Porto offers a wide range of hotels  to suit all tastes and budgets. To help make your decision on where to stay a bit easier, we’ve partnered with some fantastic hotels and best of all, they are offering exclusive discounts to DjangoCon 2020 attendees!
