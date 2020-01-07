@@ -5,9 +5,11 @@ All of our partner hotels are located in the city centre and are close to this y
 Read on to find out how to book your discounted rates.
 
 Please note: discounts and conditions vary at each hotel. The city of Porto also charges a tourist tax on every booking, 
-(Porto Tourist Tax),The fee is 2 € per person / night in all tourist resorts and local accommodation, up to a maximum of 7 consecutive nights per person / stay, regardless of the type of booking (face-to-face, analog or digital). It is not subject to VAT according to  article nº2 section 2 of the Value Added Tax Code.
+(Porto Tourist Tax),The fee is 2 € per person / night in all tourist resorts and local accommodation, up to a maximum of 7 consecutive nights per person / stay, regardless of the type of booking (face-to-face, analog or digital). It is not subject to VAT according to  article nº2 section 2 of the Value Added Tax Code (that  tax is no longer payable from the 7th night).
+
 
 Please note that in all of the below hotel deals, the discount applies only to the regular booking rate. This means you will have to pay the full amount of the Porto Tourist Tax on top of your room rate .
+
 
 
 
