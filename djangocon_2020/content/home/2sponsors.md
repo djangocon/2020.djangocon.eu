@@ -1,6 +1,10 @@
 title: sponsors
 layout: simple
 
+##### Bronze
+
+[![cmp](/static/images/sponsors/beamian.png){:class='sponsor'}](https://beamian.com/){:target="_blank"}
+
 ##### Institutional Partners
 
 [![cmp](/static/images/sponsors/cmp.png){:class='sponsor'}](http://www.cm-porto.pt/){:target="_blank"} [![dcc](/static/images/sponsors/dcc.png){:class='sponsor'}](https://www.dcc.fc.up.pt/){:target="_blank"} [![fcup](/static/images/sponsors/fcup.png){:class='sponsor'}](https://sigarra.up.pt/fcup/){:target="_blank"}
