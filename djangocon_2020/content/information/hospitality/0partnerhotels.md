@@ -37,3 +37,12 @@ Website: http://www.hoteiscristal.pt/hotel_cristal_porto/inicio
 
 Discounted rates: 10% discount off all rates and offers using promotional code DJANGOCON2020.
 All bookings will be the sole responsibility of each participant, and we will be able to guarantee availability until the last free room.
+
+#### [Gallery Hostel Porto](http://www.https://www.gallery-hostel.com/en/){:target="_blank"}
+Gallery Hostel is a place designed for the modern day global traveler.
+
+Located in the trendy quarter of Miguel Bombarda, Gallery Hostel characterizes the new concept of a luxury hostel. 
+Gallery Home is an elegant Porto style house set in the art quarter of Bombarda Street, in trendy Porto, is the exclusive offer of 5 private en-suite accommodations, deeply linked to the arts and details.
+
+Discounted Rates: 15% off all rates and offers using promotional code DJANGOCON2020.
+Can be used by any of the participants to book their stay directly on the Gallery Hostel website (www.gallery-hostel.com).
