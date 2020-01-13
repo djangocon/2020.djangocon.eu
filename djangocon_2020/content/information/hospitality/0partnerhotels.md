@@ -11,22 +11,19 @@ Please note: discounts and conditions vary at each hotel. The city of Porto also
 
 <hr/>
 
-![legendary](/static/images/hotels/legendary.png){:class='sponsor big'}
+![gallery](/static/images/hotels/gallery.png){:class='sponsor big'}
 
-#### Legendary Porto Hotel
+#### Gallery Hostel Porto
 
-An elegant hotel with contemporary, minimalistic decor, the Legendary Porto Hotel boasts stunning views of the Batalha Square. Another plus: it’s only 1.8km from the venue.
+Gallery Hostel is a place designed for the modern day global traveler. Located in the trendy quarter of Miguel Bombarda, it characterizes the new concept of a luxury hostel.
 
-**Address:** [Praça da Batalha 127](https://goo.gl/maps/QqPHriPdzTC4wnGx5){:target="_blank"}
+**Address:** [Rua Miguel Bombarda 222](https://goo.gl/maps/vaynWaV8HQ2D7GVo8){:target="_blank"}
 
-**Website:** [http://www.legendaryportohotel.com/](http://www.legendaryportohotel.com/){:target="_blank"}
+**Website:** [https://www.gallery-hostel.com/](https://www.gallery-hostel.com/en/){:target="_blank"}
 
-**Discounted rates:** 
+**Discount:** 15% off all rates and offers 
 
-- Single: €120 with breakfast
-- Double: €130 with breakfast (double)
-
-**Conditions:** Bookings must be made via email with Raquel Martins at [raquel.martins@continentalhotels.eu](mailto:raquel.martins@continentalhotels.eu?subject=DjangoCon Europe 2020 accomodation) using the promo code "*DjangoCon*".
+**Conditions:** Bookings must be made on the official website using the promotional code "*DJANGOCON2020*".
 
 <hr/>
 
@@ -46,16 +43,19 @@ Located near the iconic Lapa Church, this modern four-star hotel is close to the
 
 <hr/>
 
-![gallery](/static/images/hotels/gallery.png){:class='sponsor big'}
+![legendary](/static/images/hotels/legendary.png){:class='sponsor big'}
 
-#### Gallery Hostel Porto
+#### Legendary Porto Hotel
 
-Gallery Hostel is a place designed for the modern day global traveler. Located in the trendy quarter of Miguel Bombarda, it characterizes the new concept of a luxury hostel.
+An elegant hotel with contemporary, minimalistic decor, the Legendary Porto Hotel boasts stunning views of the Batalha Square. Another plus: it’s only 1.8km from the venue.
 
-**Address:** [Rua Miguel Bombarda 222](https://goo.gl/maps/vaynWaV8HQ2D7GVo8){:target="_blank"}
+**Address:** [Praça da Batalha 127](https://goo.gl/maps/QqPHriPdzTC4wnGx5){:target="_blank"}
 
-**Website:** [https://www.gallery-hostel.com/](https://www.gallery-hostel.com/en/){:target="_blank"}
+**Website:** [http://www.legendaryportohotel.com/](http://www.legendaryportohotel.com/){:target="_blank"}
 
-**Discount:** 15% off all rates and offers 
+**Discounted rates:** 
 
-**Conditions:** Bookings must be made on the official website using the promotional code "*DJANGOCON2020*".
+- Single: €120 with breakfast
+- Double: €130 with breakfast (double)
+
+**Conditions:** Bookings must be made via email with Raquel Martins at [raquel.martins@continentalhotels.eu](mailto:raquel.martins@continentalhotels.eu?subject=DjangoCon Europe 2020 accomodation) using the promo code "*DjangoCon*".
