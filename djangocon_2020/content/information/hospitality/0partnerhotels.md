@@ -27,3 +27,13 @@ An elegant hotel with contemporary, minimalistic decor, the **Legendary Porto Ho
 - Double: €130 with breakfast (double)
 
 **Conditions:** Bookings must be made via email with Raquel Martins at [raquel.martins@continentalhotels.eu](mailto:raquel.martins@continentalhotels.eu?subject=DjangoCon Europe 2020 accomodation) using the promo code "*DjangoCon*".
+
+#### [Hotel Cristal Porto](http://www.http://www.hoteiscristal.pt/hotel_cristal_porto/hotel-contacts.html){:target="_blank"}
+Located near the iconic Lapa Church, this modern four-star hotel is close to the city centre (900m) and only 2.2km away from the venue.
+
+Address: Tv. de Antero de Quental 360
+
+Website: http://www.hoteiscristal.pt/hotel_cristal_porto/inicio
+
+Discounted rates: 10% discount off all rates and offers using promotional code DJANGOCON2020.
+All bookings will be the sole responsibility of each participant, and we will be able to guarantee availability until the last free room.
