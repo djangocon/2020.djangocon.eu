@@ -60,17 +60,21 @@ An elegant hotel with contemporary, minimalistic decor, the Legendary Porto Hote
 
 **Conditions:** Bookings must be made via email with Raquel Martins at [raquel.martins@continentalhotels.eu](mailto:raquel.martins@continentalhotels.eu?subject=DjangoCon Europe 2020 accomodation) using the promo code "*DjangoCon*".
 
+<hr/>
+
+![exe](/static/images/hotels/exe.png){:class='sponsor big'}
+
 #### Exe Almada Porto
 
 The Exe Almada Porto 4* offers its guests the opportunity to stay in the historical centre of Porto, which has been declared a UNESCO World Heritage Site.
 
-**Address:** [Rua do Almada 361](https://www.exehotels.co.uk/exe-almada-porto/map.html){:target="_blank"}
+**Address:** [Rua do Almada 361](https://g.page/hotel-exe-almada-porto?share){:target="_blank"}
 
-**Website:** [https://www.exehotels.com.pt/exe-almada-porto.html](https://www.exehotels.com.pt/exe-almada-porto.html/){:target="_blank"}
+**Website:** [https://www.eurostarshotelcompany.com/exe-almada-porto.html?id_referer=DJANGO20](https://www.eurostarshotelcompany.com/exe-almada-porto.html?id_referer=DJANGO20){:target="_blank"}
 
 **Discount:** 5% discount off all rates and offers
 
-**Conditions:** Bookings must be made on the official website using the link http://www.eurostarshotelcompany.com/exe-almada-porto.html?id_referer=DJANGO20 and the promotional code "*DJANGO20*".
+**Conditions:** Bookings be made on the official website using the promotional code "*DJANGO20*".
 
 
 
