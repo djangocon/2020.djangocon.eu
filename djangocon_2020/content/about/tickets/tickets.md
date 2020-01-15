@@ -7,6 +7,8 @@ All tickets include access to all 3 conference days (May 27 - 29) and the 2 [spr
 
 If you wish to change from Individual to Business or any other way amend the order please contact [2020@djangocon.eu](mailto:2020@djangocon.eu).
 
+<center>[<button class="btn">Get your ticket here!</button>](https://a.beamian.com/#/event/djangocon){:target="_blank"}</center>
+
 These are the ticket types that are on sale (VAT included):
 
 * <strong>Student/Concession Ticket (€190)</strong>
@@ -20,9 +22,6 @@ If your employer is paying for the ticket or reimbursing you for your conference
 * <strong>Business Supporter Ticket (<del>€495</del> €465)</strong>
 Choose this ticket type if you or your employer want to especially support us doing this conference.
 [For sponsorship options please see here](#).
-
-<!--<center>[<button class="btn">Get your ticket here!</button>](#){:target="_blank"}</center>-->
-<center><button class="btn">Ticket sales opening really soon ...</button></center>
 
 ---
 
