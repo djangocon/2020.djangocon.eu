@@ -76,6 +76,20 @@ The Exe Almada Porto 4* offers its guests the opportunity to stay in the histori
 
 **Conditions:** Bookings be made on the official website using the promotional code "*DJANGO20*".
 
+## NH Collection Porto Batalha
+
+4* Hotel located in 18th century palace. Opened 2015 in the heart of UNESCO historical city center, near shopping district and night spots. Bus stop in front of hotel. 2kms away from the venue.
+
+**Address:** [Praça da Batalha 60](https://www.nh-hotels.com/hotel/nh-collection-porto-batalha/map){:target="_blank"}
+
+**Website:** [http://www.nh-hotels.com/Porto/Batalha](http://www.nh-hotels.com/Porto/Batalha){:target="_blank"}
+
+**Discounted rates:** 
+
+- Single: €170 with breakfast
+- Double: €180 with breakfast 
+
+**Conditions:** Bookings be made on the official website using the link to be released soon
 
 
 
