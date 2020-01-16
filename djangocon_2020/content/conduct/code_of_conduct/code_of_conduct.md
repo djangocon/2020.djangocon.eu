@@ -93,9 +93,9 @@ In your report please include, when possible:
 * Names (real, nicknames, or pseudonyms) of any individuals involved. If there were other witnesses besides you, please try to include them as well.
 * When and where the incident occurred. Please be as specific as possible.
 * Your account of what occurred. If there is a written record (e.g. tweets or slack messages) please include screenshots, or otherwise a link.
-* Any extra context you believe existed for the incident.
-* If you believe this incident is ongoing.
-* Any other information you believe we should have.
+* Any extra context relevant for the incident.
+* If this incident is ongoing.
+* Any other information you would like to give us.
 
 If you don't have some of this information, or not at this time, please still make the report anyways.
 
