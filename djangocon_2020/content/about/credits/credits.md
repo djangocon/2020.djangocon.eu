@@ -12,11 +12,14 @@ This list of individuals is still growing. Nonetheless, these are our sincerest 
  * David Vaz
  * Eduardo Espinheira
  * Frederico Rodrigues
+ * Fernanda Cerqueira
+ * Joachim Jablon
  * João Polónia
  * Leila Verhaegen
  * Marco Silva
  * Markus Holtermann
  * Miguel Magalhães
+ * Noah Alorwu
  * Pedro Faria
  * Raphael Michel
  * Raul Tavares

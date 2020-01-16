@@ -76,7 +76,11 @@ The Exe Almada Porto 4* offers its guests the opportunity to stay in the histori
 
 **Conditions:** Bookings be made on the official website using the promotional code "*DJANGO20*".
 
-## NH Collection Porto Batalha
+<hr/>
+
+![nh](/static/images/hotels/nh.png){:class='sponsor small'}
+
+#### NH Collection Porto Batalha
 
 4* Hotel located in 18th century palace. Opened 2015 in the heart of UNESCO historical city center, near shopping district and night spots. Bus stop in front of hotel. 2kms away from the venue.
 
@@ -89,9 +93,13 @@ The Exe Almada Porto 4* offers its guests the opportunity to stay in the histori
 - Single: €170 with breakfast
 - Double: €180 with breakfast 
 
-**Conditions:** Bookings be made on the official website using the link to be released soon
+**Conditions:** Bookings be made on the official website using the link to be released soon.
 
-## NH Porto Jardim
+<hr/>
+
+![nh](/static/images/hotels/nh.png){:class='sponsor small'}
+
+#### NH Porto Jardim
 
 Modern architecture 4* hotel opened in summer 2019. Located in Oporto’s downtown, only a few meters away from historical city center and shopping district, main monuments and night life district. Underground parking and garden. 2kms away from the venue.
 
@@ -104,6 +112,4 @@ Modern architecture 4* hotel opened in summer 2019. Located in Oporto’s downto
 - Single: €140 with breakfast
 - Double: €150 with breakfast 
 
-**Conditions:** Bookings be made on the official website using the link to be released soon
-
-
+**Conditions:** Bookings be made on the official website using the link to be released soon.
