@@ -91,6 +91,19 @@ The Exe Almada Porto 4* offers its guests the opportunity to stay in the histori
 
 **Conditions:** Bookings be made on the official website using the link to be released soon
 
+## NH Porto Jardim
 
+Modern architecture 4* hotel opened in summer 2019. Located in Oporto’s downtown, only a few meters away from historical city center and shopping district, main monuments and night life district. Underground parking and garden. 2kms away from the venue.
+
+**Address:** [R. do Duque de Loulé 66](https://www.nh-hotels.com/hotel/nh-porto-jardim/map){:target="_blank"}
+
+**Website:** [http://www.nh-hotels.com/Porto/Jardim](http://www.nh-hotels.com/Porto/Jardim){:target="_blank"}
+
+**Discounted rates:** 
+
+- Single: €140 with breakfast
+- Double: €150 with breakfast 
+
+**Conditions:** Bookings be made on the official website using the link to be released soon
 
 
