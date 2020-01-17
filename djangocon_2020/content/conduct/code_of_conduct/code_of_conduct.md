@@ -89,6 +89,8 @@ If you're not sure if an incident was already reported by someone else, even if 
 
 If you are not sure whether the situation was a Code of Conduct violation, or whether it applied to that particular space, we encourage you to still report it. We would much rather have a few extra reports where we decide to take no action, rather than miss a report of an actual violation. We do not look negatively on you if we find the incident is not a violation. And knowing about incidents that are not violations, or happen outside our spaces, can also help us to improve the Code of Conduct or the processes surrounding it.
 
+If you think you witness something, but you're not sure what you saw, or you don't have proof, it's still very useful to us if you can report on that. You don't have to build up a case before reporting, and it's ok to report things even if you have doubts.
+
 In your report please include, when possible:
 
 * Your contact info (so we can get in touch with you)
