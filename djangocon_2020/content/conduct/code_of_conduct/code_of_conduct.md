@@ -7,7 +7,7 @@ The organizers will introduce a Code of Conduct team that will be primarily resp
 
 The team can be reached on [conduct@djangocon.eu](mailto:conduct@djangocon.eu).
 
-A big thank you to the DjangoCon Europe 2019 CoC team for the awesome CoC (which we adapted with some minor modifications) and the response guidelines (which we have adopted unedited from 2018).
+We would like to thank the DjangoCon Europe 2019 CoC team for the awesome CoC (which we adapted with some minor modifications) and the response guidelines (which we have adopted unedited from 2018).
 
 <hr/>
 
@@ -15,10 +15,10 @@ A big thank you to the DjangoCon Europe 2019 CoC team for the awesome CoC (which
 
 Our goals with having this Code of Conduct are:
 
-* Helping everyone feel safe and included. Attendees may have had poor experiences in other events, or can be first-timers. We want to set the expectation that harassment and other unpleasant behaviour are not acceptable. So people who do have an unpleasant experience, know that's neither the norm nor acceptable to us as a community.
-* Helping to build trust that if an incident is reported, we will not respond with victim blaming, and that we will proceed with a thorough investigation. Even, for example, if the incident concerns someone in a position of power.
-* Informing everyone of the expected behaviour. We are a diverse community, and having a Code of Conduct makes the expectations of everybody's behaviour explicit and transparent.
 * Having a framework for report handling. The Code of Conduct is the basis for dealing with a report, assessing whether the CoC was violated, and what action should be taken.
+* Helping everyone feel safe and included. Attendees may have had poor experiences in other events, or may be first-timers. We want to set the expectation that harassment and other unpleasant behaviour are not acceptable. This way, people who do have an unpleasant experience know that it is neither the norm nor acceptable to us as a community.
+* Helping to build trust that if an incident is reported, we will not respond with victim blaming, and that we will proceed with a thorough investigation. This will be true even if the incident involves someone in a position of power, for example.
+* Informing everyone of the expected behaviour. We are a diverse community, and having a Code of Conduct makes the expectations over everybody's behaviour explicit and transparent.
 
 <hr/>
 
@@ -54,7 +54,7 @@ This Code of Conduct applies to all conference related spaces. That includes, bu
 * The conference hotel(s)
 * Any conference related social activities
 * Slack channels, tweets with the conference hashtag, and other online media
-* The Code of Conduct does not exclusively apply to events on the conference agenda. For example, if after a scheduled social event you go to a bar with a group of fellow participants, and someone harasses you there, we would still treat that as a CoC violation.
+* The Code of Conduct does not exclusively apply to events on the conference agenda. For example, if after a scheduled social event, you go to a bar with a group of fellow participants and someone harasses you there, we would still treat that as a CoC violation.
 
 <hr/>
 
@@ -73,9 +73,9 @@ In case of a Code of Conduct violation, some of the most common actions organise
 
 #### Where to report incidents
 
-If a Code of Conduct incident happens to you, or witness it happening to someone else, please contact the CoC team immediately either in person, or by sending an email to [conduct@djangocon.eu](mailto:conduct@djangocon.eu). We will publish a phone number to call closer to the event.
+If a Code of Conduct incident happens to you, or you witness it happening to someone else, please contact the CoC team immediately, either in person or by sending an email to [conduct@djangocon.eu](mailto:conduct@djangocon.eu). Prior to the event, we will publish a phone number for disclosure as well.
 
-Your report will be treated confidentially and only discussed within the CoC team.
+Your report will be treated confidentially and will only be discussed within the CoC team.
 
 The team members will be introduced in person at the conference. You can approach any of them at any time to discuss an incident or concern. You can also ask any other staff to help you find them at the conference.
 
@@ -83,7 +83,7 @@ The team members will be introduced in person at the conference. You can approac
 
 #### Guidelines for reporting incidents
 
-Please do not feel like you may be a burden to us by reporting incidents. Even if you happen to report multiple incidents during the conference. We rather consider reports an opportunity for us to act: by knowing about an incident, we can act on it, and often prevent it from continuing or repeating. But if we don't know, we can't take action.
+Please do not feel like you may be a burden to us by reporting incidents. Even if you happen to report multiple incidents during the conference. We rather consider reports as an opportunity for us to act: by knowing about an incident, we can act on it, and often prevent it from going on or occuring again. But if we don't know, we can't take action.
 
 If you are not sure whether the situation was a Code of Conduct violation, or whether it applied to that particular space, we encourage you to still report it. We would much rather have a few extra reports where we decide to take no action, rather than miss a report of an actual violation. We do not look negatively on you if we find the incident is not a violation. And knowing about incidents that are not violations, or happen outside our spaces, can also help us to improve the Code of Conduct or the processes surrounding it.
 
@@ -107,7 +107,7 @@ When handling a report, we follow our [response guidelines](/conduct/response_gu
 
 #### Emergencies
 
-If you're currently afraid of your physical safety or are in danger, contact local law enforcement in Portugal:
+If you're currently afraid regarding your physical safety or are in danger, contact local law enforcement in Portugal:
 
 * Emergency (Fire, Medical, Police): 112
 * Police directly: +351 222 081 833
