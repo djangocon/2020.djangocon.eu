@@ -85,6 +85,8 @@ The team members will be introduced in person at the conference. You can approac
 
 Please do not feel like you may be a burden to us by reporting incidents. Even if you happen to report multiple incidents during the conference. We rather consider reports as an opportunity for us to act: by knowing about an incident, we can act on it, and often prevent it from going on or occuring again. But if we don't know, we can't take action.
 
+If you're not sure if an incident was already reported by someone else, even if many people saw it, please report it. It is frequent that several people witness an incident and no one reports it, because everyone thought other people would.
+
 If you are not sure whether the situation was a Code of Conduct violation, or whether it applied to that particular space, we encourage you to still report it. We would much rather have a few extra reports where we decide to take no action, rather than miss a report of an actual violation. We do not look negatively on you if we find the incident is not a violation. And knowing about incidents that are not violations, or happen outside our spaces, can also help us to improve the Code of Conduct or the processes surrounding it.
 
 In your report please include, when possible:
