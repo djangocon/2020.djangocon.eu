@@ -41,8 +41,8 @@ We are dedicated to providing a harassment-free conference experience for everyo
 * Sexual language and imagery are not appropriate for any venue to which the CoC applies.
 * Some people may not wish to be filmed or photographed - respect their wishes, take extra care when publishing pictures and provide a way to request them to be taken down.
 * Be careful in the words that you choose. Remember that sexist, racist, and other exclusionary jokes can be offensive and unwelcoming to those around you. Excessive swearing and offensive jokes are not appropriate for DjangoCon Europe.
-* The Django community has earned a reputation of being welcoming to beginners and we would like to keep it that way. Condescending behavior towards people of different knowledge levels is unacceptable.
 * No one owes you any form of interaction or explanation why they don't want contact. If someone asks you to leave them alone, accept and respect it without any further discussion, even if you think it is unwarranted.
+* Condescending behavior towards people of different knowledge levels, and especially beginners, is unacceptable.
 
 <hr/>
 
