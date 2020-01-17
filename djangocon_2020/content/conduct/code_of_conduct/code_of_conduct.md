@@ -101,7 +101,7 @@ In your report please include, when possible:
 * If this incident is ongoing.
 * Any other information you would like to give us.
 
-If you don't have some of this information, or not at this time, please still make the report anyways.
+If you don't have some of this information, or not at this time, please still make the report anyways. You can contact us at any time after your report if you want to add, edit or take back any information you shared.
 
 If you feel unsafe reporting in person, you may choose someone to represent you. In this case, we'd need their contact information, but we'd ask you to make clear that this person represents you.
 
