@@ -15,10 +15,10 @@ We would like to thank the DjangoCon Europe 2019 CoC team for the awesome CoC (w
 
 Our goals with having this Code of Conduct are:
 
-* Having a framework for report handling. The Code of Conduct is the basis for dealing with a report, assessing whether the CoC was violated, and what action should be taken.
 * Helping everyone feel safe and included. Attendees may have had poor experiences in other events, or may be first-timers. We want to set the expectation that harassment and other unpleasant behaviour are not acceptable. This way, people who do have an unpleasant experience know that it is neither the norm nor acceptable to us as a community.
 * Helping to build trust that if an incident is reported, we will not respond with victim blaming, and that we will proceed with a thorough investigation. This will be true even if the incident involves someone in a position of power, for example.
 * Informing everyone of the expected behaviour. We are a diverse community, and having a Code of Conduct makes the expectations over everybody's behaviour explicit and transparent.
+* Having a framework for report handling (see the [response guidelines](/conduct/response_guide/). The Code of Conduct is the basis for dealing with a report, assessing whether the CoC was violated, and what action should be taken.
 
 <hr/>
 
