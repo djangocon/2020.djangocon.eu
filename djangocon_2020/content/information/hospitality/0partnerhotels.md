@@ -78,7 +78,7 @@ The Exe Almada Porto 4* offers its guests the opportunity to stay in the histori
 
 <hr/>
 
-![nh](/static/images/hotels/nh.png){:class='sponsor small'}
+![nh_batalha](/static/images/hotels/nh_batalha.png){:class='sponsor small'}
 
 #### NH Collection Porto Batalha
 
@@ -97,7 +97,7 @@ The Exe Almada Porto 4* offers its guests the opportunity to stay in the histori
 
 <hr/>
 
-![nh](/static/images/hotels/nh.png){:class='sponsor small'}
+![nh_jardim](/static/images/hotels/nh_jardim.png){:class='sponsor'}
 
 #### NH Porto Jardim
 
