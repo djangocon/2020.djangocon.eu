@@ -113,3 +113,38 @@ Modern architecture 4* hotel opened in summer 2019. Located in Oporto’s downto
 - Double: €150 with breakfast 
 
 **Conditions:** Bookings be made on the official website using the link to be released soon.
+
+## Eurostars Porto Centro
+
+Porto has managed to merge the essence of Portuguese culture with the most bohemian and cosmopolitan atmosphere The Eurostars Porto Centro 4* allows you the chance to get to know the beautiful city of Porto from its historical centre.
+
+**Website:** [http://www.eurotarsportocenter.com](http://www.eurotarsportocenter.com){:target="_blank"}
+
+**Address:** R. de Sampaio Bruno 77
+
+**Discounted rates:** 
+Discount: 5% discount off all rates and offers
+
+**Conditions:** Conditions: Bookings be made on the official website using the promotional code DJANGO20.
+
+## Hoteis Primium Porto
+
+Premium Hotels is one of the leading urban hotel chains in Portugal.
+Offering the finest traditional Portuguese hospitality for both business and leisure travellers.
+
+**Discounted rates:** 
+Discount: 20% discount off all rates and offers
+
+### iStay Hotel Porto Centro
+
+**Website:** [https://www.istarhotelportocentro.com/](https://www.istarhotelportocentro.com/){:target="_blank"}
+
+**Address:** : R. de Alexandre Herculano 296
+
+### Hotel Premium Porto Downtown
+**Website:** [https://www.premiumportodowntown.com/](https://www.premiumportodowntown.com/){:target="_blank"}
+
+**Address:** : Av. de Rodrigues de Freitas 427
+
+
+**Conditions:** Conditions: Bookings be made on the official website using the promotional code DJANGOCON.
