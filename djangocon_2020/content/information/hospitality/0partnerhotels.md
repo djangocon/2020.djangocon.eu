@@ -113,3 +113,16 @@ Modern architecture 4* hotel opened in summer 2019. Located in Oporto’s downto
 - Double: €150 with breakfast 
 
 **Conditions:** Bookings be made on the official website using the link to be released soon.
+
+## [Eurostars Porto Centro](http://www.legendaryportohotel.com){:target="_blank"}
+
+Porto has managed to merge the essence of Portuguese culture with the most bohemian and cosmopolitan atmosphere The Eurostars Porto Centro 4* allows you the chance to get to know the beautiful city of Porto from its historical centre.
+
+**Website:** [http://www.eurotarsportocenter.com](http://www.eurotarsportocenter.com){:target="_blank"}
+
+**Address:** R. de Sampaio Bruno 77
+
+**Discounted rates:** 
+Discount: 5% discount off all rates and offers
+
+**Conditions:** Conditions: Bookings be made on the official website using the promotional code DJANGO20.
