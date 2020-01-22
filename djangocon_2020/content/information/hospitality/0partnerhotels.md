@@ -11,6 +11,33 @@ Please note: discounts and conditions vary at each hotel. The city of Porto also
 
 <hr/>
 
+![premium](/static/images/hotels/premium.png){:class='sponsor'}
+
+#### Hoteis Premium Porto
+
+Premium Hotels is one of the leading urban hotel chains in Portugal.
+Offering the finest traditional Portuguese hospitality for both business and leisure travellers.
+
+**Website:** [https://en.hoteispremium.com/](https://en.hoteispremium.com/){:target="_blank"}
+
+**iStay Hotel Porto Centro**
+
+&emsp;**Website:** [https://en.istayhoteis.com/](https://en.istayhoteis.com/){:target="_blank"}
+
+&emsp;**Address:** : [R. de Alexandre Herculano 296](https://g.page/iStayPortoCentro){:target="_blank"}
+
+**Hotel Premium Porto Downtown**
+
+&emsp;**Website:** [https://www.premiumportodowntown.com/](https://www.premiumportodowntown.com/){:target="_blank"}
+
+&emsp;**Address:** : [Av. de Rodrigues de Freitas 427](https://g.page/PremiumPortoDowntown){:target="_blank"}
+
+**Discount:** 20% discount off all rates and offers
+
+**Conditions:** Bookings be made on the official website using the promotional code DJANGOCON.
+
+<hr/>
+
 ![gallery](/static/images/hotels/gallery.png){:class='sponsor big'}
 
 #### Gallery Hostel Porto
@@ -68,7 +95,7 @@ An elegant hotel with contemporary, minimalistic decor, the Legendary Porto Hote
 
 The Exe Almada Porto 4* offers its guests the opportunity to stay in the historical centre of Porto, which has been declared a UNESCO World Heritage Site.
 
-**Address:** [Rua do Almada 361](https://g.page/hotel-exe-almada-porto?share){:target="_blank"}
+**Address:** [Rua do Almada 361](https://g.page/hotel-exe-almada-porto){:target="_blank"}
 
 **Website:** [https://www.eurostarshotelcompany.com/exe-almada-porto.html?id_referer=DJANGO20](https://www.eurostarshotelcompany.com/exe-almada-porto.html?id_referer=DJANGO20){:target="_blank"}
 
@@ -114,38 +141,18 @@ Modern architecture 4* hotel opened in summer 2019. Located in Oporto’s downto
 
 **Conditions:** Bookings be made on the official website using the link to be released soon.
 
+<hr/>
+
+![eurostars](/static/images/hotels/eurostars.jpg){:class='sponsor big'}
+
 #### Eurostars Porto Centro
 
 Porto has managed to merge the essence of Portuguese culture with the most bohemian and cosmopolitan atmosphere The Eurostars Porto Centro 4* allows you the chance to get to know the beautiful city of Porto from its historical centre.
 
-**Website:** [http://www.eurotarsportocenter.com](http://www.eurotarsportocenter.com){:target="_blank"}
+**Website:** [https://www.eurostarshotels.co.uk/eurostars-porto-centro.html](https://www.eurostarshotels.co.uk/eurostars-porto-centro.html){:target="_blank"}
 
-**Address:** R. de Sampaio Bruno 77
+**Address:** [R. de Sampaio Bruno 77](https://g.page/hotel-eurostars-porto-centro){:target="_blank"}
 
-**Discounted rates:** 
-Discount: 5% discount off all rates and offers
+**Discount:** 5% discount off all rates and offers
 
-**Conditions:** Conditions: Bookings be made on the official website using the promotional code DJANGO20.
-
-## Hoteis Primium Porto
-
-Premium Hotels is one of the leading urban hotel chains in Portugal.
-Offering the finest traditional Portuguese hospitality for both business and leisure travellers.
-
-**Discounted rates:** 
-Discount: 20% discount off all rates and offers
-
-### iStay Hotel Porto Centro
-
-**Website:** [https://www.istarhotelportocentro.com/](https://www.istarhotelportocentro.com/){:target="_blank"}
-
-**Address:** : R. de Alexandre Herculano 296
-
-### Hotel Premium Porto Downtown
-**Website:** [https://www.premiumportodowntown.com/](https://www.premiumportodowntown.com/){:target="_blank"}
-
-**Address:** : Av. de Rodrigues de Freitas 427
-
-
-**Conditions:** Conditions: Bookings be made on the official website using the promotional code DJANGOCON.
-
+**Conditions:** Bookings be made on the official website using the promotional code DJANGO20.
