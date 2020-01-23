@@ -3,6 +3,10 @@ layout: simple
 
 Below you have a list of all of our amazing sponsors who make this conference possible. If you want to join this awesome list, [click here](/sponsors/sponsorships/).
 
+##### Silver
+
+[![ai](/static/images/sponsors/ai.png){:class='sponsor small'}](https://beamian.com/){:target="_blank"}
+
 ##### Bronze
 
 [![cmp](/static/images/sponsors/beamian.png){:class='sponsor'}](https://beamian.com/){:target="_blank"}
@@ -13,7 +17,7 @@ Below you have a list of all of our amazing sponsors who make this conference po
 
 ##### Grants
 
-[![dsf](/static/images/sponsors/dsf.png){:class='sponsor big'}](https://www.djangoproject.com/){:target="_blank"} [![psf](/static/images/sponsors/psf.png){:class='sponsor'}](https://www.python.org/psf/){:target="_blank"}
+[![dsf](/static/images/sponsors/dsf.png){:class='sponsor big'}](https://www.djangoproject.com/){:target="_blank"} [![psf](/static/images/sponsors/psf.png){:class='sponsor'}](https://www.python.org/psf/){:target="_blank"} [![eps](/static/images/sponsors/eps.png){:class='sponsor'}](https://www.europython-society.org/){:target="_blank"}
 
 
 ##### Official Carrier

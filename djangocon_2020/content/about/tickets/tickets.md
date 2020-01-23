@@ -26,5 +26,3 @@ Choose this ticket type if you or your employer want to especially support us do
 ---
 
 Please get in touch, if you have a ticket claim, for instance through a sponsorship or as a speaker at [2020@djangocon.eu](mailto:2020@djangocon.eu).
-
-<!--Our ticket sales are proudly powered by [pretix](https://pretix.eu/about/en/){:target="_blank"}.-->
