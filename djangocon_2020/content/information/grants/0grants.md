@@ -31,4 +31,4 @@ Our program prioritises speakers first, and then anyone who is part of an under-
 
 **Important: if you need a grant, you must apply before the deadline. Speakers do not automatically receive funding to attend.**
 
-Please note that the price of s
+
