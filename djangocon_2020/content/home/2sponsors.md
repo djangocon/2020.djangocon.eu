@@ -3,7 +3,7 @@ layout: simple
 
 ##### Silver
 
-[![ai](/static/images/sponsors/ai.png){:class='sponsor small'}](https://beamian.com/){:target="_blank"}
+[![ai](/static/images/sponsors/ai.png){:class='sponsor small'}](https://ambient-innovation.com/){:target="_blank"}
 
 ##### Bronze
 
