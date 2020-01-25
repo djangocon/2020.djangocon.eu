@@ -5,7 +5,7 @@ So you have listened to all the exciting topics on django for three days and now
 
 On Saturday and Sunday, you have the opportunity to do exactly that. We will have have fun, enjoy complimentary food and drinks, and oh yes we will have sprints and workshops.
 
-This is your opportunity to contribute to Open Source software. Even if you haven't contributed before, this is also an option to take your first steps. In the sprint, you can contibute to Django as you see fit, and if you need help, there will a pool of experienced conributors to guide you.
+This is your opportunity to contribute to Open Source software. Even if you haven't contributed before, this is also an option to take your first steps. In the sprint, you can contribute to Django as you see fit, and if you need help, there will a pool of experienced contributors to guide you.
 
 * **Saturday 10:00 - 18:00**
 * **Sunday 10:00 - 18:00**
