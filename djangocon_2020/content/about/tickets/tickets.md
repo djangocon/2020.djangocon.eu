@@ -3,7 +3,7 @@ layout: simple
 
 The **early bird ticket sales** <u>ends February 29</u>. DjangoCon Europe always sells out, and we have a limited number of tickets for sale. Therefore, we strongly encourage you to buy your ticket before they sell out, which in addition gives you more time to plan your trip and can save money on accommodation and transport.
 
-All tickets include access to all 3 conference days (May 27 - 29) and the 2 [sprints](#) days (May 30 - 31). 
+All tickets include access to all 3 conference days (May 27 - 29) and the 2 [sprints](/information/sprints/) days (May 30 - 31). 
 
 If you wish to change from Individual to Business or any other way amend the order please contact [2020@djangocon.eu](mailto:2020@djangocon.eu).
 
@@ -21,7 +21,7 @@ If you are paying your ticket from your personal money and are not being reimbur
 If your employer is paying for the ticket or reimbursing you for your conference expenses.
 * <strong>Business Supporter Ticket (<del>€495</del> €465)</strong>
 Choose this ticket type if you or your employer want to especially support us doing this conference.
-[For sponsorship options please see here](#).
+[For sponsorship options please see here](/sponsors/sponsorships/).
 
 ---
 

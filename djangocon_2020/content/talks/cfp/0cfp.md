@@ -1,4 +1,4 @@
-title: call for papers
+title: call for participation
 layout: simple
 
 This page contains all information regarding the proposal process for DjangoCon Europe – we will update it regularly as new information becomes available.
