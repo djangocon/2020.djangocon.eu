@@ -1,7 +1,7 @@
 title: sprints
 layout: simple
 
-So you have listened to all the exciting topics on django for three days and now feel motivated do something about it. What could be a better motivation than contributing to the very open source software you just listened to?
+So you have listened to all the exciting topics on django for three days and now feel motivated to do something about it. What could be a better motivation than contributing to the very open source software you just listened to?
 
 On Saturday and Sunday, you have the opportunity to do exactly that. We will have have fun, enjoy complimentary food and drinks, and oh yes we will have sprints and workshops.
 
