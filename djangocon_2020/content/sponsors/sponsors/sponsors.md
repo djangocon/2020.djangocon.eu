@@ -9,7 +9,7 @@ Below you have a list of all of our amazing sponsors who make this conference po
 
 ##### Bronze
 
-[![cmp](/static/images/sponsors/beamian.png){:class='sponsor'}](https://beamian.com/){:target="_blank"}
+[![cmp](/static/images/sponsors/beamian.png){:class='sponsor'}](https://beamian.com/){:target="_blank"} [![hacksoft](/static/images/sponsors/hacksoft.png){:class='sponsor small'}](https://www.hacksoft.io/){:target="_blank"}
 
 ##### Institutional Partners
 
