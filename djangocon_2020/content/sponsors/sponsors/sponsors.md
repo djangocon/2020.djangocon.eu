@@ -3,9 +3,17 @@ layout: simple
 
 Below you have a list of all of our amazing sponsors who make this conference possible. If you want to join this awesome list, [click here](/sponsors/sponsorships/).
 
+##### Diamond
+
+[![zego](/static/images/sponsors/zego.png){:class='sponsor small'}](https://www.zego.com/){:target="_blank"}
+
 ##### Platinum
 
-[![blackfire](/static/images/sponsors/blackfire.png){:class='sponsor'}](https://blackfire.io/){:target="_blank"}
+[![blackfire](/static/images/sponsors/blackfire.png){:class='sponsor big'}](https://blackfire.io/){:target="_blank"}
+
+##### Gold
+
+[![nexmo](/static/images/sponsors/nexmo.png){:class='sponsor smaller'}](https://www.nexmo.com/){:target="_blank"}
 
 ##### Silver
 
