@@ -11,10 +11,13 @@
           &emsp;
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/home"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="60px" style="margin: 10px;"></a>
+          <a class="nav-link" href="/home"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="60px"
+                                                style="margin: 10px;"></a>
         </li>
         <li class="nav-item">
-          <button class="navbar-toggler navbar-light bg-white" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler navbar-light bg-white" type="button" data-toggle="collapse"
+                  data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         </li>
@@ -87,12 +90,14 @@
               <li class="nav-item">
                 <a class="nav-link" href="/information/visa/">VISA</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/information/covid-19/">COVID-19</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://groups.google.com/forum/#!forum/2020djangoconeu-newsletter"
+                   target="_blank">NEWS</a></a>
+              </li>
             </ul>
-          </li>
-
-          <li class="nav-item">
-{#            <a class="nav-link" href="/news/news/">NEWS</a>#}
-            <a class="nav-link" href="https://groups.google.com/forum/#!forum/2020djangoconeu-newsletter" target="_blank">NEWS</a></a>
           </li>
 
           <li class="nav-item">
@@ -129,7 +134,7 @@
               </li>
             </ul>
           </li>
-          
+
           <li class="nav-item">
             <button data-toggle="collapse" data-target="#submenu-h-conduct" aria-expanded="false">
               <a class="nav-link">CONDUCT</a>
@@ -152,10 +157,6 @@
           <a class="nav-link" href="/information/venue/">INFORMATION</a>
         </li>
         <li class="nav-item">
-{#          <a class="nav-link" href="/news/news/">NEWS</a>#}
-          <a class="nav-link" href="https://groups.google.com/forum/#!forum/2020djangoconeu-newsletter" target="_blank">NEWS</a></a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/home"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="80px"></a>
         </li>
         <li class="nav-item">
@@ -167,13 +168,15 @@
         <li class="nav-item">
           <a class="nav-link" href="/djangogirls/">DJANGOGIRLS</a>
         </li>
- </ul>
+      </ul>
     </div>
 
     <div class="container home-title">
       <h1>PORTO, PORTUGAL<br><strong>MAY 27 - 31</strong></h1>
       <h3>Five days of talks, sprints, and<br> tutorials in Porto.</h3>
-      <a href="/about/tickets/"><button class="btn">BUY TICKETS</button></a>
+      <a href="/about/tickets/">
+        <button class="btn">BUY TICKETS</button>
+      </a>
       <br/><br/>
     </div>
   </div>
@@ -182,7 +185,7 @@
   {% include 'modules/default.html' with content=files.0 %}
 
   {#  LATEST-NEWS#}
-{#  {% include 'modules/home/news.html' %}#}
+  {#  {% include 'modules/home/news.html' %}#}
 
   {#  PORTO-INFO#}
   {% include 'modules/default.html' with content=files.1 %}

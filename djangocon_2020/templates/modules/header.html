@@ -9,10 +9,13 @@
         &emsp;
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/home"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="60px" style="margin: 10px;"></a>
+        <a class="nav-link" href="/home"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="60px"
+                                              style="margin: 10px;"></a>
       </li>
       <li class="nav-item">
-        <button class="navbar-toggler navbar-light bg-white" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-light bg-white" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </li>
@@ -88,12 +91,14 @@
             <li class="nav-item {% ancestor '/information/visa/' %}">
               <a class="nav-link" href="/information/visa/">VISA</a>
             </li>
+            <li class="nav-item" {% ancestor '/information/covid-19/' %}>
+              <a class="nav-link" href="/information/covid-19/">COVID-19</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://groups.google.com/forum/#!forum/2020djangoconeu-newsletter"
+                 target="_blank">NEWS</a></a>
+            </li>
           </ul>
-        </li>
-
-        <li class="nav-item {% ancestor '/news/' %}">
-{#          <a class="nav-link" href="/news/news/">NEWS</a>#}
-          <a class="nav-link" href="https://groups.google.com/forum/#!forum/2020djangoconeu-newsletter" target="_blank">NEWS</a></a>
         </li>
 
         <li class="nav-item {% ancestor '/sponsors/' %}">
@@ -148,10 +153,6 @@
         <li class="nav-item {% ancestor '/information/' %}">
           <a class="nav-link" href="/information/venue/">INFORMATION</a>
         </li>
-        <li class="nav-item {% ancestor '/news/' %}">
-{#          <a class="nav-link" href="/news/news/">NEWS</a>#}
-          <a class="nav-link" href="https://groups.google.com/forum/#!forum/2020djangoconeu-newsletter" target="_blank">NEWS</a></a>
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="/home"><img src="{% static 'images/logo.svg' %}" alt="Logo" height="80px"></a>
         </li>
@@ -161,84 +162,88 @@
         <li class="nav-item {% ancestor '/conduct/' %}">
           <a class="nav-link" href="/conduct/code_of_conduct/">CONDUCT</a>
         </li>
-        <li class="nav-item {% ancestor '/conduct/' %}">
-          <a class="nav-link" href="/Djangogirls/">DJANGOGIRLS</a>
-        </li> </ul>
+        <li class="nav-item {% ancestor '/djangogirls/' %}">
+          <a class="nav-link" href="/djangogirls/">DJANGOGIRLS</a>
+        </li>
+      </ul>
     </div>
 
     <div class="submenu">
       <ul class="container nav nav-pills nav-fill">
         {% ifancestor '/about/' %}
-        <li class="nav-item {% ancestor '/about/tickets/' %}">
-          <a class="nav-link" href="/about/tickets/">TICKETS</a>
-        </li>
-        <li class="nav-item {% ancestor '/about/contact/' %}">
-          <a class="nav-link" href="/about/contact/">CONTACT</a>
-        </li>
-        <li class="nav-item {% ancestor '/about/credits/' %}">
-          <a class="nav-link" href="/about/credits/">CREDITS</a>
-        </li>
+          <li class="nav-item {% ancestor '/about/tickets/' %}">
+            <a class="nav-link" href="/about/tickets/">TICKETS</a>
+          </li>
+          <li class="nav-item {% ancestor '/about/contact/' %}">
+            <a class="nav-link" href="/about/contact/">CONTACT</a>
+          </li>
+          <li class="nav-item {% ancestor '/about/credits/' %}">
+            <a class="nav-link" href="/about/credits/">CREDITS</a>
+          </li>
         {% endifancestor %}
 
         {% ifancestor '/talks/' %}
-        <li class="nav-item {% ancestor '/talks/talks/' %}">
-          <a class="nav-link" href="/talks/talks/">TALKS</a>
-        </li>
-        <li class="nav-item {% ancestor '/talks/cfp/' %}">
-          <a class="nav-link" href="/talks/cfp/">CFP</a>
-        </li>
-        <li class="nav-item {% ancestor '/talks/schedule/' %}">
-          <a class="nav-link" href="/talks/schedule/">SCHEDULE</a>
-        </li>
-        <li class="nav-item {% ancestor '/talks/selection_process/' %}">
-          <a class="nav-link" href="/talks/selection_process/">SELECTION PROCESS</a>
-        </li>
+          <li class="nav-item {% ancestor '/talks/talks/' %}">
+            <a class="nav-link" href="/talks/talks/">TALKS</a>
+          </li>
+          <li class="nav-item {% ancestor '/talks/cfp/' %}">
+            <a class="nav-link" href="/talks/cfp/">CFP</a>
+          </li>
+          <li class="nav-item {% ancestor '/talks/schedule/' %}">
+            <a class="nav-link" href="/talks/schedule/">SCHEDULE</a>
+          </li>
+          <li class="nav-item {% ancestor '/talks/selection_process/' %}">
+            <a class="nav-link" href="/talks/selection_process/">SELECTION PROCESS</a>
+          </li>
         {% endifancestor %}
 
 
         {% ifancestor '/information/' %}
-        <li class="nav-item {% ancestor '/information/venue/' %}">
-          <a class="nav-link" href="/information/venue/">VENUE</a>
-        </li>
-        <li class="nav-item {% ancestor '/information/porto/' %}">
-          <a class="nav-link" href="/information/porto/">PORTO</a>
-        </li>
-        <li class="nav-item {% ancestor '/information/hospitality/' %}">
-          <a class="nav-link" href="/information/hospitality/">HOSPITALITY</a>
-        </li>
-        <li class="nav-item {% ancestor '/information/party/' %}">
-          <a class="nav-link" href="/information/party/">PARTY</a>
-        </li>
-        <li class="nav-item {% ancestor '/information/sprints/' %}">
-          <a class="nav-link" href="/information/sprints/">SPRINTS</a>
-        </li>
-        <li class="nav-item {% ancestor '/information/grants/' %}">
-          <a class="nav-link" href="/information/grants/">GRANTS</a>
-        </li>
-        <li class="nav-item {% ancestor '/information/visa/' %}">
-          <a class="nav-link" href="/information/visa/">VISA</a>
-        </li>
+          <li class="nav-item {% ancestor '/information/venue/' %}">
+            <a class="nav-link" href="/information/venue/">VENUE</a>
+          </li>
+          <li class="nav-item {% ancestor '/information/porto/' %}">
+            <a class="nav-link" href="/information/porto/">PORTO</a>
+          </li>
+          <li class="nav-item {% ancestor '/information/hospitality/' %}">
+            <a class="nav-link" href="/information/hospitality/">HOSPITALITY</a>
+          </li>
+          <li class="nav-item {% ancestor '/information/party/' %}">
+            <a class="nav-link" href="/information/party/">PARTY</a>
+          </li>
+          <li class="nav-item {% ancestor '/information/sprints/' %}">
+            <a class="nav-link" href="/information/sprints/">SPRINTS</a>
+          </li>
+          <li class="nav-item {% ancestor '/information/grants/' %}">
+            <a class="nav-link" href="/information/grants/">GRANTS</a>
+          </li>
+          <li class="nav-item {% ancestor '/information/visa/' %}">
+            <a class="nav-link" href="/information/visa/">VISA</a>
+          </li>
+          <li class="nav-item {% ancestor '/information/covid-19/' %}">
+            <a class="nav-link" href="/information/covid-19/">COVID-19</a>
+          </li>
         {% endifancestor %}
 
         {% ifancestor '/sponsors/' %}
-        <li class="nav-item {% ancestor '/sponsors/sponsors/' %}">
-          <a class="nav-link" href="/sponsors/sponsors/">SPONSORS</a>
-        </li>
-        <li class="nav-item {% ancestor '/sponsors/sponsorships/' %}">
-          <a class="nav-link" href="/sponsors/sponsorships/">SPONSORSHIPS</a>
-        </li>
+          <li class="nav-item {% ancestor '/sponsors/sponsors/' %}">
+            <a class="nav-link" href="/sponsors/sponsors/">SPONSORS</a>
+          </li>
+          <li class="nav-item {% ancestor '/sponsors/sponsorships/' %}">
+            <a class="nav-link" href="/sponsors/sponsorships/">SPONSORSHIPS</a>
+          </li>
         {% endifancestor %}
 
         {% ifancestor '/conduct/' %}
-        <li class="nav-item {% ancestor '/conduct/code_of_conduct/' %}">
-          <a class="nav-link" href="/conduct/code_of_conduct/">CODE OF CONDUCT</a>
-        </li>
-        <li class="nav-item {% ancestor '/conduct/response_guide/' %}">
-          <a class="nav-link" href="/conduct/response_guide/">RESPONSE GUIDE</a>
-        </li>
-        <li class="nav-item {% ancestor '/conduct/privacy_guide/' %}">
-          <a class="nav-link" href="/conduct/privacy_guide/">PRIVACY GUIDE</a>
-        </li>
+          <li class="nav-item {% ancestor '/conduct/code_of_conduct/' %}">
+            <a class="nav-link" href="/conduct/code_of_conduct/">CODE OF CONDUCT</a>
+          </li>
+          <li class="nav-item {% ancestor '/conduct/response_guide/' %}">
+            <a class="nav-link" href="/conduct/response_guide/">RESPONSE GUIDE</a>
+          </li>
+          <li class="nav-item {% ancestor '/conduct/privacy_guide/' %}">
+            <a class="nav-link" href="/conduct/privacy_guide/">PRIVACY GUIDE</a>
+          </li>
         {% endifancestor %}
       </ul>
     </div>
