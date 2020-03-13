@@ -13,7 +13,7 @@ In the workshop, you'll learn the basics of web programming using Django, the fr
 
 You just need to bring a laptop and be able to commit to the all-day workshop.
 
-#### When and where is the workhop ?
+#### When and where is the workshop ?
 
 The workshop will be at the Porto University on May 26th from 9.00 am to 6.00 pm
 
