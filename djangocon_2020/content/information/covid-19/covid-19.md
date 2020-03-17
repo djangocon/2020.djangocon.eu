@@ -3,7 +3,9 @@ layout: simple
 
 Current Covid-19 peak estimates are too close to the original dates (May 27-31), we can not delay making a decision anymore. Some conferences are postponing, others canceling altogether.
 
-We have a good window of opportunity in the third week of September (September 16-20). So, before considering canceling DjangoCon Europe 2020, optimistically we will first try to postpone it.
+So, before considering canceling DjangoCon Europe 2020, optimistically we will first try to postpone it.
+
+**We are postponing DjangoCon Europe 2020 to September 16-20.**
 
 We are aware that many things can change meanwhile, and that in the end we might be forced to cancel the conference, but for now, we urge you to believe with us.
 
