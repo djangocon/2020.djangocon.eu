@@ -3,7 +3,7 @@ layout: simple
 
 DjangoCon Europe always sells out, and we have a limited number of tickets for sale. Therefore, we strongly encourage you to buy your ticket before they sell out, which in addition gives you more time to plan your trip and can save money on accommodation and transport.
 
-All tickets include access to all 3 conference days (September 16 - 18) and the 2 [sprints](/information/sprints/) days (May 30 - 31). 
+All tickets include access to all 3 conference days (September 16 - 18) and the 2 [sprints](/information/sprints/) days (September 19 - 20). 
 
 If you wish to change from Individual to Business or any other way amend the order please contact [2020@djangocon.eu](mailto:2020@djangocon.eu).
 
