@@ -49,7 +49,7 @@ The most common resolutions the CARE team can decide on are:
 
 Resolutions are not restricted to these options. Any conversations with bad actors are done by two people from the CARE team, and notes from this conversation will be added to the record of the incident.
 
-When deciding on a resolution, our basic goal is to address the report in an appropriate way, while also looking to prevent or reduce the risk of continuing harm in the future. For example, we may try to distinguish whether a violation occurred intentionally or not, especially in not too severe cases like inappropriate jokes. In intentional cases, or severe behaviour, we'll probably choose for stronger measures. The CARE team can also use behaviour on social media, the conference slack or personal interactions to further build a picture of the person(s) involved.
+When deciding on a resolution, our basic goal is to address the report in an appropriate way, while also looking to prevent or reduce the risk of continuing harm in the future. For example, we may try to distinguish whether a violation occurred intentionally or not, especially in not too severe cases like inappropriate jokes. In intentional cases, or severe behaviour, we'll probably choose for stronger measures. The CARE team can also use behaviour on social media, the conference [Slack](https://join.slack.com/t/djangoconeurope2020/shared_invite/zt-cyuhq1vr-XNFnxqD63YGTCl_YdwUJzw){:target="_blank"} or personal interactions to further build a picture of the person(s) involved.
 
 ### Informing the reporter
 
