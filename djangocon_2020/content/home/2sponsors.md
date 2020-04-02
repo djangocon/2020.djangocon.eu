@@ -11,7 +11,7 @@ layout: simple
 
 ##### Gold
 
-[![nexmo](/static/images/sponsors/nexmo.png){:class='sponsor smaller'}](https://www.nexmo.com/){:target="_blank"}
+[![vonage](/static/images/sponsors/vonage.png){:class='sponsor small'}](https://www.vonage.com/){:target="_blank"}
 
 ##### Silver
 
