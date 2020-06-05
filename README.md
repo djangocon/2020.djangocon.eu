@@ -1,8 +1,8 @@
 <img src="djangocon_2020/static/images/logo_blue.svg" height=150/>
 
 🌍 [2020.djangocon.eu](https://2020.djangocon.eu/)\
-📍 Porto, Portugal\
-📅 May 27 - 31
+📍 Remote Conference\
+📅 September 18 - 19
 
 [![built-with](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-blue.svg)](https://github.com/pydanny/cookiecutter-django/)
 [![code-style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
