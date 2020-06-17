@@ -1,4 +1,4 @@
-title: Porto
+title: <s>Porto</s> Virtual
 layout: half_image
 img: images/home/rabelos.jpg
 class: bg-grey
