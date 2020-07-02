@@ -1,7 +1,9 @@
 title: partner<br/> hotels
 layout: simple
 
-** Get a discount on your accommodation in Porto! **
+** Recommendation letter to help you get a refund from our partner hotels [here](/static/docs/letter_hotels.pdf){:target="_blank"}. **
+
+Get a discount on your accommodation in Porto!
 
 Porto offers a wide range of hotels  to suit all tastes and budgets. To help make your decision on where to stay a bit easier, we’ve partnered with some fantastic hotels and best of all, they are offering exclusive discounts to DjangoCon 2020 attendees!
 
