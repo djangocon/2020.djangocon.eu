@@ -13,7 +13,7 @@ Below you have a list of all of our amazing sponsors who make this conference po
 
 ##### Gold
 
-[![vonage](/static/images/sponsors/vonage.png){:class='sponsor small'}](https://www.vonage.com/){:target="_blank"}
+[![vonage](/static/images/sponsors/vonage.png){:class='sponsor small'}](https://developer.nexmo.com/){:target="_blank"}
 
 ##### Silver
 
