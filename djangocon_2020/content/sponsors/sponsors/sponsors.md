@@ -9,8 +9,7 @@ Below you have a list of all of our amazing sponsors who make this conference po
 
 ##### Platinum
 
-[![blackfire](/static/images/sponsors/blackfire.png){:class='sponsor big'}](https://blackfire.io/){:target="_blank"} [![loudswarm](/static/images/sponsors/loudswarm.png){:class='sponsor big'}](https://loudswarm.com/){:target="_blank"}
-
+[![blackfire](/static/images/sponsors/blackfire.png){:class='sponsor big'}](https://blackfire.io/python?utm_source=djangocon_eu&utm_medium=logo&utm_campaign=djangocon_eu_online2020){:target="_blank"} [![loudswarm](/static/images/sponsors/loudswarm.png){:class='sponsor big'}](https://loudswarm.com/){:target="_blank"}
 
 ##### Gold
 
