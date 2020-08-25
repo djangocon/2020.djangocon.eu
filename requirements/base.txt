@@ -1,6 +1,6 @@
 pytz==2019.2  # https://github.com/stub42/pytz
 python-slugify==3.0.3  # https://github.com/un33k/python-slugify
-Pillow==6.1.0  # https://github.com/python-pillow/Pillow
+Pillow
 argon2-cffi==19.1.0  # https://github.com/hynek/argon2_cffi
 redis==3.3.8  # https://github.com/antirez/redis
 
@@ -18,7 +18,7 @@ djangorestframework==3.10.2  # https://github.com/encode/django-rest-framework
 coreapi==2.3.3  # https://github.com/core-api/python-client
 django-lineage==0.2.0
 fabric3
-fabric3-virtualenv
+#fabric3-virtualenv
 unipath
 
 whitenoise==4.1.3

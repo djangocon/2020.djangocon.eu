@@ -7,7 +7,7 @@ layout: simple
 
 ##### Platinum
 
-[![blackfire](/static/images/sponsors/blackfire.png){:class='sponsor big'}](https://blackfire.io/){:target="_blank"}
+[![blackfire](/static/images/sponsors/blackfire.png){:class='sponsor big'}](https://blackfire.io/){:target="_blank"} [![loudswarm](/static/images/sponsors/loudswarm.png){:class='sponsor big'}](https://loudswarm.com/){:target="_blank"}
 
 ##### Gold
 
