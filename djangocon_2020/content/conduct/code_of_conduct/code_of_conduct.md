@@ -7,7 +7,7 @@ The organizers will introduce a Code of Conduct team that will be primarily resp
 
 The team can be reached on [conduct@djangocon.eu](mailto:conduct@djangocon.eu).
 
-We would like to thank the DjangoCon Europe 2019 CoC team for the awesome CoC (which we adapted with some minor modifications) and the response guidelines (which we have adopted unedited from 2018).
+We would like to thank the DjangoCon Europe 2019 CoC team for the awesome CoC (which we adapted with some minor modifications) and the response guidelines (which we have adopted almost unedited from 2018).
 
 <hr/>
 
@@ -50,8 +50,7 @@ We are dedicated to providing a harassment-free conference experience for everyo
 
 This Code of Conduct applies to all conference related spaces. That includes, but is not limited to:
 
-* The conference venue(s)
-* The conference hotel(s)
+* The conference online platform
 * Any conference related social activities
 * [Slack](https://join.slack.com/t/djangoconeurope2020/shared_invite/zt-cyuhq1vr-XNFnxqD63YGTCl_YdwUJzw){:target="_blank"} channels, tweets with the conference hashtag, and other online media
 * The Code of Conduct does not exclusively apply to events on the conference agenda. For example, if after a scheduled social event, you go to a bar with a group of fellow participants and someone harasses you there, we would still treat that as a CoC violation.
@@ -73,11 +72,11 @@ In case of a Code of Conduct violation, some of the most common actions organise
 
 #### Where to report incidents
 
-If a Code of Conduct incident happens to you, or you witness it happening to someone else, please contact the CoC team immediately, either in person or by sending an email to [conduct@djangocon.eu](mailto:conduct@djangocon.eu). Prior to the event, we will publish a phone number for disclosure as well.
+If a Code of Conduct incident happens to you, or you witness it happening to someone else, please contact the CoC team immediately, either in Slack or by sending an email to [conduct@djangocon.eu](mailto:conduct@djangocon.eu).
 
 Your report will be treated confidentially and will only be discussed within the CoC team.
 
-The team members will be introduced in person at the conference. You can approach any of them at any time to discuss an incident or concern. You can also ask any other staff to help you find them at the conference.
+The team members will be introduced at the conference. You can message any of them at any time to discuss an incident or concern. You can also ask any other staff to help you find them.
 
 <hr/>
 
@@ -108,19 +107,5 @@ If you feel unsafe reporting in person, you may choose someone to represent you.
 When handling a report, we follow our [response guidelines](/conduct/response_guide/).
 
 <hr/>
-
-#### Emergencies
-
-If you're currently afraid regarding your physical safety or are in danger, contact local law enforcement in Portugal:
-
-* Emergency (Fire, Medical, Police): 112
-* Police directly: +351 222 081 833
-* Non-emergency (Medical): 808 24 24 24 (dial 9 for english)
-
-<hr/>
-
-#### Other assistance
-
-Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. However, we will not contact security or law enforcement without your consent, except when not doing so would create significant danger for other participants.
 
 We value your attendance, and look forward to seeing you at DjangoCon Europe.

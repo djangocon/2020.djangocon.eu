@@ -9,7 +9,7 @@ CARE team members almost never act on their own, including tasks like replying t
 
 ### Receiving a report
 
-Reports are typically received by e-mail, in person, or from another staff member. If the report was received from someone else, it may be best to meet with the original reporter first, depending on how complete the information is. The information the CARE team aims to collect is listed in the Code of Conduct reporting guide, but sometimes not all information is available.
+Reports are typically received by e-mail, in Slack, or from another staff member. If the report was received from someone else, it may be best to meet with the original reporter first, depending on how complete the information is. The information the CARE team aims to collect is listed in the Code of Conduct reporting guide, but sometimes not all information is available.
 
 When receiving a report, the CARE team acknowledges receipt as soon as possible, and aims to be understanding and compassionate. However, there should be no commitment on whether this is a violation or which action will be taken.
 
