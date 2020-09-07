@@ -20,4 +20,4 @@ General admission to the conference.
 
 ---
 
-Please get in touch, if you have a ticket claim, for instance through a sponsorship or as a speaker at [2020@djangocon.eu](mailto:2020@djangocon.eu). Previous tickets platform here
+Please get in touch, if you have a ticket claim, for instance through a sponsorship or as a speaker at [2020@djangocon.eu](mailto:2020@djangocon.eu).
