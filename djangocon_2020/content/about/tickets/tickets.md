@@ -1,31 +1,23 @@
 title: tickets
 layout: simple
 
-##### Virtual DjangoCon Europe 2020 is free of charge!
+In order to make it accessible for everyone without any kind of barrier we have decided to offer this conference **free** of charge to the community. However, there was a lot of work and expenses involved in making it come to life - as such, **your support is indispensable**. All funds will be used to support outreach and diversity, covering both this year's expenses and granting affordable access for students and financial aid in the next year.
 
-<s>
-DjangoCon Europe always sells out, and we have a limited number of tickets for sale. Therefore, we strongly encourage you to buy your ticket before they sell out, which in addition gives you more time to plan your trip and can save money on accommodation and transport.
+**If you are in a financial situation that does not allow you to support the event, do not feel pressured to contribute and get a free ticket!**
 
-All tickets include access to all 3 conference days (September 16 - 18) and the 2 [sprints](/information/sprints/) days (September 19 - 20). 
-
-If you wish to change from Individual to Business or any other way amend the order please contact [2020@djangocon.eu](mailto:2020@djangocon.eu).
-
-<center>[<button class="btn"><s>Get your ticket here!</s></button>](https://a.beamian.com/#/event/djangocon){:target="_blank"}</center>
+<center>[<button class="btn">Get your ticket here!</button>](https://pretix.eu/djceu2020/tickets/){:target="_blank"}</center>
 
 These are the ticket types that are on sale (VAT included):
 
-* <strong>Student/Concession Ticket (€190)</strong>
-If you are currently enrolled as a full-time student or if you are currently without regular income. This ticket does not cover our costs for the conference, but we'll be able to provide it to you thanks to other people paying more for their ticket than the minimal price. Please note that there is a limited number of student/concession tickets.
-* <strong>Individual Ticket (€295)</strong>
-If you are paying your ticket from your personal money and are not being reimbursed by your employer.
-* <strong>Individual Supporter Ticket (€345)</strong>
-If you are paying your ticket from your personal money and are not being reimbursed by your employer. The additional money from this ticket type ensure we can afford offering cheaper tickets to students and other people who could not afford to join otherwise. Thank you for doing so!
-* <strong>Business Ticket (€395)</strong>
-If your employer is paying for the ticket or reimbursing you for your conference expenses.
-* <strong>Business Supporter Ticket (€495)</strong>
-Choose this ticket type if you or your employer want to especially support us doing this conference.
-[For sponsorship options please see here](/sponsors/sponsorships/).
-</s>
+* <strong>Enthusiast ticket (€29)</strong>
+Tickets recommended for Django enthusiasts who would like to make the standard contribution.
+* <strong>Professional ticket (€79)</strong>
+Tickets recommended for professional Django users attending the conference. If your employer is paying for your ticket or you make a living using Django, please consider this tier. For sponsorship options please see [here](/sponsors/sponsorships/).
+* <strong>Contributor ticket (€?)</strong>
+This is a “pay what you want” ticket for those who want to contribute a custom amount.
+* <strong>Free ticket (€0)</strong>
+General admission to the conference.
+
 ---
 
-Please get in touch, if you have a ticket claim, for instance through a sponsorship or as a speaker at [2020@djangocon.eu](mailto:2020@djangocon.eu).
+Please get in touch, if you have a ticket claim, for instance through a sponsorship or as a speaker at [2020@djangocon.eu](mailto:2020@djangocon.eu). Previous tickets platform here
