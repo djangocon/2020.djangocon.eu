@@ -53,7 +53,6 @@ This Code of Conduct applies to all conference related spaces. That includes, bu
 * The conference online platform
 * Any conference related social activities
 * [Slack](https://join.slack.com/t/djangoconeurope2020/shared_invite/zt-cyuhq1vr-XNFnxqD63YGTCl_YdwUJzw){:target="_blank"} channels, tweets with the conference hashtag, and other online media
-* The Code of Conduct does not exclusively apply to events on the conference agenda. For example, if after a scheduled social event, you go to a bar with a group of fellow participants and someone harasses you there, we would still treat that as a CoC violation.
 
 <hr/>
 
@@ -101,8 +100,6 @@ In your report please include, when possible:
 * Any other information you would like to give us.
 
 If you don't have some of this information, or not at this time, please still make the report anyways. You can contact us at any time after your report if you want to add, edit or take back any information you shared.
-
-If you feel unsafe reporting in person, you may choose someone to represent you. In this case, we'd need their contact information, but we'd ask this person to make clear that they are not reporting in their own name.
 
 When handling a report, we follow our [response guidelines](/conduct/response_guide/).
 
