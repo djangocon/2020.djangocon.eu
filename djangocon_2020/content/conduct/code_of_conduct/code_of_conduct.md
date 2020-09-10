@@ -53,7 +53,7 @@ This Code of Conduct applies to all conference related spaces. That includes, bu
 * The conference online platform
 * Any conference related social activities
 * [Slack](https://join.slack.com/t/djangoconeurope2020/shared_invite/zt-cyuhq1vr-XNFnxqD63YGTCl_YdwUJzw){:target="_blank"} channels, tweets with the conference hashtag, and other online media
-
+* The Code of Conduct does not exclusively apply to events on the conference agenda. For example, if you join a group of attendees for unofficial virtual drinks after the talks and someone harasses you there, we would still treat that as a CoC violation.
 <hr/>
 
 #### What can happen if the CoC is violated?
@@ -76,6 +76,12 @@ If a Code of Conduct incident happens to you, or you witness it happening to som
 Your report will be treated confidentially and will only be discussed within the CoC team.
 
 The team members will be introduced at the conference. You can message any of them at any time to discuss an incident or concern. You can also ask any other staff to help you find them.
+
+Our Code of Conduct team consists of:
+* Ana Cunha - Slack ID USFERV5QX
+* Joachim Jablon - Slack ID URZPLHSKB
+* Noah Alorwu - Slack ID URYA5P4UB
+* Telmo Guerra - Slack ID UKVDGJHEH
 
 <hr/>
 
