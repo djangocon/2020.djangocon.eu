@@ -78,6 +78,7 @@ Your report will be treated confidentially and will only be discussed within the
 The team members will be introduced at the conference. You can message any of them at any time to discuss an incident or concern. You can also ask any other staff to help you find them.
 
 Our Code of Conduct team consists of:
+
 * Ana Cunha - Slack ID USFERV5QX
 * Joachim Jablon - Slack ID URZPLHSKB
 * Noah Alorwu - Slack ID URYA5P4UB
