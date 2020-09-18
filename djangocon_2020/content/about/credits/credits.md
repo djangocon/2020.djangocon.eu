@@ -5,6 +5,7 @@ This list of individuals is still growing. Nonetheless, these are our sincerest 
 
  * Ana Cunha
  * António Gil Machado
+ * Becky Smith
  * Benjamin Balder Bach
  * Carlos Rebelo
  * Chris Adams
@@ -26,5 +27,7 @@ This list of individuals is still growing. Nonetheless, these are our sincerest 
  * Telmo Guerra
  * Tobias Kunze
  * Victor Duarte
+ * Victor Pantoja
+ * Vivien Ruska
 
 In addition, the wonderful [speakers](/talks/talks), our amazing [sponsors](/sponsors/sponsors), and to everyone who bought a ticket.
