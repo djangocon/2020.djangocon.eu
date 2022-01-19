@@ -1,5 +1,0 @@
-[run]
-include = djangocon_2020/*
-omit = *migrations*, *tests*
-plugins =
-    django_coverage_plugin
