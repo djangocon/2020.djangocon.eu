@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//porto//JZT8QA
+BEGIN:VEVENT
+UID:pretalx-porto-AHTFPW@cfp.2021.djangocon.eu
+DTSTART:20200919T125500Z
+DTEND:20200919T133500Z
+DESCRIPTION:In the software industry\, developers\, designers and stakehold
+ ers should be working together to achieve the same goals and deliver high 
+ quality products to the final users. To be actually able to work together 
+ in an efficient and harmonic way\, though\, is a whole other thing. In a t
+ eam composed by developers and designers\, we were able to mitigate the im
+ pact of communication flaws and concepts divergences in a continuous effor
+ t to cover  the blank spots we found on every iteration we went through. I
+ n this talk I’m going to share some lessons learned about how to integra
+ te both teams’ work with a solid management process.
+DTSTAMP:20220201T163405Z
+LOCATION:Virtual
+SUMMARY:Integrating Design and Development teams by implementing a Design S
+ ystem - Mariana Bedran Lesche\, Daniela Falcone
+URL:https://cfp.2021.djangocon.eu/porto/talk/AHTFPW/
+END:VEVENT
+END:VCALENDAR

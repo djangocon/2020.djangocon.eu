@@ -1,0 +1,218 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/HK3NUR/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:32:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Creating a spotify-like personal streaming service with Django and Vue: Lessons learned ::  DjangoCon Europe 2020 :: pretalx</title>
+    <meta name="title" content="Creating a spotify-like personal streaming service with Django and Vue: Lessons learned  - DjangoCon Europe 2020 pretalx">
+    <meta name="description" content="We&#39;ll use [a spotify-like personal streaming service](https://gitlab.levitnet.be/emma/radioify/-/tree/master) as a sample project for our journey into Django and Vue integration. We&#39;ll start with a short demo of the application so that everyone knows what we will be looking into.
+
+During the talk we&#39;ll cover the following topics:
+
+- Getting both development servers (Django and [Vue](https://vuejs.org/)) running and having them talk to each other.
+- Overview of Vue tools (browser extensions, cheat sheet, cli)
+- Vue basics
+- Data exchange using [Django REST Framework](https://www.django-rest-framework.org/),  [VueX](https://vuex.vuejs.org/) and [Axios](https://github.com/axios/axios)
+- Connecting the frontend to a [Channels](https://channels.readthedocs.io/en/latest/) websocket
+- Authentication (token vs session)
+
+The talk will end with a conclusion of positive and negative experiences encountered during the development of the application
+
+Video: https://www.youtube.com/watch?v=BFAWt7YGiKs&amp;ab_channel=DjangoConEurope">
+    <meta name="application-name" content="pretalx">
+    <meta name="generator" content="pretalx">
+    <meta name="keywords" content="DjangoCon Europe 2020, porto, 2020, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+    <meta name="referrer" content="origin-when-crossorigin">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#120E3D">
+    <meta name="HandheldFriendly" content="True"/>
+    <meta property="thumbnail" content="../../../cfp-media/porto/images/HK3NUR/Screenshot_2020-03-01_12-37-54_3xMM2XA.png">
+    <meta property="og:image" content="../../../cfp-media/porto/images/HK3NUR/Screenshot_2020-03-01_12-37-54_3xMM2XA.png">
+    <meta property="og:title" content="Creating a spotify-like personal streaming service with Django and Vue: Lessons learned DjangoCon Europe 2020">
+    <meta property="og:description" content="We&#39;ll use [a spotify-like personal streaming service](https://gitlab.levitnet.be/emma/radioify/-/tree/master) as a sample project for our journey into Django and Vue integration. We&#39;ll start with a short demo of the application so that everyone knows what we will be looking into.
+
+During the talk we&#39;ll cover the following topics:
+
+- Getting both development servers (Django and [Vue](https://vuejs.org/)) running and having them talk to each other.
+- Overview of Vue tools (browser extensions, cheat sheet, cli)
+- Vue basics
+- Data exchange using [Django REST Framework](https://www.django-rest-framework.org/),  [VueX](https://vuex.vuejs.org/) and [Axios](https://github.com/axios/axios)
+- Connecting the frontend to a [Channels](https://channels.readthedocs.io/en/latest/) websocket
+- Authentication (token vs session)
+
+The talk will end with a conclusion of positive and negative experiences encountered during the development of the application
+
+Video: https://www.youtube.com/watch?v=BFAWt7YGiKs&amp;ab_channel=DjangoConEurope">
+    <meta property="og:url" content="index.html">
+    <meta property="twitter:card" content="summary">
+
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../cfp-static/common/img/favicon-32x32.816e12963927.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../cfp-static/common/img/favicon-16x16.b1e178982893.png">
+    
+
+    <link rel="stylesheet" type="text/css" href="../../../cfp-static/common/scss/uncompressed.ec8d16cc3696.css" />
+    
+        <link rel="stylesheet" type="text/css" href="../../../cfp-static/vendored/fullcalendar/fullcalendar.min.ba055a2cd2b3.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/cfp.ff24a3f080cf5b33.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/agenda.db276abdb6c8be4d.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="../../../cfp-media/porto/css/cfp_mYuJO4r.css"/>
+    <script type="text/javascript" src="../../../cfp-static/CACHE/js/output.5b270a5bf623.js" defer></script>
+    
+    
+    <link rel="alternate" type="application/json" title="DjangoCon Europe 2020 API" href="https://cfp.2021.djangocon.eu/api/events/porto/talks/HK3NUR" />
+
+    
+    
+
+</head>
+<body>
+    <div id="top-bg" class="header bg-primary">
+    
+        <img src="../../../cfp-media/porto/img/background_OluCp1S.jpg" id="header-image">
+    
+    </div>
+    
+    <div class="container" id="main-container">
+        <header>
+            <h1>
+                <a href="../../schedule/index.html">
+                    
+                    <img src="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png" id="event-logo" alt="The event's logo">
+                    
+                </a>
+            </h1>
+            <div class="d-flex" id="header-row">
+            
+            
+                <a href="../../login/index.html">login</a>
+            
+            </div>
+        </header>
+        <div class="card" id="main-card">
+            <main>
+                
+
+                
+    
+    
+<article>
+    <h3 class="talk-title">
+        <div class="heading-with-buttons">
+        Creating a spotify-like personal streaming service with Django and Vue: Lessons learned
+        <div class="buttons" id="talk-buttons">
+            
+            <a class="btn btn-outline-primary" href="../porto-HK3NUR.ics">
+                <i class="fa fa-calendar"></i> .ical
+            </a>
+            
+            
+                <a href="feedback/index.html"
+                        class="btn btn-success">
+                    <i class="fa fa-comments"></i> Feedback
+                </a>
+            
+            
+        </div>
+        </div>
+        <small>
+            
+                2020-09-18, 15:10–15:50, Virtual
+            
+            
+        </small>
+    </h3>
+    <div class="talk row">
+        <div class="talk-content col-lg-8 col-md-6 col-xs-12">
+            
+            
+            <section class="abstract">
+                <p>In today's web, working with a frontend framework or library is becoming the norm. Vue is one of the most popular ones but how does it play with Django, what are the advantages and caveats?</p>
+<p>We'll use a practical example to explore some of those, ranging from getting the 2 frameworks to "just" work together to data exchange through a DRF API, authentication and websockets.</p>
+            </section>
+            
+            <hr />
+            
+            <section class="description">
+                <p>We'll use <a href="https://gitlab.levitnet.be/emma/radioify/-/tree/master" rel="nofollow">a spotify-like personal streaming service</a> as a sample project for our journey into Django and Vue integration. We'll start with a short demo of the application so that everyone knows what we will be looking into.</p>
+<p>During the talk we'll cover the following topics:</p>
+<ul>
+<li>Getting both development servers (Django and <a href="https://vuejs.org/" rel="nofollow">Vue</a>) running and having them talk to each other.</li>
+<li>Overview of Vue tools (browser extensions, cheat sheet, cli)</li>
+<li>Vue basics</li>
+<li>Data exchange using <a href="https://www.django-rest-framework.org/" rel="nofollow">Django REST Framework</a>,  <a href="https://vuex.vuejs.org/" rel="nofollow">VueX</a> and <a href="https://github.com/axios/axios" rel="nofollow">Axios</a></li>
+<li>Connecting the frontend to a <a href="https://channels.readthedocs.io/en/latest/" rel="nofollow">Channels</a> websocket</li>
+<li>Authentication (token vs session)</li>
+</ul>
+<p>The talk will end with a conclusion of positive and negative experiences encountered during the development of the application</p>
+<p>Video: <a href="https://www.youtube.com/watch?v=BFAWt7YGiKs&amp;ab_channel=DjangoConEurope" rel="nofollow">https://www.youtube.com/watch?v=BFAWt7YGiKs&amp;ab_channel=DjangoConEurope</a></p>
+            </section>
+            
+            </section>
+            
+        </div>
+        <aside class="col-lg-4 col-md-6 col-xs-12">
+            
+            <div class="image speakers">
+                <a href="../../../cfp-media/porto/images/HK3NUR/Screenshot_2020-03-01_12-37-54_3xMM2XA.png">
+                    <img src="../../../cfp-media/porto/images/HK3NUR/Screenshot_2020-03-01_12-37-54_3xMM2XA.png" alt="This talk's header image">
+                </a>
+            </div>
+            
+            
+            <div class="speakers">
+                <div class="speaker-header">
+                    
+                        Speaker
+                    
+                </div>
+                
+                    <div class="speaker">
+                        <a href="../../speaker/XREAEA/index.html">
+                            <div class="name">
+                                Emma Delescolle
+                            </div>
+                        </a>
+                        <div class="info">
+                            
+                        </div>
+                    </div>
+                
+            </div>
+            
+            
+        </aside>
+    </div>
+</article>
+
+
+            </main>
+        </div>
+        <footer>
+            
+            <a href="http://pretalx.com/" target="_blank" rel="noopener">
+                <img src="../../../cfp-static/common/img/logo.c86a874657c9.svg" alt="The pretalx logo">
+            </a>
+            
+                &middot;
+                <a href="mailto:content@djangocon.eu">Contact us</a>
+            
+            
+                &middot;
+                <a href="https://2020.djangocon.eu/conduct/privacy_guide/" target="_blank" rel="noopener">Imprint</a>
+            
+            
+        </footer>
+    </div>
+</body>
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/HK3NUR/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:32:18 GMT -->
+</html>

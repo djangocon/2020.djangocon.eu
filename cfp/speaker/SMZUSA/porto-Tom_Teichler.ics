@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//porto//SMZUSA
+BEGIN:VEVENT
+UID:pretalx-porto-9RLVSJ@cfp.2021.djangocon.eu
+DTSTART:20200918T113500Z
+DTEND:20200918T121500Z
+DESCRIPTION:Free software is all about participation\, and projects can emp
+ ower young people to participate by designing their software in a way that
+  opens it up for learning and teaching in education. This talk reports fro
+ m the AlekSIS project that develops real-world educational software that i
+ s intended to be extended by the students that actually work with it.
+DTSTAMP:20220201T163429Z
+LOCATION:Virtual
+SUMMARY:Digitisation and Education — How the AlekSIS project fosters co-c
+ reation of school software by young people - Tom Teichler\, Dominik George
+URL:https://cfp.2021.djangocon.eu/porto/talk/9RLVSJ/
+END:VEVENT
+END:VCALENDAR

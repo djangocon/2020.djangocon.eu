@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//KGM8UB
+BEGIN:VEVENT
+UID:pretalx-porto-KGM8UB@cfp.2021.djangocon.eu
+DTSTART:20200918T093500Z
+DTEND:20200918T101500Z
+DESCRIPTION:The Google Maps SDK: well-known\, powerful\, and extremely popu
+ lar - and after July 2018\, suddenly unaffordable. We needed to find an al
+ ternative for Django geospatial projects. This is the story of our search 
+ and what we found\, and the lessons that we’d like to share from the exp
+ erience. The good news is: we returned with new knowledge from our wanderi
+ ngs\, and were able to migrate our existing projects successfully.
+DTSTAMP:20220201T163019Z
+LOCATION:Virtual
+SUMMARY:There’s more than one way to draw a map - lessons learned after t
+ he Google Maps SDK became unaffordable - Basil Dubyk\, Alexander Gaevsky
+URL:https://cfp.2021.djangocon.eu/porto/talk/KGM8UB/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//porto//BLHUDY
+BEGIN:VEVENT
+UID:pretalx-porto-L9CTY7@cfp.2021.djangocon.eu
+DTSTART:20200918T085500Z
+DTEND:20200918T093500Z
+DESCRIPTION:"This site uses cookies"... no kidding! Every site uses cookies
+ ! Cookies are a much maligned\, but essential part of the web experience. 
+ But what actually *are* cookies? Why are they needed? How do they work? Ho
+ w are they used? How are they misused? And how have they changed as the mo
+ dern web as evolved? \n\nIn this talk\, you'll get a complete history of b
+ rowser cookies\, and a deep dive into the cookie specification. You'll lea
+ rn the various ways your Django site uses cookies\, and how others can use
+  use cookies on your site. And you'll get a preview of some changes that m
+ ay be coming to the way the web uses cookies.
+DTSTAMP:20220201T163421Z
+LOCATION:Virtual
+SUMMARY:C is for Cookie - Russell Keith-Magee
+URL:https://cfp.2021.djangocon.eu/porto/talk/L9CTY7/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,225 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/KGM8UB/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:30:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>There’s more than one way to draw a map - lessons learned after the Google Maps SDK became unaffordable ::  DjangoCon Europe 2020 :: pretalx</title>
+    <meta name="title" content="There’s more than one way to draw a map - lessons learned after the Google Maps SDK became unaffordable  - DjangoCon Europe 2020 pretalx">
+    <meta name="description" content="What would you do if the costs of an essential service in your project grew 14 times, literally overnight? That’s what we faced in 2018, when the Google changed the pricing structure for its Maps API. Suddenly, a viable project - a P2P platform for renting photo and video equipment - was no longer viable.
+
+Naturally, the first thing we did was panic. So did our client. Then we reminded ourselves that despite its ubiquity, Google is not the only provider of online maps. We started our search for a suitable alternative, that would offer equivalent functionality and convenience for a Django application, at an affordable price.
+
+Our application had a number of demands: we needed accurate geodata, geolocation, disambiguation of similar or identical place-names, and the ability to manage and display many thousands of geolocated items. The frontend needed to handle this smoothly and performantly, with features such as clusterification in order to provide a responsive experience in the user’s web browser.
+
+We found our solution in HERE Maps, but along the way, we researched several options in depth (OpenStreetMap, MapBox, TomTom and others) all from the point of view of the Django developer. 
+
+We’ll present our overview of these options and their various advantages, giving an up-to-date snapshot of some of the main candidates for Django mapping integration in 2020. We’ll show that not only is Google not the only option, it’s not even always the best.
+
+We learned that the criteria for choosing a good mapping service are not always the obvious ones, and that choices made on the basis of smaller or test projects sometimes don’t scale well. Now that we know what to look for when presented with the options, we’d like to share tips that will benefit any Django developer facing a similar choice, and reveal some of the hidden traps we discovered along the way. 
+
+We’ll also describe how we adapted to HERE Maps, our new tool, and the work we had to undertake to replace some of the functionality provided in Google’s API; our findings will help other Python/Django developers adopt HERE Maps in the future. 
+
+In all, we hope that our experience will turn out to be an entertaining story for the audience, a valuable guide to other Djangonauts who need a new map - and a reminder that Google is not the only option.
+
+Video: https://www.youtube.com/watch?v=1j7KptyNmS8&amp;ab_channel=DjangoConEurope">
+    <meta name="application-name" content="pretalx">
+    <meta name="generator" content="pretalx">
+    <meta name="keywords" content="DjangoCon Europe 2020, porto, 2020, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+    <meta name="referrer" content="origin-when-crossorigin">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#120E3D">
+    <meta name="HandheldFriendly" content="True"/>
+    <meta property="thumbnail" content="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png">
+    <meta property="og:image" content="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png">
+    <meta property="og:title" content="There’s more than one way to draw a map - lessons learned after the Google Maps SDK became unaffordable DjangoCon Europe 2020">
+    <meta property="og:description" content="What would you do if the costs of an essential service in your project grew 14 times, literally overnight? That’s what we faced in 2018, when the Google changed the pricing structure for its Maps API. Suddenly, a viable project - a P2P platform for renting photo and video equipment - was no longer viable.
+
+Naturally, the first thing we did was panic. So did our client. Then we reminded ourselves that despite its ubiquity, Google is not the only provider of online maps. We started our search for a suitable alternative, that would offer equivalent functionality and convenience for a Django application, at an affordable price.
+
+Our application had a number of demands: we needed accurate geodata, geolocation, disambiguation of similar or identical place-names, and the ability to manage and display many thousands of geolocated items. The frontend needed to handle this smoothly and performantly, with features such as clusterification in order to provide a responsive experience in the user’s web browser.
+
+We found our solution in HERE Maps, but along the way, we researched several options in depth (OpenStreetMap, MapBox, TomTom and others) all from the point of view of the Django developer. 
+
+We’ll present our overview of these options and their various advantages, giving an up-to-date snapshot of some of the main candidates for Django mapping integration in 2020. We’ll show that not only is Google not the only option, it’s not even always the best.
+
+We learned that the criteria for choosing a good mapping service are not always the obvious ones, and that choices made on the basis of smaller or test projects sometimes don’t scale well. Now that we know what to look for when presented with the options, we’d like to share tips that will benefit any Django developer facing a similar choice, and reveal some of the hidden traps we discovered along the way. 
+
+We’ll also describe how we adapted to HERE Maps, our new tool, and the work we had to undertake to replace some of the functionality provided in Google’s API; our findings will help other Python/Django developers adopt HERE Maps in the future. 
+
+In all, we hope that our experience will turn out to be an entertaining story for the audience, a valuable guide to other Djangonauts who need a new map - and a reminder that Google is not the only option.
+
+Video: https://www.youtube.com/watch?v=1j7KptyNmS8&amp;ab_channel=DjangoConEurope">
+    <meta property="og:url" content="index.html">
+    <meta property="twitter:card" content="summary">
+
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../cfp-static/common/img/favicon-32x32.816e12963927.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../cfp-static/common/img/favicon-16x16.b1e178982893.png">
+    
+
+    <link rel="stylesheet" type="text/css" href="../../../cfp-static/common/scss/uncompressed.ec8d16cc3696.css" />
+    
+        <link rel="stylesheet" type="text/css" href="../../../cfp-static/vendored/fullcalendar/fullcalendar.min.ba055a2cd2b3.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/cfp.ff24a3f080cf5b33.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/agenda.db276abdb6c8be4d.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="../../../cfp-media/porto/css/cfp_mYuJO4r.css"/>
+    <script type="text/javascript" src="../../../cfp-static/CACHE/js/output.5b270a5bf623.js" defer></script>
+    
+    
+    <link rel="alternate" type="application/json" title="DjangoCon Europe 2020 API" href="https://cfp.2021.djangocon.eu/api/events/porto/talks/KGM8UB" />
+
+    
+    
+
+</head>
+<body>
+    <div id="top-bg" class="header bg-primary">
+    
+        <img src="../../../cfp-media/porto/img/background_OluCp1S.jpg" id="header-image">
+    
+    </div>
+    
+    <div class="container" id="main-container">
+        <header>
+            <h1>
+                <a href="../../schedule/index.html">
+                    
+                    <img src="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png" id="event-logo" alt="The event's logo">
+                    
+                </a>
+            </h1>
+            <div class="d-flex" id="header-row">
+            
+            
+                <a href="../../login/index.html">login</a>
+            
+            </div>
+        </header>
+        <div class="card" id="main-card">
+            <main>
+                
+
+                
+    
+    
+<article>
+    <h3 class="talk-title">
+        <div class="heading-with-buttons">
+        There’s more than one way to draw a map - lessons learned after the Google Maps SDK became unaffordable
+        <div class="buttons" id="talk-buttons">
+            
+            <a class="btn btn-outline-primary" href="../porto-KGM8UB.ics">
+                <i class="fa fa-calendar"></i> .ical
+            </a>
+            
+            
+                <a href="feedback/index.html"
+                        class="btn btn-success">
+                    <i class="fa fa-comments"></i> Feedback
+                </a>
+            
+            
+        </div>
+        </div>
+        <small>
+            
+                2020-09-18, 10:35–11:15, Virtual
+            
+            
+        </small>
+    </h3>
+    <div class="talk row">
+        <div class="talk-content col-lg-8 col-md-6 col-xs-12">
+            
+            
+            <section class="abstract">
+                <p>The Google Maps SDK: well-known, powerful, and extremely popular - and after July 2018, suddenly unaffordable. We needed to find an alternative for Django geospatial projects. This is the story of our search and what we found, and the lessons that we’d like to share from the experience. The good news is: we returned with new knowledge from our wanderings, and were able to migrate our existing projects successfully.</p>
+            </section>
+            
+            <hr />
+            
+            <section class="description">
+                <p>What would you do if the costs of an essential service in your project grew 14 times, literally overnight? That’s what we faced in 2018, when the Google changed the pricing structure for its Maps API. Suddenly, a viable project - a P2P platform for renting photo and video equipment - was no longer viable.</p>
+<p>Naturally, the first thing we did was panic. So did our client. Then we reminded ourselves that despite its ubiquity, Google is not the only provider of online maps. We started our search for a suitable alternative, that would offer equivalent functionality and convenience for a Django application, at an affordable price.</p>
+<p>Our application had a number of demands: we needed accurate geodata, geolocation, disambiguation of similar or identical place-names, and the ability to manage and display many thousands of geolocated items. The frontend needed to handle this smoothly and performantly, with features such as clusterification in order to provide a responsive experience in the user’s web browser.</p>
+<p>We found our solution in HERE Maps, but along the way, we researched several options in depth (OpenStreetMap, MapBox, TomTom and others) all from the point of view of the Django developer. </p>
+<p>We’ll present our overview of these options and their various advantages, giving an up-to-date snapshot of some of the main candidates for Django mapping integration in 2020. We’ll show that not only is Google not the only option, it’s not even always the best.</p>
+<p>We learned that the criteria for choosing a good mapping service are not always the obvious ones, and that choices made on the basis of smaller or test projects sometimes don’t scale well. Now that we know what to look for when presented with the options, we’d like to share tips that will benefit any Django developer facing a similar choice, and reveal some of the hidden traps we discovered along the way. </p>
+<p>We’ll also describe how we adapted to HERE Maps, our new tool, and the work we had to undertake to replace some of the functionality provided in Google’s API; our findings will help other Python/Django developers adopt HERE Maps in the future. </p>
+<p>In all, we hope that our experience will turn out to be an entertaining story for the audience, a valuable guide to other Djangonauts who need a new map - and a reminder that Google is not the only option.</p>
+<p>Video: <a href="https://www.youtube.com/watch?v=1j7KptyNmS8&amp;ab_channel=DjangoConEurope" rel="nofollow">https://www.youtube.com/watch?v=1j7KptyNmS8&amp;ab_channel=DjangoConEurope</a></p>
+            </section>
+            
+            </section>
+            
+        </div>
+        <aside class="col-lg-4 col-md-6 col-xs-12">
+            
+            
+            <div class="speakers">
+                <div class="speaker-header">
+                    
+                        Speakers
+                    
+                </div>
+                
+                    <div class="speaker">
+                        <a href="../../speaker/FRQYEV/index.html">
+                            <div class="name">
+                                Basil Dubyk
+                            </div>
+                        </a>
+                        <div class="info">
+                            
+                        </div>
+                    </div>
+                
+                    <div class="speaker">
+                        <a href="../../speaker/NYU9SA/index.html">
+                            <div class="name">
+                                Alexander Gaevsky
+                            </div>
+                        </a>
+                        <div class="info">
+                            
+                        </div>
+                    </div>
+                
+            </div>
+            
+            
+        </aside>
+    </div>
+</article>
+
+
+            </main>
+        </div>
+        <footer>
+            
+            <a href="http://pretalx.com/" target="_blank" rel="noopener">
+                <img src="../../../cfp-static/common/img/logo.c86a874657c9.svg" alt="The pretalx logo">
+            </a>
+            
+                &middot;
+                <a href="mailto:content@djangocon.eu">Contact us</a>
+            
+            
+                &middot;
+                <a href="https://2020.djangocon.eu/conduct/privacy_guide/" target="_blank" rel="noopener">Imprint</a>
+            
+            
+        </footer>
+    </div>
+</body>
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/KGM8UB/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:30:20 GMT -->
+</html>

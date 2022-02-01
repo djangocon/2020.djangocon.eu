@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//9HUUB8
+BEGIN:VEVENT
+UID:pretalx-porto-9HUUB8@cfp.2021.djangocon.eu
+DTSTART:20200918T125500Z
+DTEND:20200918T141000Z
+DESCRIPTION:Biometrics are widely regarded by the public\, and many develop
+ ers\, as heightened security. Their actual track record tells a very diffe
+ rent story. Biometric technologies are systematically making the world a l
+ ess safe place. We have an obligation to do something about that. And we c
+ an.
+DTSTAMP:20220201T163153Z
+LOCATION:Virtual
+SUMMARY:KEYNOTE - Biometric Unsecurity - Carina C. Zona
+URL:https://cfp.2021.djangocon.eu/porto/talk/9HUUB8/
+END:VEVENT
+END:VCALENDAR

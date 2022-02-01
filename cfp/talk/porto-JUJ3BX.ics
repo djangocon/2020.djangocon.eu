@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//JUJ3BX
+BEGIN:VEVENT
+UID:pretalx-porto-JUJ3BX@cfp.2021.djangocon.eu
+DTSTART:20200919T145000Z
+DTEND:20200919T153000Z
+DESCRIPTION:Ever had a ModelForm\, a DRF Serializer\, a FilterSet grind to 
+ a halt rendering a choice field? Of course you have. Ever given up on it a
+ nd resorted to raw ids? -- No don't answer that.\n\nWe're going to look at
+  how you can get a grip on ModelChoiceField when you're dealing with lots 
+ of related objects\, and when you need to offer that choice again and agai
+ n and again\, without needing to put the kettle on.
+DTSTAMP:20220201T163234Z
+LOCATION:Virtual
+SUMMARY:Choose\, and choose quickly: Optimising ModelChoiceField - Carlton 
+ Gibson
+URL:https://cfp.2021.djangocon.eu/porto/talk/JUJ3BX/
+END:VEVENT
+END:VCALENDAR

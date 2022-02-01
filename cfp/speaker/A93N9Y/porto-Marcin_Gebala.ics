@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//porto//A93N9Y
+BEGIN:VEVENT
+UID:pretalx-porto-X3NQV3@cfp.2021.djangocon.eu
+DTSTART:20200919T101500Z
+DTEND:20200919T105500Z
+DESCRIPTION:GraphQL is a more flexible alternative to REST for building web
+  APIs\, and thus is becoming a strong foundation for any modern web stack.
+  This is especially true where static HTML templates are not cutting it or
+  a sophisticated single-page interface is needed\, which is often the case
+  on the web nowadays. Even though Django was designed as a model-view-temp
+ late framework\, it can work perfectly well as a GraphQL server to power J
+ avaScript apps. This talk will elaborate on the anatomy of a GraphQL-first
+  Django application\, in which GraphQL queries and mutations are the prima
+ ry interfaces exposed by the backend\, while the frontend remains fully dy
+ namic.
+DTSTAMP:20220201T163414Z
+LOCATION:Virtual
+SUMMARY:GraphQL-first Django - Marcin Gębala
+URL:https://cfp.2021.djangocon.eu/porto/talk/X3NQV3/
+END:VEVENT
+END:VCALENDAR

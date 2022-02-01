@@ -1,0 +1,214 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/DA7WFX/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:32:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>A Pentester&#39;s Thoughts on Django Security ::  DjangoCon Europe 2020 :: pretalx</title>
+    <meta name="title" content="A Pentester&#39;s Thoughts on Django Security  - DjangoCon Europe 2020 pretalx">
+    <meta name="description" content="**Motivation**
+
+By day, I work as a penetration tester trying to find security vulnerabilities in other people&#39;s web applications. By night, I develop my own Django-based web application and try not to make the same mistakes I see in my customer&#39;s applications. Within the last two years of working with Django, I could not stop being amazed by the security focus of the Django team.
+
+**Praise and History**
+
+In a short history lesson, I want to point out a few design choices and decisions the Django team has made over the years which make me very comfortable with using Django as a web framework because they are proof that the Django team takes security very seriously.
+
+**Django Security Features and their limitations**
+
+While it is amazing what Django does for security already out of the box, it does not replace developer awareness. I would like to give an overview of Django&#39;s security features and point out their (already known and documented) limitations especially in cases where developer&#39;s might have a false sense of &quot;security is already taken care off&quot;.
+
+**Best Practices**
+
+Finally, I will share some security best practices which will help avoiding unnecessary pentest findings and support you with keeping your applications secure.
+
+Video: https://www.youtube.com/watch?v=Tvr6CXh3lQk&amp;ab_channel=DjangoConEurope">
+    <meta name="application-name" content="pretalx">
+    <meta name="generator" content="pretalx">
+    <meta name="keywords" content="DjangoCon Europe 2020, porto, 2020, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+    <meta name="referrer" content="origin-when-crossorigin">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#120E3D">
+    <meta name="HandheldFriendly" content="True"/>
+    <meta property="thumbnail" content="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png">
+    <meta property="og:image" content="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png">
+    <meta property="og:title" content="A Pentester&#39;s Thoughts on Django Security DjangoCon Europe 2020">
+    <meta property="og:description" content="**Motivation**
+
+By day, I work as a penetration tester trying to find security vulnerabilities in other people&#39;s web applications. By night, I develop my own Django-based web application and try not to make the same mistakes I see in my customer&#39;s applications. Within the last two years of working with Django, I could not stop being amazed by the security focus of the Django team.
+
+**Praise and History**
+
+In a short history lesson, I want to point out a few design choices and decisions the Django team has made over the years which make me very comfortable with using Django as a web framework because they are proof that the Django team takes security very seriously.
+
+**Django Security Features and their limitations**
+
+While it is amazing what Django does for security already out of the box, it does not replace developer awareness. I would like to give an overview of Django&#39;s security features and point out their (already known and documented) limitations especially in cases where developer&#39;s might have a false sense of &quot;security is already taken care off&quot;.
+
+**Best Practices**
+
+Finally, I will share some security best practices which will help avoiding unnecessary pentest findings and support you with keeping your applications secure.
+
+Video: https://www.youtube.com/watch?v=Tvr6CXh3lQk&amp;ab_channel=DjangoConEurope">
+    <meta property="og:url" content="index.html">
+    <meta property="twitter:card" content="summary">
+
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../cfp-static/common/img/favicon-32x32.816e12963927.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../cfp-static/common/img/favicon-16x16.b1e178982893.png">
+    
+
+    <link rel="stylesheet" type="text/css" href="../../../cfp-static/common/scss/uncompressed.ec8d16cc3696.css" />
+    
+        <link rel="stylesheet" type="text/css" href="../../../cfp-static/vendored/fullcalendar/fullcalendar.min.ba055a2cd2b3.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/cfp.ff24a3f080cf5b33.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/agenda.db276abdb6c8be4d.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="../../../cfp-media/porto/css/cfp_mYuJO4r.css"/>
+    <script type="text/javascript" src="../../../cfp-static/CACHE/js/output.5b270a5bf623.js" defer></script>
+    
+    
+    <link rel="alternate" type="application/json" title="DjangoCon Europe 2020 API" href="https://cfp.2021.djangocon.eu/api/events/porto/talks/DA7WFX" />
+
+    
+    
+
+</head>
+<body>
+    <div id="top-bg" class="header bg-primary">
+    
+        <img src="../../../cfp-media/porto/img/background_OluCp1S.jpg" id="header-image">
+    
+    </div>
+    
+    <div class="container" id="main-container">
+        <header>
+            <h1>
+                <a href="../../schedule/index.html">
+                    
+                    <img src="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png" id="event-logo" alt="The event's logo">
+                    
+                </a>
+            </h1>
+            <div class="d-flex" id="header-row">
+            
+            
+                <a href="../../login/index.html">login</a>
+            
+            </div>
+        </header>
+        <div class="card" id="main-card">
+            <main>
+                
+
+                
+    
+    
+<article>
+    <h3 class="talk-title">
+        <div class="heading-with-buttons">
+        A Pentester&#39;s Thoughts on Django Security
+        <div class="buttons" id="talk-buttons">
+            
+            <a class="btn btn-outline-primary" href="../porto-DA7WFX.ics">
+                <i class="fa fa-calendar"></i> .ical
+            </a>
+            
+            
+                <a href="feedback/index.html"
+                        class="btn btn-success">
+                    <i class="fa fa-comments"></i> Feedback
+                </a>
+            
+            
+        </div>
+        </div>
+        <small>
+            
+                2020-09-18, 15:50–16:30, Virtual
+            
+            
+        </small>
+    </h3>
+    <div class="talk row">
+        <div class="talk-content col-lg-8 col-md-6 col-xs-12">
+            
+            
+            <section class="abstract">
+                <p>Django can make you feel like you are in security heaven and yet there are some pitfalls to avoid. In this talk, I want to praise Django design choices, give an overview of Django's security features and their limitations and conclude with some general security best practices to keep in mind.</p>
+            </section>
+            
+            <hr />
+            
+            <section class="description">
+                <p><strong>Motivation</strong></p>
+<p>By day, I work as a penetration tester trying to find security vulnerabilities in other people's web applications. By night, I develop my own Django-based web application and try not to make the same mistakes I see in my customer's applications. Within the last two years of working with Django, I could not stop being amazed by the security focus of the Django team.</p>
+<p><strong>Praise and History</strong></p>
+<p>In a short history lesson, I want to point out a few design choices and decisions the Django team has made over the years which make me very comfortable with using Django as a web framework because they are proof that the Django team takes security very seriously.</p>
+<p><strong>Django Security Features and their limitations</strong></p>
+<p>While it is amazing what Django does for security already out of the box, it does not replace developer awareness. I would like to give an overview of Django's security features and point out their (already known and documented) limitations especially in cases where developer's might have a false sense of "security is already taken care off".</p>
+<p><strong>Best Practices</strong></p>
+<p>Finally, I will share some security best practices which will help avoiding unnecessary pentest findings and support you with keeping your applications secure.</p>
+<p>Video: <a href="https://www.youtube.com/watch?v=Tvr6CXh3lQk&amp;ab_channel=DjangoConEurope" rel="nofollow">https://www.youtube.com/watch?v=Tvr6CXh3lQk&amp;ab_channel=DjangoConEurope</a></p>
+            </section>
+            
+            </section>
+            
+        </div>
+        <aside class="col-lg-4 col-md-6 col-xs-12">
+            
+            
+            <div class="speakers">
+                <div class="speaker-header">
+                    
+                        Speaker
+                    
+                </div>
+                
+                    <div class="speaker">
+                        <a href="../../speaker/BCRFPM/index.html">
+                            <div class="name">
+                                Pascal Uter
+                            </div>
+                        </a>
+                        <div class="info">
+                            
+                        </div>
+                    </div>
+                
+            </div>
+            
+            
+        </aside>
+    </div>
+</article>
+
+
+            </main>
+        </div>
+        <footer>
+            
+            <a href="http://pretalx.com/" target="_blank" rel="noopener">
+                <img src="../../../cfp-static/common/img/logo.c86a874657c9.svg" alt="The pretalx logo">
+            </a>
+            
+                &middot;
+                <a href="mailto:content@djangocon.eu">Contact us</a>
+            
+            
+                &middot;
+                <a href="https://2020.djangocon.eu/conduct/privacy_guide/" target="_blank" rel="noopener">Imprint</a>
+            
+            
+        </footer>
+    </div>
+</body>
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/DA7WFX/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:32:19 GMT -->
+</html>

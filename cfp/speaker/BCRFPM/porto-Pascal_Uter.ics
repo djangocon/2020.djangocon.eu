@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//porto//BCRFPM
+BEGIN:VEVENT
+UID:pretalx-porto-DA7WFX@cfp.2021.djangocon.eu
+DTSTART:20200918T145000Z
+DTEND:20200918T153000Z
+DESCRIPTION:Django can make you feel like you are in security heaven and ye
+ t there are some pitfalls to avoid. In this talk\, I want to praise Django
+  design choices\, give an overview of Django's security features and their
+  limitations and conclude with some general security best practices to kee
+ p in mind.
+DTSTAMP:20220201T163419Z
+LOCATION:Virtual
+SUMMARY:A Pentester's Thoughts on Django Security - Pascal Uter
+URL:https://cfp.2021.djangocon.eu/porto/talk/DA7WFX/
+END:VEVENT
+END:VCALENDAR

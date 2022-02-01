@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//porto//XMEJBK
+BEGIN:VEVENT
+UID:pretalx-porto-NK7DRT@cfp.2021.djangocon.eu
+DTSTART:20200919T081500Z
+DTEND:20200919T085500Z
+DESCRIPTION:More than once I have had the pleasure of being informed that m
+ y job (which by the way\, is also the job of quite a few members of the Dj
+ angoCon audience) is not a “real” job.\n\nIn this talk I will try to d
+ iscover what a “real job” is. I will also find out more about what is 
+ “real”\, and what is a “job”. \n\nAs a person who allegedly does n
+ ot have a real job\, and who comes from a country (Belgium) whose reality 
+ some people also doubt\, I am ideally placed to make these discoveries. I 
+ will enlist the assistance of some famous Belgians\, including the famous 
+ philosopher-actor Jean-Claude Van Damme (not a real actor\, according to s
+ ome\; not a real philosopher\, according to others) and the artist René M
+ agritte. \n\nI plan to show that being a web developer is not really a job
+  - it’s much more important than that.
+DTSTAMP:20220201T163411Z
+LOCATION:Virtual
+SUMMARY:Ceci n'est pas un job - Leila Verhaegen
+URL:https://cfp.2021.djangocon.eu/porto/talk/NK7DRT/
+END:VEVENT
+END:VCALENDAR

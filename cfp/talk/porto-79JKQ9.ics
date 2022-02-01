@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//79JKQ9
+BEGIN:VEVENT
+UID:pretalx-porto-79JKQ9@cfp.2021.djangocon.eu
+DTSTART:20200918T161000Z
+DTEND:20200918T165000Z
+DESCRIPTION:Why did Facebook have a public Django-based site that got hacke
+ d? What was the flaw discovered in GitHub's password reset mechanism that 
+ was also found to affect Django auth? Are *your* projects vulnerable?\n\nI
+ 'll walk you through some stories of common web vulnerabilities\, and what
+  they mean for Django. I've had the pleasure of working on over 50 Django 
+ projects so far\, so I've seen some patterns emerge.
+DTSTAMP:20220201T163221Z
+LOCATION:Virtual
+SUMMARY:How to Hack a Django Website - Adam Johnson
+URL:https://cfp.2021.djangocon.eu/porto/talk/79JKQ9/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//porto//ZXVHMC
+BEGIN:VEVENT
+UID:pretalx-porto-9WGTJF@cfp.2021.djangocon.eu
+DTSTART:20200919T105500Z
+DTEND:20200919T113500Z
+DESCRIPTION:Many Django apps use Celery as a task queue for long running ta
+ sks. Many talks and blogs focus on how to use Celery. But we can't stop th
+ ere. Once you're actually using Celery it's time to understand what it is 
+ actually doing so you can be prepared for when things go wrong and know wh
+ at tools are out there to help you troubleshoot any issues.
+DTSTAMP:20220201T163359Z
+LOCATION:Virtual
+SUMMARY:Understanding Celery to maintain your sanity - Ashwini Balnaves
+URL:https://cfp.2021.djangocon.eu/porto/talk/9WGTJF/
+END:VEVENT
+END:VCALENDAR

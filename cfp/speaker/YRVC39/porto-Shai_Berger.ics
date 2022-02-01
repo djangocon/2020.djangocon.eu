@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//porto//YRVC39
+BEGIN:VEVENT
+UID:pretalx-porto-GJGDDR@cfp.2021.djangocon.eu
+DTSTART:20200919T153000Z
+DTEND:20200919T161000Z
+DESCRIPTION:The story of how the Choices feature in Django 3.0 came to be\,
+  and how we met challenges of design\, implementation\, and the project's 
+ process. A peek "behind the curtains"(*) of Django development - from disc
+ ussions and proof-of-concept to a merged PR - and some lessons learned.\n\
+ n(*) It's all public
+DTSTAMP:20220201T163424Z
+LOCATION:Virtual
+SUMMARY:The Design and Development of Choices in Django 3.0 - Shai Berger
+URL:https://cfp.2021.djangocon.eu/porto/talk/GJGDDR/
+END:VEVENT
+END:VCALENDAR

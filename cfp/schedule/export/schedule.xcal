@@ -1,0 +1,925 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<iCalendar xmlns:pentabarf='http://pentabarf.org' xmlns:xCal='urn:ietf:params:xml:ns:xcal'>
+    <vcalendar>
+        <version>2.0</version>
+        <prodid>-//Pentabarf//Schedule//EN</prodid>
+        <x-wr-caldesc></x-wr-caldesc>
+        <x-wr-calname></x-wr-calname>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>AF8EFE@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>7708382</pentabarf:event-id>
+            <pentabarf:event-slug>-AF8EFE</pentabarf:event-slug>
+            <pentabarf:title>How To Get On This Stage (And What To Do When You Get There)</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200918T091500</dtstart>
+            <dtend>20200918T095500</dtend>
+            <duration>0.04000</duration>
+            <summary>How To Get On This Stage (And What To Do When You Get There)</summary>
+            <description>Speaking at a programming conference may seem like an impossible goal for many people, for a number of reasons: fear of public speaking, the feeling that you don&#39;t know enough to give a talk, you don&#39;t think you have any good ideas for a talk, or maybe the idea that public speaking is very difficult. I&#39;m going to persuade you that you _should_ get up on stage and give a talk to your peers. Once I&#39;ve persuaded you that you should give a talk, then I&#39;m going to show you _how_.
+
+## Coming up with an idea
+
+Coming up with an idea can sometimes be the hardest part! I&#39;ll cover how to get (and keep) ideas by looking at what you do every day, what you know most about, and keeping a notebook of ideas so that when the time comes to submit a proposal, you&#39;ll have plenty of choice.
+
+## Submitting a proposal
+
+Submitting a proposal to a CFP can seem quite daunting. Even if it doesn&#39;t seem daunting, there are a bunch of things you can get wrong that make it less likely for your talk to be accepted. I&#39;ll give you several tips for increasing your chances of being selected. I&#39;ll also talk about _rejection_ and why you shouldn&#39;t feel dejected about being rejected. (It happens to everyone!)
+
+## Writing a talk
+
+I&#39;ll describe some processes for writing a talk and building a slide deck to match (if you want to!) I&#39;ll cover some different styles of public speaking, including how to find your own style, and I&#39;ll talk about live coding. (With a strong recommendation that you shouldn&#39;t do it - at least until you&#39;ve got more experience.)
+
+## Preparation
+
+**Practice, practice, practice!** Many inexperienced speakers underestimate how much rehearsal is required to give a great talk; I&#39;m going to correct this misunderstanding! I&#39;ll cover some different approaches to ensuring that you&#39;re less nervous when it&#39;s time to step on to the stage, and you&#39;ve maximised your chances of your talk going smoothly.
+
+## Giving your talk
+
+After you&#39;ve had an idea, had your proposal accepted, written your talk, designed your slides, and practiced (and practiced and practiced) it&#39;ll be time to step behind the lectern and give your talk! I&#39;ll give you tried and tested advice from experienced speakers to help your talk go smoothly.
+
+And you know what? Even if some things go wrong you&#39;ll still be applauded enthusiastically by an audience of your peers!
+
+Video: https://www.youtube.com/watch?v=4rsL974kwsE&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/AF8EFE/</url>
+            <location>Virtual</location>
+            
+            <attendee>Mark Smith</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>L9CTY7@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>490534345</pentabarf:event-id>
+            <pentabarf:event-slug>-L9CTY7</pentabarf:event-slug>
+            <pentabarf:title>C is for Cookie</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200918T095500</dtstart>
+            <dtend>20200918T103500</dtend>
+            <duration>0.04000</duration>
+            <summary>C is for Cookie</summary>
+            <description>Whether you like it or not - if you&#39;re using the web, you use cookies. HTTP is a stateless protocol; without a mechanism to preserve a user&#39;s state between requests, many of the web interactions we take for granted would be much more difficult. For most websites, cookies are that mechanism.
+
+This talk will provide a deep dive into the history and use of cookies. You&#39;ll get a walk through of the what and how of everything that can be done with cookies, and you&#39;ll see how to control those properties in your Django site. You&#39;ll also get a brief overview of the the ways cookies can be abused, and how governments are intervening on behalf of users. Lastly, you&#39;ll learn about some proposals that are working their way through standards organizations that could radically change how sites use cookies.
+
+And, if you&#39;re really, really good and stay all the way to the end, I&#39;ll share my secret family choc-chip cookie recipe.
+
+Video: https://www.youtube.com/watch?v=dinuA2KM3B4&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/L9CTY7/</url>
+            <location>Virtual</location>
+            
+            <attendee>Russell Keith-Magee</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>KGM8UB@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>417399845</pentabarf:event-id>
+            <pentabarf:event-slug>-KGM8UB</pentabarf:event-slug>
+            <pentabarf:title>There’s more than one way to draw a map - lessons learned after the Google Maps SDK became unaffordable</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200918T103500</dtstart>
+            <dtend>20200918T111500</dtend>
+            <duration>0.04000</duration>
+            <summary>There’s more than one way to draw a map - lessons learned after the Google Maps SDK became unaffordable</summary>
+            <description>What would you do if the costs of an essential service in your project grew 14 times, literally overnight? That’s what we faced in 2018, when the Google changed the pricing structure for its Maps API. Suddenly, a viable project - a P2P platform for renting photo and video equipment - was no longer viable.
+
+Naturally, the first thing we did was panic. So did our client. Then we reminded ourselves that despite its ubiquity, Google is not the only provider of online maps. We started our search for a suitable alternative, that would offer equivalent functionality and convenience for a Django application, at an affordable price.
+
+Our application had a number of demands: we needed accurate geodata, geolocation, disambiguation of similar or identical place-names, and the ability to manage and display many thousands of geolocated items. The frontend needed to handle this smoothly and performantly, with features such as clusterification in order to provide a responsive experience in the user’s web browser.
+
+We found our solution in HERE Maps, but along the way, we researched several options in depth (OpenStreetMap, MapBox, TomTom and others) all from the point of view of the Django developer. 
+
+We’ll present our overview of these options and their various advantages, giving an up-to-date snapshot of some of the main candidates for Django mapping integration in 2020. We’ll show that not only is Google not the only option, it’s not even always the best.
+
+We learned that the criteria for choosing a good mapping service are not always the obvious ones, and that choices made on the basis of smaller or test projects sometimes don’t scale well. Now that we know what to look for when presented with the options, we’d like to share tips that will benefit any Django developer facing a similar choice, and reveal some of the hidden traps we discovered along the way. 
+
+We’ll also describe how we adapted to HERE Maps, our new tool, and the work we had to undertake to replace some of the functionality provided in Google’s API; our findings will help other Python/Django developers adopt HERE Maps in the future. 
+
+In all, we hope that our experience will turn out to be an entertaining story for the audience, a valuable guide to other Djangonauts who need a new map - and a reminder that Google is not the only option.
+
+Video: https://www.youtube.com/watch?v=1j7KptyNmS8&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/KGM8UB/</url>
+            <location>Virtual</location>
+            
+            <attendee>Alexander Gaevsky</attendee>
+            
+            <attendee>Basil Dubyk</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>CEGCQX@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>96454825</pentabarf:event-id>
+            <pentabarf:event-slug>-CEGCQX</pentabarf:event-slug>
+            <pentabarf:title>A Pony On The Move: How Migrations Work In Django 🐎</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200918T111500</dtstart>
+            <dtend>20200918T115500</dtend>
+            <duration>0.04000</duration>
+            <summary>A Pony On The Move: How Migrations Work In Django 🐎</summary>
+            <description>Django’s migration framework has been around for almost 6 years. From the outset, it had a long journey ahead, considering all the learnings and experience Andrew Godwin had with the 3rd party package South. However, Django’s migrations are _not_ to be considered a rewrite of South as they work fundamentally different.
+
+This talk will give an insight view into the components that make up Django’s migration framework. The talk will lay-out how these components fit and work together. It will outline major challenges and problems that were encountered and overcome along the way.
+
+One of the goals of this talk is to reduce the entry barrier for potential Django contributors to the rather complex migration framework. From their own experience, the author is well aware that there are some parts that are tricky and non-trivial and non-obvious. Thus, this talk is absolutely aimed at prospective contributors, regardless if they are first-time Django contributors or ones with a year-long track record.
+
+Video: https://www.youtube.com/watch?v=u6cVvbuUzlk&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/CEGCQX/</url>
+            <location>Virtual</location>
+            
+            <attendee>Markus Holtermann</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>UVAH79@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>843236985</pentabarf:event-id>
+            <pentabarf:event-slug>-UVAH79</pentabarf:event-slug>
+            <pentabarf:title>Developing a Security Mindset: Practical Lessons for Pythonistas</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200918T115500</dtstart>
+            <dtend>20200918T123500</dtend>
+            <duration>0.04000</duration>
+            <summary>Developing a Security Mindset: Practical Lessons for Pythonistas</summary>
+            <description>As more of the world is run by software, software security becomes increasingly important. As developers, we have a lot on our plate already and developing your security mindset may seem intimidating. It might seem that security should just altogether be someone else’s job.
+
+This talk will discuss why developers should grow their security mindset and will give them practical advice for how to do so—even in a workplace where many issues compete for their attention.
+
+If you are new to security, this is the talk for you. If you know a bit and want to help your team strengthen their security posture, this talk is for you. If you want to take the next step in your security journey, this talk will point the way.
+
+Video: https://www.youtube.com/watch?v=ZXVNv6GqWu8&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/UVAH79/</url>
+            <location>Virtual</location>
+            
+            <attendee>Hayley Denbraver</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>9RLVSJ@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>1247217044</pentabarf:event-id>
+            <pentabarf:event-slug>-9RLVSJ</pentabarf:event-slug>
+            <pentabarf:title>Digitisation and Education — How the AlekSIS project fosters co-creation of school software by young people</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200918T123500</dtstart>
+            <dtend>20200918T131500</dtend>
+            <duration>0.04000</duration>
+            <summary>Digitisation and Education — How the AlekSIS project fosters co-creation of school software by young people</summary>
+            <description>Free software is all about participation, and this means that every user is a potential contributor. While all communities should keep this in mind, there is a very special target group that we can strive to empower through education: Young users, i.e. children and adolescents, both personally and in schools. Using the natural mentoring environment in schools, open software can be designed in a way that opens it for learning and teaching code, and contributing to real world software in class.
+
+We want to invite the audience on a journey from looking at tool requirements in schools and the many ways that young people use software, through experiences in convincing teachers that free software and helping students to participate in their digital world is important, right to impressions of how the AlekSIS project uses the Django ecosystem to create an enterprise-grade, ready to use school information system that still can be extended and co-designed by teachers, students and computer classes. Doing so, we want to look into the technical aspects of how we leverage the Django framework, thought-through coding style and modularisation, combined with a layer of abstraction to create a platform and app ecosystem that allow student groups to create their own apps for use cases at their schools, as well as into some pedagogic aspects of how a decentral group of software engineers, young students and teachers work together in an agile project.
+
+In the schools which drive the project, teachers benefit from a very well-fitted system they co-designed, and students benefit from computer lessons that result in a visible impact on their own environment instead of one-time projects from text books.
+
+Video: https://www.youtube.com/watch?v=tA8J-cfm3UU&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/9RLVSJ/</url>
+            <location>Virtual</location>
+            
+            <attendee>Tom Teichler</attendee>
+            
+            <attendee>Dominik George</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>QQWUBW@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>655611582</pentabarf:event-id>
+            <pentabarf:event-slug>-QQWUBW</pentabarf:event-slug>
+            <pentabarf:title>New ways to deploy your Django app</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200918T131500</dtstart>
+            <dtend>20200918T135500</dtend>
+            <duration>0.04000</duration>
+            <summary>New ways to deploy your Django app</summary>
+            <description>I talked about the future of Django app deployment in my talk on &#39;Serverlessness&#39;  at DjangoCon Europe in 2017, but three years later this still remains the hardest topic for many Django developers, as evidenced by the proportion of questions on StackOverflow and reddit with titles like &quot;I&#39;ve built my app, how do I make it live?&quot;. In same period, the tools available to app developers have matured, with tools like Zappa and Dokku, and services like Cloud Run and Fargate opening up new, simpler approaches to deployment.
+
+This will be a practical, hand-on talk, briefly outlining the issues which face developers before demonstrating three modern approaches, with carefully prepared live demos (and video fall backs, if necessary!). At the end I&#39;ll offer a simple model to help developers decide between the options for their particular needs, weighing up cost, simplicity, scalability and control.
+
+Video: https://www.youtube.com/watch?v=SiTat1-sknU&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/QQWUBW/</url>
+            <location>Virtual</location>
+            
+            <attendee>Tom Dyson</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>9HUUB8@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>1236839140</pentabarf:event-id>
+            <pentabarf:event-slug>-9HUUB8</pentabarf:event-slug>
+            <pentabarf:title>KEYNOTE - Biometric Unsecurity</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200918T135500</dtstart>
+            <dtend>20200918T151000</dtend>
+            <duration>1.01500</duration>
+            <summary>KEYNOTE - Biometric Unsecurity</summary>
+            <description>In this talk, you&#39;ll learn about the breathtaking range of biometrics being tracked and assessed. You&#39;ll learn about dangerously wrong conclusions being drawn. You&#39;ll learn about spurious underlying premises and untrustworthy training data, and widespread misuses that are determining life and death decisions in government, policing, and health monitoring.
+
+Most importantly, you&#39;ll learn how to assess these technologies, and avoid contributing to their development, misuse, and proliferation.
+
+Video: https://www.youtube.com/watch?v=flQZ32QBQY0&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Keynote</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/9HUUB8/</url>
+            <location>Virtual</location>
+            
+            <attendee>Carina C. Zona</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>HK3NUR@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>331032787</pentabarf:event-id>
+            <pentabarf:event-slug>-HK3NUR</pentabarf:event-slug>
+            <pentabarf:title>Creating a spotify-like personal streaming service with Django and Vue: Lessons learned</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200918T151000</dtstart>
+            <dtend>20200918T155000</dtend>
+            <duration>0.04000</duration>
+            <summary>Creating a spotify-like personal streaming service with Django and Vue: Lessons learned</summary>
+            <description>We&#39;ll use [a spotify-like personal streaming service](https://gitlab.levitnet.be/emma/radioify/-/tree/master) as a sample project for our journey into Django and Vue integration. We&#39;ll start with a short demo of the application so that everyone knows what we will be looking into.
+
+During the talk we&#39;ll cover the following topics:
+
+- Getting both development servers (Django and [Vue](https://vuejs.org/)) running and having them talk to each other.
+- Overview of Vue tools (browser extensions, cheat sheet, cli)
+- Vue basics
+- Data exchange using [Django REST Framework](https://www.django-rest-framework.org/),  [VueX](https://vuex.vuejs.org/) and [Axios](https://github.com/axios/axios)
+- Connecting the frontend to a [Channels](https://channels.readthedocs.io/en/latest/) websocket
+- Authentication (token vs session)
+
+The talk will end with a conclusion of positive and negative experiences encountered during the development of the application
+
+Video: https://www.youtube.com/watch?v=BFAWt7YGiKs&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/HK3NUR/</url>
+            <location>Virtual</location>
+            
+            <attendee>Emma Delescolle</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>DA7WFX@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>137312183</pentabarf:event-id>
+            <pentabarf:event-slug>-DA7WFX</pentabarf:event-slug>
+            <pentabarf:title>A Pentester&#39;s Thoughts on Django Security</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200918T155000</dtstart>
+            <dtend>20200918T163000</dtend>
+            <duration>0.04000</duration>
+            <summary>A Pentester&#39;s Thoughts on Django Security</summary>
+            <description>**Motivation**
+
+By day, I work as a penetration tester trying to find security vulnerabilities in other people&#39;s web applications. By night, I develop my own Django-based web application and try not to make the same mistakes I see in my customer&#39;s applications. Within the last two years of working with Django, I could not stop being amazed by the security focus of the Django team.
+
+**Praise and History**
+
+In a short history lesson, I want to point out a few design choices and decisions the Django team has made over the years which make me very comfortable with using Django as a web framework because they are proof that the Django team takes security very seriously.
+
+**Django Security Features and their limitations**
+
+While it is amazing what Django does for security already out of the box, it does not replace developer awareness. I would like to give an overview of Django&#39;s security features and point out their (already known and documented) limitations especially in cases where developer&#39;s might have a false sense of &quot;security is already taken care off&quot;.
+
+**Best Practices**
+
+Finally, I will share some security best practices which will help avoiding unnecessary pentest findings and support you with keeping your applications secure.
+
+Video: https://www.youtube.com/watch?v=Tvr6CXh3lQk&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/DA7WFX/</url>
+            <location>Virtual</location>
+            
+            <attendee>Pascal Uter</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>D9XNGW@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>173226824</pentabarf:event-id>
+            <pentabarf:event-slug>-D9XNGW</pentabarf:event-slug>
+            <pentabarf:title>Can&#39;t Get You Out of My Head</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200918T163000</dtstart>
+            <dtend>20200918T171000</dtend>
+            <duration>0.04000</duration>
+            <summary>Can&#39;t Get You Out of My Head</summary>
+            <description>HTTP headers are the–mostly–hidden backbone of our online infrastructure. However, for a standard designed to be consumed entirely by code, and rarely seen by people, HTTP headers contain a surprising amount of geeky humour and many oddities.
+
+Since reading the convoluted history of the browser user-agent and finding out that MySpace’s servers were powered by “Nerd Rage” I’ve been curious as to what other interesting histories headers had, or what easter eggs mischevious developers had hidden for others like them to find.
+
+Join me on this deep dive into HTTP headers as I go through how I spidered 10,000,000 domains. We’ll look at the challenges of writing an efficient, concurrent HTTP spider in Python as well as some of my findings from the harvested headers.
+
+Video: https://www.youtube.com/watch?v=i0WkpgLwtoA&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/D9XNGW/</url>
+            <location>Virtual</location>
+            
+            <attendee>Aaron Bassett</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>79JKQ9@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>1172292011</pentabarf:event-id>
+            <pentabarf:event-slug>-79JKQ9</pentabarf:event-slug>
+            <pentabarf:title>How to Hack a Django Website</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200918T171000</dtstart>
+            <dtend>20200918T175000</dtend>
+            <duration>0.04000</duration>
+            <summary>How to Hack a Django Website</summary>
+            <description>Security is boring. But it can suddenly get quite exciting... normally for the wrong reasons.
+
+I&#39;ll talk through a few stories of security flaws and misconfigurations in Django projects, and what you can do about them for your own projects:
+
+* A Django-based site on facebook.com with a remote code execution flaw
+* GitHub&#39;s broken password mechanism that was discovered to be a problem for much of the internet
+* How use of mark_safe is normally completely unsafe - and can lead to admin takeover
+* The one safe way to pass data to your JavaScript
+* How to help security researchers contact you directly about flaws, rather than get delayed by your confused but well-meaning support or sales staff
+
+Each short story will be backed with short code snippets to make the problems concrete. I&#39;ll also try cover where the web, Python, and Django are moving to make such flaws rarer.
+
+Video: https://www.youtube.com/watch?v=bvLJTNRpnt8&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/79JKQ9/</url>
+            <location>Virtual</location>
+            
+            <attendee>Adam Johnson</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>NK7DRT@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>558238707</pentabarf:event-id>
+            <pentabarf:event-slug>-NK7DRT</pentabarf:event-slug>
+            <pentabarf:title>Ceci n&#39;est pas un job</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200919T091500</dtstart>
+            <dtend>20200919T095500</dtend>
+            <duration>0.04000</duration>
+            <summary>Ceci n&#39;est pas un job</summary>
+            <description>This talk will bring you along for a journey illuminated by some insightful remarks by Jean-Claude Van Damme.
+Jean-Claude Van Damme is for some reason not considered a “real” philosopher. We’ll make our own judgements about that, and we’ll see whether what he has to say can shed some light on the business of web development - which some people don’t think is a “real” job.
+
+We’ll make a number of (unexpected) discoveries. Maybe Van Damme has things to say that match Immanuel Kant for depth and insight. Maybe reality isn’t what people think it is, or maybe a job should really be a burden or a torture. Just like Jean-Claude Van Damme himself, these words are hardly giants, yet they contain and conceal a great deal - and have a lot to tell us about what we do, and what we do to the world.
+
+And finally, I will show how all roads lead to Django (Reinhardt, another Belgian).
+
+This is intended to be a funny talk, but my point and my intentions are very serious. I hope to share with other web developers the sense that what they choose to do has serious consequences. Being a web developer may be a job; in one sense it may even be a real job - but in another, it’s not really a job, but something quite a bit more important than that.
+
+Video: https://www.youtube.com/watch?v=bMsr8tZQm9w&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/NK7DRT/</url>
+            <location>Virtual</location>
+            
+            <attendee>Leila Verhaegen</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>GTQPVP@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>295896199</pentabarf:event-id>
+            <pentabarf:event-slug>-GTQPVP</pentabarf:event-slug>
+            <pentabarf:title>Security strategies for multi-tenant applications</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200919T095500</dtstart>
+            <dtend>20200919T103500</dtend>
+            <duration>0.04000</duration>
+            <summary>Security strategies for multi-tenant applications</summary>
+            <description>Most modern web applications are multi-tenant applications in some way – they allow specific users, groups, or organizations access some data or work together in some way, but separated from other groups that are served by the same application.
+
+Therefore, the software somehow needs to know what data to show and separate data of multiple tenants from each other in a safe way. The talk will discuss options on how to do this on a database level and in which situations this is possible.
+
+However, often it’s not possible or feasible to solve this on a database level, so one falls back to handling multi-tenancy manually, by adding a WHERE tenant = current_tenant clause to every database access. This requires great caution and can quickly lead to dangerous bugs and data leaks: If the clause is forgotten, it will users can see data from other tenants. However, during development and testing, it will probably look fine due to lack of enough tenants to make the problem easily visible.
+
+This talk will present strategies to prevent this kind of problem, including the Django library django-scopes which allows to make sure no such query ever slips through. While the library is Django-specific, the ideas behind it are not.
+
+Video: https://www.youtube.com/watch?v=B6G2xbiCji0&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/GTQPVP/</url>
+            <location>Virtual</location>
+            
+            <attendee>Raphael Michel</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>GUWCXE@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>297455702</pentabarf:event-id>
+            <pentabarf:event-slug>-GUWCXE</pentabarf:event-slug>
+            <pentabarf:title>Implementing a Cross-DB JSONField</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200919T103500</dtstart>
+            <dtend>20200919T111500</dtend>
+            <duration>0.04000</duration>
+            <summary>Implementing a Cross-DB JSONField</summary>
+            <description>Having structured data is great, but sometimes you just want to store *some* data without caring much about the structure. This is especially true when you&#39;re prototyping something: you&#39;re still unsure how your database will look like, but you know you&#39;re going to store something in it. Well, enter `JSONField`!
+
+`JSONField`, from the Django docs:
+
+&gt; &quot;A field for storing JSON encoded data. In Python the data is represented in its Python native format:
+&gt; dictionaries, lists, strings, numbers, booleans, and `None`.&quot;
+
+Before 3.1, official support for `JSONField` only exists through the `django.contrib.postgres` module, which means it can only be used on PostgreSQL. To use `JSONField` on other database backends, one needs to use third-party packages such as [jsonfield] (1k+ stars), [django-mysql], and [oracle-json-field]. A ticket for cross-DB `JSONField` ([#12990]) was made 10 years ago. The abundance of third-party packages for `JSONField` suggests that it&#39;s an in-demand feature.
+
+The existing [PostgreSQL] `JSONField` uses the built-in `jsonb` data type. [MariaDB] and [MySQL] have a `JSON` data type along with JSON functions. [SQLite] can store JSON data as `TEXT` and use the JSON1 extension which includes JSON functions. [Oracle Database] also has JSON functions and can store JSON data with the `IS JSON` constraint.
+
+So, a cross-DB `JSONField` is feasible, but it can be a bit tricky to implement because each backend deals with JSON data differently. Besides storing and loading Python objects into/from JSON, `JSONField` also supports some custom lookups and transforms that can be used to [query JSON data]. This talk will cover how saving JSON data and the custom queries are implemented in the cross-DB `JSONField`.
+
+[jsonfield]: https://github.com/dmkoch/django-jsonfield
+[django-mysql]: https://github.com/adamchainz/django-mysql
+[oracle-json-field]: https://github.com/Exscientia/oracle-json-field
+[#12990]: https://code.djangoproject.com/ticket/12990
+[PostgreSQL]: https://www.postgresql.org/docs/9.5/datatype-json.html
+[MariaDB]: https://mariadb.com/kb/en/json-data-type
+[MySQL]: https://dev.mysql.com/doc/refman/5.7/en/json.html
+[SQLite]: https://www.sqlite.org/json1.html
+[Oracle Database]: https://docs.oracle.com/database/121/ADXDB/json.htm
+[query JSON data]: https://docs.djangoproject.com/en/3.0/ref/contrib/postgres/fields/#querying-jsonfield
+
+Video: https://www.youtube.com/watch?v=o9Zb1RmS8vk&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/GUWCXE/</url>
+            <location>Virtual</location>
+            
+            <attendee>Sage M. Abdullah</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>X3NQV3@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>986704470</pentabarf:event-id>
+            <pentabarf:event-slug>-X3NQV3</pentabarf:event-slug>
+            <pentabarf:title>GraphQL-first Django</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200919T111500</dtstart>
+            <dtend>20200919T115500</dtend>
+            <duration>0.04000</duration>
+            <summary>GraphQL-first Django</summary>
+            <description>GraphQL is finding itself as a foundation of the modern web development stack, particularly where a dynamic, single-page UI is required. It unlocks many great benefits, some of which are:
+
+- fetching only the required data necessary to render particular views; while eliminating the need to call and combine data from multiple endpoints
+- developer experience through incredible out-of-the-box tooling available - interactive API explorers or code generators for statically typed languages used in the frontend
+- ability to combine various APIs under a single gateway with federations
+
+Django is loved for its simplicity, reliability, and excellent documentation. All this makes it an obvious choice for many backend teams that speak Python. Although designed as a model-view-template framework, it can be successfully used as a GraphQL server.
+
+In this talk, we&#39;ll take a look at the architecture and different aspects of a Django project, where the GraphQL API is a first-class citizen:
+
+- structure of a single Django app - how to organize the modules for GraphQL types, mutations and queries
+- mapping Django models to GraphQL types and building CRUD mutations to manage them
+- authentication with JSON Web Tokens
+- testing GraphQL queries with py.test
+
+Additionally, we will also see how choosing GraphQL can affect the entire product development process in teams where JavaScript / TypeScript are the primary languages used for frontend development. Lastly, we&#39;ll talk about some of the downsides of Graphene that every developer needs to be aware of, and also about the new alternatives that have begun to show up in the Python/GraphQL ecosystem.
+
+The structure of the talk:
+
+1. A case for GraphQL - the most essential benefits, how it differs from REST, the main concepts, and examples - 5 min
+2. GraphQL-first Django - the anatomy of a Django application that exposes a GraphQL API built using the Graphene framework - 15 min
+3. A GraphQL-first workflow - how schema-first approach speeds up web development for both frontend and backend teams - 5 min
+4. The limitations of Graphene and the future of GraphQL in Python - 5 min
+
+Video: https://www.youtube.com/watch?v=GoGpjngDB7c&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/X3NQV3/</url>
+            <location>Virtual</location>
+            
+            <attendee>Marcin Gębala</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>9WGTJF@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>1253738921</pentabarf:event-id>
+            <pentabarf:event-slug>-9WGTJF</pentabarf:event-slug>
+            <pentabarf:title>Understanding Celery to maintain your sanity</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200919T115500</dtstart>
+            <dtend>20200919T123500</dtend>
+            <duration>0.04000</duration>
+            <summary>Understanding Celery to maintain your sanity</summary>
+            <description>I had the idea for this talk after we had a critical issue in production. All of our Celery workers were refusing to pick up any new tasks. I had read the docs on how to use Celery but now that things had gone wrong I needed to know _how_ it worked. That was a very stressful time to try to learn that. Anyone who has Celery in their stack should invest the time to understand Celery before it goes wrong.
+
+The outline of my talk is:
+  * Why do I need an asynchronous task queue? (Doesn&#39;t Django have everything I need?) (5 mins)
+  * Why would I pick Celery? (and why is it so popular) (1 min)
+  * What is it actually doing? (10 mins)
+  * An example of things going wrong (and with a tool so configurable, it probably will) (4 mins)
+  * How to intervene and correct problems (8 mins)
+  * The future of async with Django (2 mins)
+
+Video: https://www.youtube.com/watch?v=v1m-jbPrYfw&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/9WGTJF/</url>
+            <location>Virtual</location>
+            
+            <attendee>Ashwini Balnaves</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>X38KZG@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>987249064</pentabarf:event-id>
+            <pentabarf:event-slug>-X38KZG</pentabarf:event-slug>
+            <pentabarf:title>Search Options in Django</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200919T123500</dtstart>
+            <dtend>20200919T131500</dtend>
+            <duration>0.04000</duration>
+            <summary>Search Options in Django</summary>
+            <description>We will look at some different search options in Django and see when each option is the most useful.
+First we will see why you should consider fulltext search in your application and the difference in text search with SQL.
+Then, we look at fulltext search with Postgresql and Django. We look at different ways to search and rank documents and their performance implications.
+In the next step, we look at searching in Django with Elasticsearch.
+We close with short comparisons of the pros and cons of the different search options.
+
+Video: https://www.youtube.com/watch?v=r_IyFYdIbQw&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/X38KZG/</url>
+            <location>Virtual</location>
+            
+            <attendee>Stefan Baerisch</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>QFA38E@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>642806248</pentabarf:event-id>
+            <pentabarf:event-slug>-QFA38E</pentabarf:event-slug>
+            <pentabarf:title>Accessibility wins for Django projects</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200919T131500</dtstart>
+            <dtend>20200919T135500</dtend>
+            <duration>0.04000</duration>
+            <summary>Accessibility wins for Django projects</summary>
+            <description>## Introduction
+
+Over the last year, the team behind Wagtail set out to make their CMS more accessible. We wanted to both make the CMS more usable for users of assistive technologies, and reach the relevant compliance targets.
+
+We learned a lot about accessibility during this process. While most accessibility concerns are resolved at the UI level with templates and styles, there are a number of cases where deeper knowledge of Django comes in handy. Django developers can make a difference on their projects by being aware of cases where back-end customisations are needed, such as:
+
+- Forms and fields markup. Django’s defaults can hinder navigation for screen reader users, and need to be customised.
+- Required attributes for models of images. Administrators should also be able to customise their alt text, in the context images are used.
+
+Developers should also make the most of available tooling for Django projects: linters, HTML validation middleware, pattern libraries; that will all help building an accessible experience.
+
+And beyond developer tools, it’s also very valuable for developers to know how to use assistive technologies to test their work. It’s completely within reach of anyone to do basic testing with screen readers, and this is beneficial on all projects.
+
+## Talk structure
+
+### Intro: a Wagtail story
+
+- Thibaud, front-end developer, core developer of Wagtail
+- We started work on making Wagtail more accessible about a year ago
+- Here is what we learned along the way, that is relevant to all Django projects
+
+### Why we care about accessibility
+
+- Inclusive design – user experience should be good for_all_ users
+- Accessibility improvements generally lead to usability improvements
+- Legislation is evolving and compliance is now mandatory
+- This is relevant to all projects – not just public facing sites
+
+### Accessibility 101
+
+- Semantic page structure
+- Keyboard navigation
+- Images and icons
+
+### Django templates and accessibility
+
+- Forms
+- Pagination
+- HTML validation &amp; templates linting
+
+### Django models and accessibility
+
+- Headings, labels and landmarks
+- Images’ alt text
+
+### Live demo: screen reader testing
+
+- Testing a page with a browser extension
+- Testing a page with a real screen reader
+- Screen reader keyboard shortcuts you can learn in 1 minute
+
+### Key takeaways
+
+- Accessibility matters on all projects
+- Django developers can make a difference
+- Screen reader testing is within reach and has a big impact
+
+## Approach
+
+The talk starts with a case study of how we set out to make Wagtail more accessible, prompted by recent legislative changes in the EU and UK. We’ll then quickly move on to accessibility issues that tend to be specific to Django projects, demonstrating their consequences and suggesting solutions. We’ll showcase tools that can help developers on Django projects in particular – then do a live demo of screen reader testing, a technique that all developers should know the basics of to meaningfully test that what they build is accessible.
+
+This should generally be a beginner-level talk for Django developers, but there will be a lot to learn for all skill levels in the domain of accessibility. Finally I believe that screen reader testing is underused as a technique, and will be relevant to most of the audience.
+
+Video: https://www.youtube.com/watch?v=PO0w2BJk33s&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/QFA38E/</url>
+            <location>Virtual</location>
+            
+            <attendee>Thibaud Colas</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>AHTFPW@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>10028762</pentabarf:event-id>
+            <pentabarf:event-slug>-AHTFPW</pentabarf:event-slug>
+            <pentabarf:title>Integrating Design and Development teams by implementing a Design System</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200919T135500</dtstart>
+            <dtend>20200919T143500</dtend>
+            <duration>0.04000</duration>
+            <summary>Integrating Design and Development teams by implementing a Design System</summary>
+            <description>To deliver a product that involves design - from research to screens and usability - and its implementation by a development team can be a big challenge for all parts involved. If we aim to really address users needs and deliver high quality products and meaningful experiences, it’s important to have a team aligned and fully integrated.
+
+The interaction between stakeholders, designers and developers normally involve a lot of friction and divergence of concepts and vocabulary. The back and forth between development and QA normally take a lot of time and effort till things get quite right. Besides, people from different backgrounds tend to have diverging perspectives about the value and the challenges of implementing an interface. Developers get frustrated when faced with a non negotiable design, seemingly impossible  to implement, while designers can be angry seeing their conceptions poorly executed and stakeholders impatient with a product that never gets done.
+
+These problems can be mitigated by a solid management process and a conscious effort to create a common ground for communication. Following a path in the direction of the implementation of a Design System can be a powerful tool to achieve that.
+
+In this talk I’m going to share the results of the gradual improvements adopted by our team in an effort to make these interaction smoother and to deliver a product with higher quality standards and more aggregated value to our client. I’ll explain how the processes we introduced to our interactions were able to impact our productivity while improving the team’s and the project’s health.
+
+# Outline
+
+1. Basic definitions of a Design System
+    1. Why having a Design System at all? The advantages of having consistent and predictable patterns for design implementation
+2. What it means for a developer to implement a Design System
+    1. Creating a common vocabulary between Design, Development and Stakeholders
+    2. Reflecting the Design System structure in the project’s - components, files and variable names organization
+    3. Having predictable patterns to work with
+    4. Being able to easily QA our own work before submitting it
+        1. How making a QA checklist improved our validation process
+3. Quick introduction to the project’s scenario
+    1. The redesign of a platform with lots of legacy code and unclear business rules
+4. Processes developed to improve our teams interactions
+    1. The complete workflow and its transitions from first ideas to production
+        1. The Planning Board and its rituals - ideas, research and specification for development
+        2. The Design Board and its rituals - research, low and high fidelity prototyping, client and development team validation
+        3. The Development Board and its rituals - development, code review, QA and delivery
+    2. The Specification Meeting
+        1. Checking for available data
+        2. Checking the feasibility of desired interactions
+        3. Using available components or estimating the development of new ones
+        4. Checking for empty and loading states
+        5. UI elements states - don’t forget the hover and focus states
+        6. Evaluating the effort to implement desired interfaces or thinking of more viable alternatives
+    3. Interacting with the Stakeholders
+        1. Constant feedback from the first design ideas to the development challenges
+        2. Keeping non technical people informed of the limitations encountered during implementation
+        3. Proposing more viable alternatives when faced with technical obstacles
+        4. Being clear about delays and tasks that will take a long time
+
+Video: https://www.youtube.com/watch?v=-z-zet2mlMg&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/AHTFPW/</url>
+            <location>Virtual</location>
+            
+            <attendee>Mariana Bedran Lesche</attendee>
+            
+            <attendee>Daniela Falcone</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>7D8YKQ@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>1140942264</pentabarf:event-id>
+            <pentabarf:event-slug>-7D8YKQ</pentabarf:event-slug>
+            <pentabarf:title>KEYNOTE - Ecosystem Revolution with Django</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200919T143500</dtstart>
+            <dtend>20200919T155000</dtend>
+            <duration>1.01500</duration>
+            <summary>KEYNOTE - Ecosystem Revolution with Django</summary>
+            <description>As the co-founder of one of Europe’s fastest-growing startups, Luís Roque will talk about the Portuguese tech landscape and how its rapid development has relied on frameworks that allow for efficient developments. Python itself has been one of the backbones of the company&#39;s tech solution. In this talk, HUUB&#39;s CEO will also shed a light on how the startup will keep on working towards a microservices event-driven architecture in order to develop the simplest yet most intelligent platform for Fashion Supply Chain.
+
+Video: https://www.youtube.com/watch?v=ZtZ-wUFTqUk&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Keynote</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/7D8YKQ/</url>
+            <location>Virtual</location>
+            
+            <attendee>Luis Roque</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>JUJ3BX@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>387879671</pentabarf:event-id>
+            <pentabarf:event-slug>-JUJ3BX</pentabarf:event-slug>
+            <pentabarf:title>Choose, and choose quickly: Optimising ModelChoiceField</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200919T155000</dtstart>
+            <dtend>20200919T163000</dtend>
+            <duration>0.04000</duration>
+            <summary>Choose, and choose quickly: Optimising ModelChoiceField</summary>
+            <description>When we talk about performance in Django, the usual example is iterating a QuerySet. 
+We have our list of authors and we reach across a relationship to fetch each one&#39;s blog posts.
+Maybe we reach across another one to fetch the comments on each of the blog posts. 
+All of a sudden, our view, which worked fine with the three object test data in development, grinds to a halt. 
+For this we have `prefetch_related()` and `select_related()`, and there are lots of talks and posts on how to leverage those. 
+
+I want to talk about an example I see coming up in the Admin list view, when renderering DRF serializers, a Django Filter FilterSet, or a ModelForm, particularly when using a form templating system like Crispy Forms. 
+
+In these cases, when you&#39;re rendering a ModelChoiceField with many related objects, or when you´re repeatedly rendering the same choice field, in a FormSet, such as the admin´s list_editable, performance drops off a cliff. 
+Frequently issues are opened on Django, or DRF, or Django Filter, complaining that the rendering is slow, that something is broken. 
+Often the solution is along the lines of the admin´s `raw_id_fields`, but this feels like surrender. We loose all the data validation and UI affordance that ModelChoiceField gives us. 
+
+There has to be a better way. Spoiler: there is. 
+
+I will show a few examples of slow rendering choice fields: the admin, DRF, Django-Filter, and a FormSet rendered with Crispy Forms. 
+
+For each, we´ll build up simple example. That looks like it&#39;s fine. Give it a moderate amount of data and we have issues. (Put even a small number of choices in a large FormSet and see how it grinds.)
+
+Then we&#39;ll dig in and show where we can re-use work to speed up the choice field generation. We&#39;ll see that in all of our cases we can get performant results, and that there&#39;s no need to adopt a sub-optimal alternative.
+
+Video: https://www.youtube.com/watch?v=e52S1SjuUeM&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/JUJ3BX/</url>
+            <location>Virtual</location>
+            
+            <attendee>Carlton Gibson</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>GJGDDR@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>283542641</pentabarf:event-id>
+            <pentabarf:event-slug>-GJGDDR</pentabarf:event-slug>
+            <pentabarf:title>The Design and Development of Choices in Django 3.0</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200919T163000</dtstart>
+            <dtend>20200919T171000</dtend>
+            <duration>0.04000</duration>
+            <summary>The Design and Development of Choices in Django 3.0</summary>
+            <description>One of the most noted highlights of version 3.0 of Django is the ability to specify field choices using enumeration types, known as Choices, as an alternative to the old way, using sequences of value-display pairs.
+
+In this talk we will present this feature and follow its development from the original, failed proposal, through its resurrection and the journey to inclusion on Django. We&#39;ll examine the process and the design issues, the objections and problems raised, and study the technical considerations and solutions which eventually led to Choices in Django 3.0.
+
+Video: https://www.youtube.com/watch?v=wQCZ_tcS0uk&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/GJGDDR/</url>
+            <location>Virtual</location>
+            
+            <attendee>Shai Berger</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>JDCBMP@@cfp.2021.djangocon.eu</uid>
+            <pentabarf:event-id>367572551</pentabarf:event-id>
+            <pentabarf:event-slug>-JDCBMP</pentabarf:event-slug>
+            <pentabarf:title>How To Break Django: With Async</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20200919T171000</dtstart>
+            <dtend>20200919T175000</dtend>
+            <duration>0.04000</duration>
+            <summary>How To Break Django: With Async</summary>
+            <description>Django has a reputation for being safe and reliable, but what happens when you take that reputation and push it up against Python&#39;s hot new frontier that is asynchronous support?
+
+Asynchronous code has many pitfalls that you won&#39;t be used to from traditional, synchronous programming - we&#39;ll take a look at them, and how they crop up in Django&#39;s request cycle. Some of them you can wander into via an easy mistake; some of them are caused by Django contributors getting things subtly wrong in the core code; and some of them are just plain fun to try.
+
+We&#39;ll also talk about Django&#39;s culture of safety, how to protect against these issues both automatically and with manual review, and what asynchronous programming means for safety in programming at large.
+
+Video: https://www.youtube.com/watch?v=19Uh_PA_8Rc&amp;ab_channel=DjangoConEurope</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://cfp.2021.djangocon.eu//porto/talk/JDCBMP/</url>
+            <location>Virtual</location>
+            
+            <attendee>Andrew Godwin</attendee>
+            
+        </vevent>
+        
+    </vcalendar>
+</iCalendar>

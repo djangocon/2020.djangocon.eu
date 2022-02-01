@@ -1,0 +1,228 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/JUJ3BX/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:32:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Choose, and choose quickly: Optimising ModelChoiceField ::  DjangoCon Europe 2020 :: pretalx</title>
+    <meta name="title" content="Choose, and choose quickly: Optimising ModelChoiceField  - DjangoCon Europe 2020 pretalx">
+    <meta name="description" content="When we talk about performance in Django, the usual example is iterating a QuerySet. 
+We have our list of authors and we reach across a relationship to fetch each one&#39;s blog posts.
+Maybe we reach across another one to fetch the comments on each of the blog posts. 
+All of a sudden, our view, which worked fine with the three object test data in development, grinds to a halt. 
+For this we have `prefetch_related()` and `select_related()`, and there are lots of talks and posts on how to leverage those. 
+
+I want to talk about an example I see coming up in the Admin list view, when renderering DRF serializers, a Django Filter FilterSet, or a ModelForm, particularly when using a form templating system like Crispy Forms. 
+
+In these cases, when you&#39;re rendering a ModelChoiceField with many related objects, or when you´re repeatedly rendering the same choice field, in a FormSet, such as the admin´s list_editable, performance drops off a cliff. 
+Frequently issues are opened on Django, or DRF, or Django Filter, complaining that the rendering is slow, that something is broken. 
+Often the solution is along the lines of the admin´s `raw_id_fields`, but this feels like surrender. We loose all the data validation and UI affordance that ModelChoiceField gives us. 
+
+There has to be a better way. Spoiler: there is. 
+
+I will show a few examples of slow rendering choice fields: the admin, DRF, Django-Filter, and a FormSet rendered with Crispy Forms. 
+
+For each, we´ll build up simple example. That looks like it&#39;s fine. Give it a moderate amount of data and we have issues. (Put even a small number of choices in a large FormSet and see how it grinds.)
+
+Then we&#39;ll dig in and show where we can re-use work to speed up the choice field generation. We&#39;ll see that in all of our cases we can get performant results, and that there&#39;s no need to adopt a sub-optimal alternative.
+
+Video: https://www.youtube.com/watch?v=e52S1SjuUeM&amp;ab_channel=DjangoConEurope">
+    <meta name="application-name" content="pretalx">
+    <meta name="generator" content="pretalx">
+    <meta name="keywords" content="DjangoCon Europe 2020, porto, 2020, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+    <meta name="referrer" content="origin-when-crossorigin">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#120E3D">
+    <meta name="HandheldFriendly" content="True"/>
+    <meta property="thumbnail" content="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png">
+    <meta property="og:image" content="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png">
+    <meta property="og:title" content="Choose, and choose quickly: Optimising ModelChoiceField DjangoCon Europe 2020">
+    <meta property="og:description" content="When we talk about performance in Django, the usual example is iterating a QuerySet. 
+We have our list of authors and we reach across a relationship to fetch each one&#39;s blog posts.
+Maybe we reach across another one to fetch the comments on each of the blog posts. 
+All of a sudden, our view, which worked fine with the three object test data in development, grinds to a halt. 
+For this we have `prefetch_related()` and `select_related()`, and there are lots of talks and posts on how to leverage those. 
+
+I want to talk about an example I see coming up in the Admin list view, when renderering DRF serializers, a Django Filter FilterSet, or a ModelForm, particularly when using a form templating system like Crispy Forms. 
+
+In these cases, when you&#39;re rendering a ModelChoiceField with many related objects, or when you´re repeatedly rendering the same choice field, in a FormSet, such as the admin´s list_editable, performance drops off a cliff. 
+Frequently issues are opened on Django, or DRF, or Django Filter, complaining that the rendering is slow, that something is broken. 
+Often the solution is along the lines of the admin´s `raw_id_fields`, but this feels like surrender. We loose all the data validation and UI affordance that ModelChoiceField gives us. 
+
+There has to be a better way. Spoiler: there is. 
+
+I will show a few examples of slow rendering choice fields: the admin, DRF, Django-Filter, and a FormSet rendered with Crispy Forms. 
+
+For each, we´ll build up simple example. That looks like it&#39;s fine. Give it a moderate amount of data and we have issues. (Put even a small number of choices in a large FormSet and see how it grinds.)
+
+Then we&#39;ll dig in and show where we can re-use work to speed up the choice field generation. We&#39;ll see that in all of our cases we can get performant results, and that there&#39;s no need to adopt a sub-optimal alternative.
+
+Video: https://www.youtube.com/watch?v=e52S1SjuUeM&amp;ab_channel=DjangoConEurope">
+    <meta property="og:url" content="index.html">
+    <meta property="twitter:card" content="summary">
+
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../cfp-static/common/img/favicon-32x32.816e12963927.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../cfp-static/common/img/favicon-16x16.b1e178982893.png">
+    
+
+    <link rel="stylesheet" type="text/css" href="../../../cfp-static/common/scss/uncompressed.ec8d16cc3696.css" />
+    
+        <link rel="stylesheet" type="text/css" href="../../../cfp-static/vendored/fullcalendar/fullcalendar.min.ba055a2cd2b3.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/cfp.ff24a3f080cf5b33.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/agenda.db276abdb6c8be4d.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="../../../cfp-media/porto/css/cfp_mYuJO4r.css"/>
+    <script type="text/javascript" src="../../../cfp-static/CACHE/js/output.5b270a5bf623.js" defer></script>
+    
+    
+    <link rel="alternate" type="application/json" title="DjangoCon Europe 2020 API" href="https://cfp.2021.djangocon.eu/api/events/porto/talks/JUJ3BX" />
+
+    
+    
+
+</head>
+<body>
+    <div id="top-bg" class="header bg-primary">
+    
+        <img src="../../../cfp-media/porto/img/background_OluCp1S.jpg" id="header-image">
+    
+    </div>
+    
+    <div class="container" id="main-container">
+        <header>
+            <h1>
+                <a href="../../schedule/index.html">
+                    
+                    <img src="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png" id="event-logo" alt="The event's logo">
+                    
+                </a>
+            </h1>
+            <div class="d-flex" id="header-row">
+            
+            
+                <a href="../../login/index.html">login</a>
+            
+            </div>
+        </header>
+        <div class="card" id="main-card">
+            <main>
+                
+
+                
+    
+    
+<article>
+    <h3 class="talk-title">
+        <div class="heading-with-buttons">
+        Choose, and choose quickly: Optimising ModelChoiceField
+        <div class="buttons" id="talk-buttons">
+            
+            <a class="btn btn-outline-primary" href="../porto-JUJ3BX.ics">
+                <i class="fa fa-calendar"></i> .ical
+            </a>
+            
+            
+                <a href="feedback/index.html"
+                        class="btn btn-success">
+                    <i class="fa fa-comments"></i> Feedback
+                </a>
+            
+            
+        </div>
+        </div>
+        <small>
+            
+                2020-09-19, 15:50–16:30, Virtual
+            
+            
+        </small>
+    </h3>
+    <div class="talk row">
+        <div class="talk-content col-lg-8 col-md-6 col-xs-12">
+            
+            
+            <section class="abstract">
+                <p>Ever had a ModelForm, a DRF Serializer, a FilterSet grind to a halt rendering a choice field? Of course you have. Ever given up on it and resorted to raw ids? -- No don't answer that.</p>
+<p>We're going to look at how you can get a grip on ModelChoiceField when you're dealing with lots of related objects, and when you need to offer that choice again and again and again, without needing to put the kettle on.</p>
+            </section>
+            
+            <hr />
+            
+            <section class="description">
+                <p>When we talk about performance in Django, the usual example is iterating a QuerySet. <br>
+We have our list of authors and we reach across a relationship to fetch each one's blog posts.<br>
+Maybe we reach across another one to fetch the comments on each of the blog posts. <br>
+All of a sudden, our view, which worked fine with the three object test data in development, grinds to a halt. <br>
+For this we have <code>prefetch_related()</code> and <code>select_related()</code>, and there are lots of talks and posts on how to leverage those. </p>
+<p>I want to talk about an example I see coming up in the Admin list view, when renderering DRF serializers, a Django Filter FilterSet, or a ModelForm, particularly when using a form templating system like Crispy Forms. </p>
+<p>In these cases, when you're rendering a ModelChoiceField with many related objects, or when you´re repeatedly rendering the same choice field, in a FormSet, such as the admin´s list_editable, performance drops off a cliff. <br>
+Frequently issues are opened on Django, or DRF, or Django Filter, complaining that the rendering is slow, that something is broken. <br>
+Often the solution is along the lines of the admin´s <code>raw_id_fields</code>, but this feels like surrender. We loose all the data validation and UI affordance that ModelChoiceField gives us. </p>
+<p>There has to be a better way. Spoiler: there is. </p>
+<p>I will show a few examples of slow rendering choice fields: the admin, DRF, Django-Filter, and a FormSet rendered with Crispy Forms. </p>
+<p>For each, we´ll build up simple example. That looks like it's fine. Give it a moderate amount of data and we have issues. (Put even a small number of choices in a large FormSet and see how it grinds.)</p>
+<p>Then we'll dig in and show where we can re-use work to speed up the choice field generation. We'll see that in all of our cases we can get performant results, and that there's no need to adopt a sub-optimal alternative.</p>
+<p>Video: <a href="https://www.youtube.com/watch?v=e52S1SjuUeM&amp;ab_channel=DjangoConEurope" rel="nofollow">https://www.youtube.com/watch?v=e52S1SjuUeM&amp;ab_channel=DjangoConEurope</a></p>
+            </section>
+            
+            </section>
+            
+        </div>
+        <aside class="col-lg-4 col-md-6 col-xs-12">
+            
+            
+            <div class="speakers">
+                <div class="speaker-header">
+                    
+                        Speaker
+                    
+                </div>
+                
+                    <div class="speaker">
+                        <a href="../../speaker/JHNLPQ/index.html">
+                            <div class="name">
+                                Carlton Gibson
+                            </div>
+                        </a>
+                        <div class="info">
+                            
+                        </div>
+                    </div>
+                
+            </div>
+            
+            
+        </aside>
+    </div>
+</article>
+
+
+            </main>
+        </div>
+        <footer>
+            
+            <a href="http://pretalx.com/" target="_blank" rel="noopener">
+                <img src="../../../cfp-static/common/img/logo.c86a874657c9.svg" alt="The pretalx logo">
+            </a>
+            
+                &middot;
+                <a href="mailto:content@djangocon.eu">Contact us</a>
+            
+            
+                &middot;
+                <a href="https://2020.djangocon.eu/conduct/privacy_guide/" target="_blank" rel="noopener">Imprint</a>
+            
+            
+        </footer>
+    </div>
+</body>
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/JUJ3BX/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:32:35 GMT -->
+</html>

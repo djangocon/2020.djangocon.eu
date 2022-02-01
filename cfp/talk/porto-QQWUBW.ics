@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//QQWUBW
+BEGIN:VEVENT
+UID:pretalx-porto-QQWUBW@cfp.2021.djangocon.eu
+DTSTART:20200918T121500Z
+DTEND:20200918T125500Z
+DESCRIPTION:For many people\, deploying their site is still the hardest par
+ t of being a Django developer. This talk will demonstrate three modern\, l
+ ow-cost alternatives to the standard approaches. I'll show how to deploy t
+ he same app three times\, using self-hosted Docker\, Google Cloud Run and 
+ static site generation\, outlining the trade-offs with each approach.
+DTSTAMP:20220201T163130Z
+LOCATION:Virtual
+SUMMARY:New ways to deploy your Django app - Tom Dyson
+URL:https://cfp.2021.djangocon.eu/porto/talk/QQWUBW/
+END:VEVENT
+END:VCALENDAR

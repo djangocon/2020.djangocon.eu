@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//porto//PTEDLB
+BEGIN:VEVENT
+UID:pretalx-porto-GTQPVP@cfp.2021.djangocon.eu
+DTSTART:20200919T085500Z
+DTEND:20200919T093500Z
+DESCRIPTION:When writing multi-tenant applications\, a very typical and dan
+ gerous bug is to forget about a WHERE statement and show data to the wrong
+  users. This often goes unnoticed\, since most people are only testing wit
+ h one user account. This talk discusses strategies to prevent this class o
+ f error entirely.
+DTSTAMP:20220201T163420Z
+LOCATION:Virtual
+SUMMARY:Security strategies for multi-tenant applications - Raphael Michel
+URL:https://cfp.2021.djangocon.eu/porto/talk/GTQPVP/
+END:VEVENT
+END:VCALENDAR

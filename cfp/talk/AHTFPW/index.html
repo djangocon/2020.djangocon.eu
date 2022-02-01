@@ -1,0 +1,311 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/AHTFPW/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:32:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Integrating Design and Development teams by implementing a Design System ::  DjangoCon Europe 2020 :: pretalx</title>
+    <meta name="title" content="Integrating Design and Development teams by implementing a Design System  - DjangoCon Europe 2020 pretalx">
+    <meta name="description" content="To deliver a product that involves design - from research to screens and usability - and its implementation by a development team can be a big challenge for all parts involved. If we aim to really address users needs and deliver high quality products and meaningful experiences, it’s important to have a team aligned and fully integrated.
+
+The interaction between stakeholders, designers and developers normally involve a lot of friction and divergence of concepts and vocabulary. The back and forth between development and QA normally take a lot of time and effort till things get quite right. Besides, people from different backgrounds tend to have diverging perspectives about the value and the challenges of implementing an interface. Developers get frustrated when faced with a non negotiable design, seemingly impossible  to implement, while designers can be angry seeing their conceptions poorly executed and stakeholders impatient with a product that never gets done.
+
+These problems can be mitigated by a solid management process and a conscious effort to create a common ground for communication. Following a path in the direction of the implementation of a Design System can be a powerful tool to achieve that.
+
+In this talk I’m going to share the results of the gradual improvements adopted by our team in an effort to make these interaction smoother and to deliver a product with higher quality standards and more aggregated value to our client. I’ll explain how the processes we introduced to our interactions were able to impact our productivity while improving the team’s and the project’s health.
+
+# Outline
+
+1. Basic definitions of a Design System
+    1. Why having a Design System at all? The advantages of having consistent and predictable patterns for design implementation
+2. What it means for a developer to implement a Design System
+    1. Creating a common vocabulary between Design, Development and Stakeholders
+    2. Reflecting the Design System structure in the project’s - components, files and variable names organization
+    3. Having predictable patterns to work with
+    4. Being able to easily QA our own work before submitting it
+        1. How making a QA checklist improved our validation process
+3. Quick introduction to the project’s scenario
+    1. The redesign of a platform with lots of legacy code and unclear business rules
+4. Processes developed to improve our teams interactions
+    1. The complete workflow and its transitions from first ideas to production
+        1. The Planning Board and its rituals - ideas, research and specification for development
+        2. The Design Board and its rituals - research, low and high fidelity prototyping, client and development team validation
+        3. The Development Board and its rituals - development, code review, QA and delivery
+    2. The Specification Meeting
+        1. Checking for available data
+        2. Checking the feasibility of desired interactions
+        3. Using available components or estimating the development of new ones
+        4. Checking for empty and loading states
+        5. UI elements states - don’t forget the hover and focus states
+        6. Evaluating the effort to implement desired interfaces or thinking of more viable alternatives
+    3. Interacting with the Stakeholders
+        1. Constant feedback from the first design ideas to the development challenges
+        2. Keeping non technical people informed of the limitations encountered during implementation
+        3. Proposing more viable alternatives when faced with technical obstacles
+        4. Being clear about delays and tasks that will take a long time
+
+Video: https://www.youtube.com/watch?v=-z-zet2mlMg&amp;ab_channel=DjangoConEurope">
+    <meta name="application-name" content="pretalx">
+    <meta name="generator" content="pretalx">
+    <meta name="keywords" content="DjangoCon Europe 2020, porto, 2020, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+    <meta name="referrer" content="origin-when-crossorigin">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#120E3D">
+    <meta name="HandheldFriendly" content="True"/>
+    <meta property="thumbnail" content="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png">
+    <meta property="og:image" content="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png">
+    <meta property="og:title" content="Integrating Design and Development teams by implementing a Design System DjangoCon Europe 2020">
+    <meta property="og:description" content="To deliver a product that involves design - from research to screens and usability - and its implementation by a development team can be a big challenge for all parts involved. If we aim to really address users needs and deliver high quality products and meaningful experiences, it’s important to have a team aligned and fully integrated.
+
+The interaction between stakeholders, designers and developers normally involve a lot of friction and divergence of concepts and vocabulary. The back and forth between development and QA normally take a lot of time and effort till things get quite right. Besides, people from different backgrounds tend to have diverging perspectives about the value and the challenges of implementing an interface. Developers get frustrated when faced with a non negotiable design, seemingly impossible  to implement, while designers can be angry seeing their conceptions poorly executed and stakeholders impatient with a product that never gets done.
+
+These problems can be mitigated by a solid management process and a conscious effort to create a common ground for communication. Following a path in the direction of the implementation of a Design System can be a powerful tool to achieve that.
+
+In this talk I’m going to share the results of the gradual improvements adopted by our team in an effort to make these interaction smoother and to deliver a product with higher quality standards and more aggregated value to our client. I’ll explain how the processes we introduced to our interactions were able to impact our productivity while improving the team’s and the project’s health.
+
+# Outline
+
+1. Basic definitions of a Design System
+    1. Why having a Design System at all? The advantages of having consistent and predictable patterns for design implementation
+2. What it means for a developer to implement a Design System
+    1. Creating a common vocabulary between Design, Development and Stakeholders
+    2. Reflecting the Design System structure in the project’s - components, files and variable names organization
+    3. Having predictable patterns to work with
+    4. Being able to easily QA our own work before submitting it
+        1. How making a QA checklist improved our validation process
+3. Quick introduction to the project’s scenario
+    1. The redesign of a platform with lots of legacy code and unclear business rules
+4. Processes developed to improve our teams interactions
+    1. The complete workflow and its transitions from first ideas to production
+        1. The Planning Board and its rituals - ideas, research and specification for development
+        2. The Design Board and its rituals - research, low and high fidelity prototyping, client and development team validation
+        3. The Development Board and its rituals - development, code review, QA and delivery
+    2. The Specification Meeting
+        1. Checking for available data
+        2. Checking the feasibility of desired interactions
+        3. Using available components or estimating the development of new ones
+        4. Checking for empty and loading states
+        5. UI elements states - don’t forget the hover and focus states
+        6. Evaluating the effort to implement desired interfaces or thinking of more viable alternatives
+    3. Interacting with the Stakeholders
+        1. Constant feedback from the first design ideas to the development challenges
+        2. Keeping non technical people informed of the limitations encountered during implementation
+        3. Proposing more viable alternatives when faced with technical obstacles
+        4. Being clear about delays and tasks that will take a long time
+
+Video: https://www.youtube.com/watch?v=-z-zet2mlMg&amp;ab_channel=DjangoConEurope">
+    <meta property="og:url" content="index.html">
+    <meta property="twitter:card" content="summary">
+
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../cfp-static/common/img/favicon-32x32.816e12963927.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../cfp-static/common/img/favicon-16x16.b1e178982893.png">
+    
+
+    <link rel="stylesheet" type="text/css" href="../../../cfp-static/common/scss/uncompressed.ec8d16cc3696.css" />
+    
+        <link rel="stylesheet" type="text/css" href="../../../cfp-static/vendored/fullcalendar/fullcalendar.min.ba055a2cd2b3.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/cfp.ff24a3f080cf5b33.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/agenda.db276abdb6c8be4d.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="../../../cfp-media/porto/css/cfp_mYuJO4r.css"/>
+    <script type="text/javascript" src="../../../cfp-static/CACHE/js/output.5b270a5bf623.js" defer></script>
+    
+    
+    <link rel="alternate" type="application/json" title="DjangoCon Europe 2020 API" href="https://cfp.2021.djangocon.eu/api/events/porto/talks/AHTFPW" />
+
+    
+    
+
+</head>
+<body>
+    <div id="top-bg" class="header bg-primary">
+    
+        <img src="../../../cfp-media/porto/img/background_OluCp1S.jpg" id="header-image">
+    
+    </div>
+    
+    <div class="container" id="main-container">
+        <header>
+            <h1>
+                <a href="../../schedule/index.html">
+                    
+                    <img src="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png" id="event-logo" alt="The event's logo">
+                    
+                </a>
+            </h1>
+            <div class="d-flex" id="header-row">
+            
+            
+                <a href="../../login/index.html">login</a>
+            
+            </div>
+        </header>
+        <div class="card" id="main-card">
+            <main>
+                
+
+                
+    
+    
+<article>
+    <h3 class="talk-title">
+        <div class="heading-with-buttons">
+        Integrating Design and Development teams by implementing a Design System
+        <div class="buttons" id="talk-buttons">
+            
+            <a class="btn btn-outline-primary" href="../porto-AHTFPW.ics">
+                <i class="fa fa-calendar"></i> .ical
+            </a>
+            
+            
+                <a href="feedback/index.html"
+                        class="btn btn-success">
+                    <i class="fa fa-comments"></i> Feedback
+                </a>
+            
+            
+        </div>
+        </div>
+        <small>
+            
+                2020-09-19, 13:55–14:35, Virtual
+            
+            
+        </small>
+    </h3>
+    <div class="talk row">
+        <div class="talk-content col-lg-8 col-md-6 col-xs-12">
+            
+            
+            <section class="abstract">
+                <p>In the software industry, developers, designers and stakeholders should be working together to achieve the same goals and deliver high quality products to the final users. To be actually able to work together in an efficient and harmonic way, though, is a whole other thing. In a team composed by developers and designers, we were able to mitigate the impact of communication flaws and concepts divergences in a continuous effort to cover  the blank spots we found on every iteration we went through. In this talk I’m going to share some lessons learned about how to integrate both teams’ work with a solid management process.</p>
+            </section>
+            
+            <hr />
+            
+            <section class="description">
+                <p>To deliver a product that involves design - from research to screens and usability - and its implementation by a development team can be a big challenge for all parts involved. If we aim to really address users needs and deliver high quality products and meaningful experiences, it’s important to have a team aligned and fully integrated.</p>
+<p>The interaction between stakeholders, designers and developers normally involve a lot of friction and divergence of concepts and vocabulary. The back and forth between development and QA normally take a lot of time and effort till things get quite right. Besides, people from different backgrounds tend to have diverging perspectives about the value and the challenges of implementing an interface. Developers get frustrated when faced with a non negotiable design, seemingly impossible  to implement, while designers can be angry seeing their conceptions poorly executed and stakeholders impatient with a product that never gets done.</p>
+<p>These problems can be mitigated by a solid management process and a conscious effort to create a common ground for communication. Following a path in the direction of the implementation of a Design System can be a powerful tool to achieve that.</p>
+<p>In this talk I’m going to share the results of the gradual improvements adopted by our team in an effort to make these interaction smoother and to deliver a product with higher quality standards and more aggregated value to our client. I’ll explain how the processes we introduced to our interactions were able to impact our productivity while improving the team’s and the project’s health.</p>
+<h1>Outline</h1>
+<ol>
+<li>Basic definitions of a Design System<ol>
+<li>Why having a Design System at all? The advantages of having consistent and predictable patterns for design implementation</li>
+</ol>
+</li>
+<li>What it means for a developer to implement a Design System<ol>
+<li>Creating a common vocabulary between Design, Development and Stakeholders</li>
+<li>Reflecting the Design System structure in the project’s - components, files and variable names organization</li>
+<li>Having predictable patterns to work with</li>
+<li>Being able to easily QA our own work before submitting it<ol>
+<li>How making a QA checklist improved our validation process</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Quick introduction to the project’s scenario<ol>
+<li>The redesign of a platform with lots of legacy code and unclear business rules</li>
+</ol>
+</li>
+<li>Processes developed to improve our teams interactions<ol>
+<li>The complete workflow and its transitions from first ideas to production<ol>
+<li>The Planning Board and its rituals - ideas, research and specification for development</li>
+<li>The Design Board and its rituals - research, low and high fidelity prototyping, client and development team validation</li>
+<li>The Development Board and its rituals - development, code review, QA and delivery</li>
+</ol>
+</li>
+<li>The Specification Meeting<ol>
+<li>Checking for available data</li>
+<li>Checking the feasibility of desired interactions</li>
+<li>Using available components or estimating the development of new ones</li>
+<li>Checking for empty and loading states</li>
+<li>UI elements states - don’t forget the hover and focus states</li>
+<li>Evaluating the effort to implement desired interfaces or thinking of more viable alternatives</li>
+</ol>
+</li>
+<li>Interacting with the Stakeholders<ol>
+<li>Constant feedback from the first design ideas to the development challenges</li>
+<li>Keeping non technical people informed of the limitations encountered during implementation</li>
+<li>Proposing more viable alternatives when faced with technical obstacles</li>
+<li>Being clear about delays and tasks that will take a long time</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p>Video: <a href="https://www.youtube.com/watch?v=-z-zet2mlMg&amp;ab_channel=DjangoConEurope" rel="nofollow">https://www.youtube.com/watch?v=-z-zet2mlMg&amp;ab_channel=DjangoConEurope</a></p>
+            </section>
+            
+            </section>
+            
+        </div>
+        <aside class="col-lg-4 col-md-6 col-xs-12">
+            
+            
+            <div class="speakers">
+                <div class="speaker-header">
+                    
+                        Speakers
+                    
+                </div>
+                
+                    <div class="speaker">
+                        <a href="../../speaker/C7FLPU/index.html">
+                            <div class="name">
+                                Mariana Bedran Lesche
+                            </div>
+                        </a>
+                        <div class="info">
+                            
+                        </div>
+                    </div>
+                
+                    <div class="speaker">
+                        <a href="../../speaker/JZT8QA/index.html">
+                            <div class="name">
+                                Daniela Falcone
+                            </div>
+                        </a>
+                        <div class="info">
+                            
+                        </div>
+                    </div>
+                
+            </div>
+            
+            
+        </aside>
+    </div>
+</article>
+
+
+            </main>
+        </div>
+        <footer>
+            
+            <a href="http://pretalx.com/" target="_blank" rel="noopener">
+                <img src="../../../cfp-static/common/img/logo.c86a874657c9.svg" alt="The pretalx logo">
+            </a>
+            
+                &middot;
+                <a href="mailto:content@djangocon.eu">Contact us</a>
+            
+            
+                &middot;
+                <a href="https://2020.djangocon.eu/conduct/privacy_guide/" target="_blank" rel="noopener">Imprint</a>
+            
+            
+        </footer>
+    </div>
+</body>
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/AHTFPW/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:32:33 GMT -->
+</html>

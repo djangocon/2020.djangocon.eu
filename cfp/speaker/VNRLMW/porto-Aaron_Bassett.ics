@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//porto//VNRLMW
+BEGIN:VEVENT
+UID:pretalx-porto-D9XNGW@cfp.2021.djangocon.eu
+DTSTART:20200918T153000Z
+DTEND:20200918T161000Z
+DESCRIPTION:Our devices are continually sending and receiving a complex set
+  of instructions and information every time they interact over HTTP. While
+  this mostly invisible interaction is primarily made up of the same standa
+ rd set of attributes what oddities would we discover if we spidered 10\,00
+ 0\,000 domains?
+DTSTAMP:20220201T163353Z
+LOCATION:Virtual
+SUMMARY:Can't Get You Out of My Head - Aaron Bassett
+URL:https://cfp.2021.djangocon.eu/porto/talk/D9XNGW/
+END:VEVENT
+END:VCALENDAR

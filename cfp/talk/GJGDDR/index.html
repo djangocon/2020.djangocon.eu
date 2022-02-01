@@ -1,0 +1,195 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/GJGDDR/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:32:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>The Design and Development of Choices in Django 3.0 ::  DjangoCon Europe 2020 :: pretalx</title>
+    <meta name="title" content="The Design and Development of Choices in Django 3.0  - DjangoCon Europe 2020 pretalx">
+    <meta name="description" content="One of the most noted highlights of version 3.0 of Django is the ability to specify field choices using enumeration types, known as Choices, as an alternative to the old way, using sequences of value-display pairs.
+
+In this talk we will present this feature and follow its development from the original, failed proposal, through its resurrection and the journey to inclusion on Django. We&#39;ll examine the process and the design issues, the objections and problems raised, and study the technical considerations and solutions which eventually led to Choices in Django 3.0.
+
+Video: https://www.youtube.com/watch?v=wQCZ_tcS0uk&amp;ab_channel=DjangoConEurope">
+    <meta name="application-name" content="pretalx">
+    <meta name="generator" content="pretalx">
+    <meta name="keywords" content="DjangoCon Europe 2020, porto, 2020, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+    <meta name="referrer" content="origin-when-crossorigin">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#120E3D">
+    <meta name="HandheldFriendly" content="True"/>
+    <meta property="thumbnail" content="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png">
+    <meta property="og:image" content="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png">
+    <meta property="og:title" content="The Design and Development of Choices in Django 3.0 DjangoCon Europe 2020">
+    <meta property="og:description" content="One of the most noted highlights of version 3.0 of Django is the ability to specify field choices using enumeration types, known as Choices, as an alternative to the old way, using sequences of value-display pairs.
+
+In this talk we will present this feature and follow its development from the original, failed proposal, through its resurrection and the journey to inclusion on Django. We&#39;ll examine the process and the design issues, the objections and problems raised, and study the technical considerations and solutions which eventually led to Choices in Django 3.0.
+
+Video: https://www.youtube.com/watch?v=wQCZ_tcS0uk&amp;ab_channel=DjangoConEurope">
+    <meta property="og:url" content="index.html">
+    <meta property="twitter:card" content="summary">
+
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../cfp-static/common/img/favicon-32x32.816e12963927.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../cfp-static/common/img/favicon-16x16.b1e178982893.png">
+    
+
+    <link rel="stylesheet" type="text/css" href="../../../cfp-static/common/scss/uncompressed.ec8d16cc3696.css" />
+    
+        <link rel="stylesheet" type="text/css" href="../../../cfp-static/vendored/fullcalendar/fullcalendar.min.ba055a2cd2b3.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/cfp.ff24a3f080cf5b33.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/agenda.db276abdb6c8be4d.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="../../../cfp-media/porto/css/cfp_mYuJO4r.css"/>
+    <script type="text/javascript" src="../../../cfp-static/CACHE/js/output.5b270a5bf623.js" defer></script>
+    
+    
+    <link rel="alternate" type="application/json" title="DjangoCon Europe 2020 API" href="https://cfp.2021.djangocon.eu/api/events/porto/talks/GJGDDR" />
+
+    
+    
+
+</head>
+<body>
+    <div id="top-bg" class="header bg-primary">
+    
+        <img src="../../../cfp-media/porto/img/background_OluCp1S.jpg" id="header-image">
+    
+    </div>
+    
+    <div class="container" id="main-container">
+        <header>
+            <h1>
+                <a href="../../schedule/index.html">
+                    
+                    <img src="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png" id="event-logo" alt="The event's logo">
+                    
+                </a>
+            </h1>
+            <div class="d-flex" id="header-row">
+            
+            
+                <a href="../../login/index.html">login</a>
+            
+            </div>
+        </header>
+        <div class="card" id="main-card">
+            <main>
+                
+
+                
+    
+    
+<article>
+    <h3 class="talk-title">
+        <div class="heading-with-buttons">
+        The Design and Development of Choices in Django 3.0
+        <div class="buttons" id="talk-buttons">
+            
+            <a class="btn btn-outline-primary" href="../porto-GJGDDR.ics">
+                <i class="fa fa-calendar"></i> .ical
+            </a>
+            
+            
+                <a href="feedback/index.html"
+                        class="btn btn-success">
+                    <i class="fa fa-comments"></i> Feedback
+                </a>
+            
+            
+        </div>
+        </div>
+        <small>
+            
+                2020-09-19, 16:30–17:10, Virtual
+            
+            
+        </small>
+    </h3>
+    <div class="talk row">
+        <div class="talk-content col-lg-8 col-md-6 col-xs-12">
+            
+            
+            <section class="abstract">
+                <p>The story of how the Choices feature in Django 3.0 came to be, and how we met challenges of design, implementation, and the project's process. A peek "behind the curtains"(*) of Django development - from discussions and proof-of-concept to a merged PR - and some lessons learned.</p>
+<p>(*) It's all public</p>
+            </section>
+            
+            <hr />
+            
+            <section class="description">
+                <p>One of the most noted highlights of version 3.0 of Django is the ability to specify field choices using enumeration types, known as Choices, as an alternative to the old way, using sequences of value-display pairs.</p>
+<p>In this talk we will present this feature and follow its development from the original, failed proposal, through its resurrection and the journey to inclusion on Django. We'll examine the process and the design issues, the objections and problems raised, and study the technical considerations and solutions which eventually led to Choices in Django 3.0.</p>
+<p>Video: <a href="https://www.youtube.com/watch?v=wQCZ_tcS0uk&amp;ab_channel=DjangoConEurope" rel="nofollow">https://www.youtube.com/watch?v=wQCZ_tcS0uk&amp;ab_channel=DjangoConEurope</a></p>
+            </section>
+            
+            </section>
+            
+                <section class="resources">
+                    See also:
+                    
+                        <a href="../../../cfp-media/Django-choices-Djangocon-2020_T1btOz4.pdf">
+                            <i class="fa fa-file-o"></i>
+                            slides
+                        </a>
+                        
+                </section>
+            
+        </div>
+        <aside class="col-lg-4 col-md-6 col-xs-12">
+            
+            
+            <div class="speakers">
+                <div class="speaker-header">
+                    
+                        Speaker
+                    
+                </div>
+                
+                    <div class="speaker">
+                        <a href="../../speaker/YRVC39/index.html">
+                            <div class="name">
+                                Shai Berger
+                            </div>
+                        </a>
+                        <div class="info">
+                            
+                        </div>
+                    </div>
+                
+            </div>
+            
+            
+        </aside>
+    </div>
+</article>
+
+
+            </main>
+        </div>
+        <footer>
+            
+            <a href="http://pretalx.com/" target="_blank" rel="noopener">
+                <img src="../../../cfp-static/common/img/logo.c86a874657c9.svg" alt="The pretalx logo">
+            </a>
+            
+                &middot;
+                <a href="mailto:content@djangocon.eu">Contact us</a>
+            
+            
+                &middot;
+                <a href="https://2020.djangocon.eu/conduct/privacy_guide/" target="_blank" rel="noopener">Imprint</a>
+            
+            
+        </footer>
+    </div>
+</body>
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/GJGDDR/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:32:37 GMT -->
+</html>

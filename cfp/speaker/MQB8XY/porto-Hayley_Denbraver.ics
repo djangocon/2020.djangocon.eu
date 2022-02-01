@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//porto//MQB8XY
+BEGIN:VEVENT
+UID:pretalx-porto-UVAH79@cfp.2021.djangocon.eu
+DTSTART:20200918T105500Z
+DTEND:20200918T113500Z
+DESCRIPTION:This talk will discuss why developers should grow their securit
+ y mindset and will give them practical advice for how to do so—even in a
+  workplace where many issues compete for their attention. Examples will be
+  given from the Python and Django world and should be of interest to those
+  new to security and those wanting to help their team develop a security m
+ indset.
+DTSTAMP:20220201T163409Z
+LOCATION:Virtual
+SUMMARY:Developing a Security Mindset: Practical Lessons for Pythonistas - 
+ Hayley Denbraver
+URL:https://cfp.2021.djangocon.eu/porto/talk/UVAH79/
+END:VEVENT
+END:VCALENDAR

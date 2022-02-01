@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//porto//EMAWS3
+BEGIN:VEVENT
+UID:pretalx-porto-X38KZG@cfp.2021.djangocon.eu
+DTSTART:20200919T113500Z
+DTEND:20200919T121500Z
+DESCRIPTION:I like websites with search bars. If the search function works 
+ well\, I can enter a few words and get a list of results\, with the things
+  that interest me at the top. Whether you use it as a help system or for p
+ roduct information\, search functionality can add a lot of value to a Djan
+ go application. But implementing proper search functionality is not easy. 
+ Django offers multiple ways to implement search functionality\, each with 
+ its advantages and disadvantages.\n This talk will give you an overview of
+  the different ways in which you can implement search functionality in Dja
+ ngo. We will look at the full-text search options that come with databases
+  and the use of a dedicated search engine like Elastic Search or Postgres.
+  Along the way\, you will learn about the different ways in which you can 
+ index your data to learn how to evaluate your search results.
+DTSTAMP:20220201T163425Z
+LOCATION:Virtual
+SUMMARY:Search Options in Django - Stefan Baerisch
+URL:https://cfp.2021.djangocon.eu/porto/talk/X38KZG/
+END:VEVENT
+END:VCALENDAR

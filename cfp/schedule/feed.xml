@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom"><title>DjangoCon Europe 2020 schedule updates</title><link href="https://cfp.2021.djangocon.eu/porto/schedule/" rel="alternate"></link><link href="https://cfp.2021.djangocon.eu/porto/schedule/feed.xml" rel="self"></link><id>https://cfp.2021.djangocon.eu/porto/schedule/feed.xml</id><updated>2020-09-08T15:04:00.632283+00:00</updated><entry><title>New DjangoCon Europe 2020 schedule released (0.10)</title><link href="https://cfp.2021.djangocon.eu/porto/schedule/=version=0.10" rel="alternate"></link><published>2020-09-08T15:04:00.632283+00:00</published><id>https://cfp.2021.djangocon.eu/porto/schedule/=version=0.10</id><summary type="html">
+&lt;p&gt;
+
+    A new DjangoCon Europe 2020 schedule has been released!
+
+&lt;/p&gt;
+
+
+
+    
+        &lt;p&gt;Nothing has changed, we just wanted to change the version name. It was going out of style.&lt;/p&gt;
+    
+
+
+</summary></entry><entry><title>New DjangoCon Europe 2020 schedule released (0.9)</title><link href="https://cfp.2021.djangocon.eu/porto/schedule/=version=0.9" rel="alternate"></link><published>2020-08-25T18:14:59.743313+00:00</published><id>https://cfp.2021.djangocon.eu/porto/schedule/=version=0.9</id><summary type="html">
+&lt;p&gt;
+
+    A new DjangoCon Europe 2020 schedule has been released!
+
+&lt;/p&gt;
+
+
+
+    
+        &lt;p&gt;No changes are visible in this version, but be assured we&amp;#39;re working on cool new versions behind the scenes.&lt;/p&gt;
+    
+
+
+</summary></entry><entry><title>New DjangoCon Europe 2020 schedule released (0.8)</title><link href="https://cfp.2021.djangocon.eu/porto/schedule/=version=0.8" rel="alternate"></link><published>2020-08-25T18:14:36.045846+00:00</published><id>https://cfp.2021.djangocon.eu/porto/schedule/=version=0.8</id><summary type="html">
+&lt;p&gt;
+
+    A new DjangoCon Europe 2020 schedule has been released!
+
+&lt;/p&gt;
+
+
+
+    
+        &lt;p&gt;Nothing has changed, we just wanted to change the version name. It was going out of style.&lt;/p&gt;
+    
+
+
+</summary></entry><entry><title>New DjangoCon Europe 2020 schedule released (0.7)</title><link href="https://cfp.2021.djangocon.eu/porto/schedule/=version=0.7" rel="alternate"></link><published>2020-08-25T18:14:13.629675+00:00</published><id>https://cfp.2021.djangocon.eu/porto/schedule/=version=0.7</id><summary type="html">
+&lt;p&gt;
+
+    A new DjangoCon Europe 2020 schedule has been released!
+
+&lt;/p&gt;
+
+
+
+    
+        &lt;p&gt;No changes are visible in this version, but be assured we&amp;#39;re working on cool new versions behind the scenes.&lt;/p&gt;
+    
+
+
+</summary></entry><entry><title>New DjangoCon Europe 2020 schedule released (0.6)</title><link href="https://cfp.2021.djangocon.eu/porto/schedule/=version=0.6" rel="alternate"></link><published>2020-08-25T18:13:42.260854+00:00</published><id>https://cfp.2021.djangocon.eu/porto/schedule/=version=0.6</id><summary type="html">
+&lt;p&gt;
+
+    A new DjangoCon Europe 2020 schedule has been released!
+
+&lt;/p&gt;
+
+
+
+    
+        &lt;p&gt;No changes are visible in this version, but be assured we&amp;#39;re working on cool new versions behind the scenes.&lt;/p&gt;
+    
+
+
+</summary></entry><entry><title>New DjangoCon Europe 2020 schedule released (0.5)</title><link href="https://cfp.2021.djangocon.eu/porto/schedule/=version=0.5" rel="alternate"></link><published>2020-08-25T18:06:23.620272+00:00</published><id>https://cfp.2021.djangocon.eu/porto/schedule/=version=0.5</id><summary type="html">
+&lt;p&gt;
+
+    A new DjangoCon Europe 2020 schedule has been released!
+
+&lt;/p&gt;
+
+
+
+    
+
+    
+
+    
+        
+            &lt;p&gt;We had to move some talks, so if you were planning on seeing them, check their new dates or locations:&lt;/p&gt;
+            &lt;ul&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/JDCBMP/"&gt;
+                    “How To Break Django: With Async”
+                    
+                        by Andrew Godwin
+                    
+                    &lt;/a&gt;
+                
+                (Sept. 19, 2020, 4:55 p.m. → Sept. 19, 2020, 5:10 p.m.)
+                
+               &lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/HK3NUR/"&gt;
+                    “Creating a spotify-like personal streaming service with Django and Vue: Lessons learned”
+                    
+                        by Emma Delescolle
+                    
+                    &lt;/a&gt;
+                
+                (Sept. 18, 2020, 2:55 p.m. → Sept. 18, 2020, 3:10 p.m.)
+                
+               &lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/JUJ3BX/"&gt;
+                    “Choose, and choose quickly: Optimising ModelChoiceField”
+                    
+                        by Carlton Gibson
+                    
+                    &lt;/a&gt;
+                
+                (Sept. 19, 2020, 3:35 p.m. → Sept. 19, 2020, 3:50 p.m.)
+                
+               &lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/79JKQ9/"&gt;
+                    “How to Hack a Django Website”
+                    
+                        by Adam Johnson
+                    
+                    &lt;/a&gt;
+                
+                (Sept. 18, 2020, 4:55 p.m. → Sept. 18, 2020, 5:10 p.m.)
+                
+               &lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/GJGDDR/"&gt;
+                    “The Design and Development of Choices in Django 3.0”
+                    
+                        by Shai Berger
+                    
+                    &lt;/a&gt;
+                
+                (Sept. 19, 2020, 4:15 p.m. → Sept. 19, 2020, 4:30 p.m.)
+                
+               &lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/DA7WFX/"&gt;
+                    “A Pentester&amp;#39;s Thoughts on Django Security”
+                    
+                        by Pascal Uter
+                    
+                    &lt;/a&gt;
+                
+                (Sept. 18, 2020, 3:35 p.m. → Sept. 18, 2020, 3:50 p.m.)
+                
+               &lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/D9XNGW/"&gt;
+                    “Can&amp;#39;t Get You Out of My Head”
+                    
+                        by Aaron Bassett
+                    
+                    &lt;/a&gt;
+                
+                (Sept. 18, 2020, 4:15 p.m. → Sept. 18, 2020, 4:30 p.m.)
+                
+               &lt;/li&gt;
+                
+            &lt;/ul&gt;
+        
+    
+
+
+</summary></entry><entry><title>New DjangoCon Europe 2020 schedule released (0.4)</title><link href="https://cfp.2021.djangocon.eu/porto/schedule/=version=0.4" rel="alternate"></link><published>2020-08-25T16:02:29.252892+00:00</published><id>https://cfp.2021.djangocon.eu/porto/schedule/=version=0.4</id><summary type="html">
+&lt;p&gt;
+
+    A new DjangoCon Europe 2020 schedule has been released!
+
+&lt;/p&gt;
+
+
+
+    
+
+    
+
+    
+        
+            &lt;p&gt;We had to move some talks, so if you were planning on seeing them, check their new dates or locations:&lt;/p&gt;
+            &lt;ul&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/X3NQV3/"&gt;
+                    “GraphQL-first Django”
+                    
+                        by Marcin Gębala
+                    
+                    &lt;/a&gt;
+                
+                (Sept. 19, 2020, 1:55 p.m. → Sept. 19, 2020, 11:15 a.m.)
+                
+               &lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/AHTFPW/"&gt;
+                    “Integrating Design and Development teams by implementing a Design System”
+                    
+                        by Mariana Bedran Lesche, Daniela Falcone
+                    
+                    &lt;/a&gt;
+                
+                (Sept. 19, 2020, 11:15 a.m. → Sept. 19, 2020, 1:55 p.m.)
+                
+               &lt;/li&gt;
+                
+            &lt;/ul&gt;
+        
+    
+
+
+</summary></entry><entry><title>New DjangoCon Europe 2020 schedule released (0.3)</title><link href="https://cfp.2021.djangocon.eu/porto/schedule/=version=0.3" rel="alternate"></link><published>2020-08-24T19:38:49.925917+00:00</published><id>https://cfp.2021.djangocon.eu/porto/schedule/=version=0.3</id><summary type="html">
+&lt;p&gt;
+
+    A new DjangoCon Europe 2020 schedule has been released!
+
+&lt;/p&gt;
+
+
+
+    
+
+    
+
+    
+        
+            &lt;p&gt;We had to move some talks, so if you were planning on seeing them, check their new dates or locations:&lt;/p&gt;
+            &lt;ul&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/KGM8UB/"&gt;
+                    “There’s more than one way to draw a map - lessons learned after the Google Maps SDK became unaffordable”
+                    
+                        by Basil Dubyk, Alexander Gaevsky
+                    
+                    &lt;/a&gt;
+                
+                (Sept. 18, 2020, 4:15 p.m. → Sept. 18, 2020, 10:35 a.m.)
+                
+               &lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/CEGCQX/"&gt;
+                    “A Pony On The Move: How Migrations Work In Django 🐎”
+                    
+                        by Markus Holtermann
+                    
+                    &lt;/a&gt;
+                
+                (Sept. 19, 2020, 11:55 a.m. → Sept. 18, 2020, 11:15 a.m.)
+                
+               &lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/D9XNGW/"&gt;
+                    “Can&amp;#39;t Get You Out of My Head”
+                    
+                        by Aaron Bassett
+                    
+                    &lt;/a&gt;
+                
+                (Sept. 18, 2020, 10:35 a.m. → Sept. 18, 2020, 4:15 p.m.)
+                
+               &lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/9WGTJF/"&gt;
+                    “Understanding Celery to maintain your sanity”
+                    
+                        by Ashwini Balnaves
+                    
+                    &lt;/a&gt;
+                
+                (Sept. 18, 2020, 11:15 a.m. → Sept. 19, 2020, 11:55 a.m.)
+                
+               &lt;/li&gt;
+                
+            &lt;/ul&gt;
+        
+    
+
+
+</summary></entry><entry><title>New DjangoCon Europe 2020 schedule released (0.2)</title><link href="https://cfp.2021.djangocon.eu/porto/schedule/=version=0.2" rel="alternate"></link><published>2020-08-24T11:34:05.430530+00:00</published><id>https://cfp.2021.djangocon.eu/porto/schedule/=version=0.2</id><summary type="html">
+&lt;p&gt;
+
+    A new DjangoCon Europe 2020 schedule has been released!
+
+&lt;/p&gt;
+
+
+
+    
+        
+            &lt;p&gt;We have new talks!&lt;/p&gt;
+            &lt;ul&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/AF8EFE/"&gt;
+                    “How To Get On This Stage (And What To Do When You Get There)”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/JDCBMP/"&gt;
+                    “How To Break Django: With Async”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/HK3NUR/"&gt;
+                    “Creating a spotify-like personal streaming service with Django and Vue: Lessons learned”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/X38KZG/"&gt;
+                    “Search Options in Django”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/7D8YKQ/"&gt;
+                    “KEYNOTE - Ecosystem Revolution with Django”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/JUJ3BX/"&gt;
+                    “Choose, and choose quickly: Optimising ModelChoiceField”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/CEGCQX/"&gt;
+                    “A Pony On The Move: How Migrations Work In Django 🐎”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/UVAH79/"&gt;
+                    “Developing a Security Mindset: Practical Lessons for Pythonistas”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/D9XNGW/"&gt;
+                    “Can&amp;#39;t Get You Out of My Head”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/QQWUBW/"&gt;
+                    “New ways to deploy your Django app”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/79JKQ9/"&gt;
+                    “How to Hack a Django Website”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/DA7WFX/"&gt;
+                    “A Pentester&amp;#39;s Thoughts on Django Security”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/KGM8UB/"&gt;
+                    “There’s more than one way to draw a map - lessons learned after the Google Maps SDK became unaffordable”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/GUWCXE/"&gt;
+                    “Implementing a Cross-DB JSONField”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/QFA38E/"&gt;
+                    “Accessibility wins for Django projects”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/9WGTJF/"&gt;
+                    “Understanding Celery to maintain your sanity”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/9HUUB8/"&gt;
+                    “KEYNOTE - Biometric Unsecurity”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/NK7DRT/"&gt;
+                    “Ceci n&amp;#39;est pas un job”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/X3NQV3/"&gt;
+                    “GraphQL-first Django”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/GJGDDR/"&gt;
+                    “The Design and Development of Choices in Django 3.0”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/9RLVSJ/"&gt;
+                    “Digitisation and Education — How the AlekSIS project fosters co-creation of school software by young people”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/GTQPVP/"&gt;
+                    “Security strategies for multi-tenant applications”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/L9CTY7/"&gt;
+                    “C is for Cookie”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+                &lt;li&gt;&lt;a href="/porto/talk/AHTFPW/"&gt;
+                    “Integrating Design and Development teams by implementing a Design System”
+                    
+                &lt;/a&gt;&lt;/li&gt;
+                
+            &lt;/ul&gt;
+        &lt;/p&gt;
+    
+
+    
+
+    
+
+
+</summary></entry><entry><title>New DjangoCon Europe 2020 schedule released (0.1)</title><link href="https://cfp.2021.djangocon.eu/porto/schedule/=version=0.1" rel="alternate"></link><published>2020-06-23T12:04:30.685774+00:00</published><id>https://cfp.2021.djangocon.eu/porto/schedule/=version=0.1</id><summary type="html">
+&lt;p&gt;
+
+    The first DjangoCon Europe 2020 schedule has been released!
+
+&lt;/p&gt;
+
+
+
+    
+        &lt;p&gt;This is where it all began.&lt;/p&gt;
+    
+
+
+</summary></entry></feed>

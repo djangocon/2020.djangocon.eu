@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//HK3NUR
+BEGIN:VEVENT
+UID:pretalx-porto-HK3NUR@cfp.2021.djangocon.eu
+DTSTART:20200918T141000Z
+DTEND:20200918T145000Z
+DESCRIPTION:In today's web\, working with a frontend framework or library i
+ s becoming the norm. Vue is one of the most popular ones but how does it p
+ lay with Django\, what are the advantages and caveats?\n\nWe'll use a prac
+ tical example to explore some of those\, ranging from getting the 2 framew
+ orks to "just" work together to data exchange through a DRF API\, authenti
+ cation and websockets.
+DTSTAMP:20220201T163217Z
+LOCATION:Virtual
+SUMMARY:Creating a spotify-like personal streaming service with Django and 
+ Vue: Lessons learned - Emma Delescolle
+URL:https://cfp.2021.djangocon.eu/porto/talk/HK3NUR/
+END:VEVENT
+END:VCALENDAR

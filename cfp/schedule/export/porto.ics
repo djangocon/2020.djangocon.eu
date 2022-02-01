@@ -1,0 +1,382 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//
+BEGIN:VEVENT
+UID:pretalx-porto-AF8EFE@cfp.2021.djangocon.eu
+DTSTART:20200918T081500Z
+DTEND:20200918T085500Z
+DESCRIPTION:Would you like to give a talk at DjangoCon\, but don't know whe
+ re to start? Does the idea of getting on the stage terrify you? This talk 
+ will tell you why you should give a talk and how to go about it. I'll cove
+ r submitting a proposal\, writing your talk\, preparing to speak and actua
+ lly getting behind the lectern to thunderous applause!
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:How To Get On This Stage (And What To Do When You Get There) - Mark
+  Smith
+URL:https://cfp.2021.djangocon.eu/porto/talk/AF8EFE/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-L9CTY7@cfp.2021.djangocon.eu
+DTSTART:20200918T085500Z
+DTEND:20200918T093500Z
+DESCRIPTION:"This site uses cookies"... no kidding! Every site uses cookies
+ ! Cookies are a much maligned\, but essential part of the web experience. 
+ But what actually *are* cookies? Why are they needed? How do they work? Ho
+ w are they used? How are they misused? And how have they changed as the mo
+ dern web as evolved? \n\nIn this talk\, you'll get a complete history of b
+ rowser cookies\, and a deep dive into the cookie specification. You'll lea
+ rn the various ways your Django site uses cookies\, and how others can use
+  use cookies on your site. And you'll get a preview of some changes that m
+ ay be coming to the way the web uses cookies.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:C is for Cookie - Russell Keith-Magee
+URL:https://cfp.2021.djangocon.eu/porto/talk/L9CTY7/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-KGM8UB@cfp.2021.djangocon.eu
+DTSTART:20200918T093500Z
+DTEND:20200918T101500Z
+DESCRIPTION:The Google Maps SDK: well-known\, powerful\, and extremely popu
+ lar - and after July 2018\, suddenly unaffordable. We needed to find an al
+ ternative for Django geospatial projects. This is the story of our search 
+ and what we found\, and the lessons that we’d like to share from the exp
+ erience. The good news is: we returned with new knowledge from our wanderi
+ ngs\, and were able to migrate our existing projects successfully.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:There’s more than one way to draw a map - lessons learned after t
+ he Google Maps SDK became unaffordable - Alexander Gaevsky\, Basil Dubyk
+URL:https://cfp.2021.djangocon.eu/porto/talk/KGM8UB/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-CEGCQX@cfp.2021.djangocon.eu
+DTSTART:20200918T101500Z
+DTEND:20200918T105500Z
+DESCRIPTION:Django ships with a built-in migration framework since version 
+ 1.7 in 2014. While migrations are widely used by almost every Django proje
+ ct ever since\, there is little known about the internals of the migration
+  framework. This talk will look into its components and how they are tied 
+ together.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:A Pony On The Move: How Migrations Work In Django 🐎 - Markus Hol
+ termann
+URL:https://cfp.2021.djangocon.eu/porto/talk/CEGCQX/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-UVAH79@cfp.2021.djangocon.eu
+DTSTART:20200918T105500Z
+DTEND:20200918T113500Z
+DESCRIPTION:This talk will discuss why developers should grow their securit
+ y mindset and will give them practical advice for how to do so—even in a
+  workplace where many issues compete for their attention. Examples will be
+  given from the Python and Django world and should be of interest to those
+  new to security and those wanting to help their team develop a security m
+ indset.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:Developing a Security Mindset: Practical Lessons for Pythonistas - 
+ Hayley Denbraver
+URL:https://cfp.2021.djangocon.eu/porto/talk/UVAH79/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-9RLVSJ@cfp.2021.djangocon.eu
+DTSTART:20200918T113500Z
+DTEND:20200918T121500Z
+DESCRIPTION:Free software is all about participation\, and projects can emp
+ ower young people to participate by designing their software in a way that
+  opens it up for learning and teaching in education. This talk reports fro
+ m the AlekSIS project that develops real-world educational software that i
+ s intended to be extended by the students that actually work with it.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:Digitisation and Education — How the AlekSIS project fosters co-c
+ reation of school software by young people - Tom Teichler\, Dominik George
+URL:https://cfp.2021.djangocon.eu/porto/talk/9RLVSJ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-QQWUBW@cfp.2021.djangocon.eu
+DTSTART:20200918T121500Z
+DTEND:20200918T125500Z
+DESCRIPTION:For many people\, deploying their site is still the hardest par
+ t of being a Django developer. This talk will demonstrate three modern\, l
+ ow-cost alternatives to the standard approaches. I'll show how to deploy t
+ he same app three times\, using self-hosted Docker\, Google Cloud Run and 
+ static site generation\, outlining the trade-offs with each approach.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:New ways to deploy your Django app - Tom Dyson
+URL:https://cfp.2021.djangocon.eu/porto/talk/QQWUBW/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-9HUUB8@cfp.2021.djangocon.eu
+DTSTART:20200918T125500Z
+DTEND:20200918T141000Z
+DESCRIPTION:Biometrics are widely regarded by the public\, and many develop
+ ers\, as heightened security. Their actual track record tells a very diffe
+ rent story. Biometric technologies are systematically making the world a l
+ ess safe place. We have an obligation to do something about that. And we c
+ an.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:KEYNOTE - Biometric Unsecurity - Carina C. Zona
+URL:https://cfp.2021.djangocon.eu/porto/talk/9HUUB8/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-HK3NUR@cfp.2021.djangocon.eu
+DTSTART:20200918T141000Z
+DTEND:20200918T145000Z
+DESCRIPTION:In today's web\, working with a frontend framework or library i
+ s becoming the norm. Vue is one of the most popular ones but how does it p
+ lay with Django\, what are the advantages and caveats?\n\nWe'll use a prac
+ tical example to explore some of those\, ranging from getting the 2 framew
+ orks to "just" work together to data exchange through a DRF API\, authenti
+ cation and websockets.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:Creating a spotify-like personal streaming service with Django and 
+ Vue: Lessons learned - Emma Delescolle
+URL:https://cfp.2021.djangocon.eu/porto/talk/HK3NUR/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-DA7WFX@cfp.2021.djangocon.eu
+DTSTART:20200918T145000Z
+DTEND:20200918T153000Z
+DESCRIPTION:Django can make you feel like you are in security heaven and ye
+ t there are some pitfalls to avoid. In this talk\, I want to praise Django
+  design choices\, give an overview of Django's security features and their
+  limitations and conclude with some general security best practices to kee
+ p in mind.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:A Pentester's Thoughts on Django Security - Pascal Uter
+URL:https://cfp.2021.djangocon.eu/porto/talk/DA7WFX/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-D9XNGW@cfp.2021.djangocon.eu
+DTSTART:20200918T153000Z
+DTEND:20200918T161000Z
+DESCRIPTION:Our devices are continually sending and receiving a complex set
+  of instructions and information every time they interact over HTTP. While
+  this mostly invisible interaction is primarily made up of the same standa
+ rd set of attributes what oddities would we discover if we spidered 10\,00
+ 0\,000 domains?
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:Can't Get You Out of My Head - Aaron Bassett
+URL:https://cfp.2021.djangocon.eu/porto/talk/D9XNGW/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-79JKQ9@cfp.2021.djangocon.eu
+DTSTART:20200918T161000Z
+DTEND:20200918T165000Z
+DESCRIPTION:Why did Facebook have a public Django-based site that got hacke
+ d? What was the flaw discovered in GitHub's password reset mechanism that 
+ was also found to affect Django auth? Are *your* projects vulnerable?\n\nI
+ 'll walk you through some stories of common web vulnerabilities\, and what
+  they mean for Django. I've had the pleasure of working on over 50 Django 
+ projects so far\, so I've seen some patterns emerge.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:How to Hack a Django Website - Adam Johnson
+URL:https://cfp.2021.djangocon.eu/porto/talk/79JKQ9/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-NK7DRT@cfp.2021.djangocon.eu
+DTSTART:20200919T081500Z
+DTEND:20200919T085500Z
+DESCRIPTION:More than once I have had the pleasure of being informed that m
+ y job (which by the way\, is also the job of quite a few members of the Dj
+ angoCon audience) is not a “real” job.\n\nIn this talk I will try to d
+ iscover what a “real job” is. I will also find out more about what is 
+ “real”\, and what is a “job”. \n\nAs a person who allegedly does n
+ ot have a real job\, and who comes from a country (Belgium) whose reality 
+ some people also doubt\, I am ideally placed to make these discoveries. I 
+ will enlist the assistance of some famous Belgians\, including the famous 
+ philosopher-actor Jean-Claude Van Damme (not a real actor\, according to s
+ ome\; not a real philosopher\, according to others) and the artist René M
+ agritte. \n\nI plan to show that being a web developer is not really a job
+  - it’s much more important than that.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:Ceci n'est pas un job - Leila Verhaegen
+URL:https://cfp.2021.djangocon.eu/porto/talk/NK7DRT/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-GTQPVP@cfp.2021.djangocon.eu
+DTSTART:20200919T085500Z
+DTEND:20200919T093500Z
+DESCRIPTION:When writing multi-tenant applications\, a very typical and dan
+ gerous bug is to forget about a WHERE statement and show data to the wrong
+  users. This often goes unnoticed\, since most people are only testing wit
+ h one user account. This talk discusses strategies to prevent this class o
+ f error entirely.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:Security strategies for multi-tenant applications - Raphael Michel
+URL:https://cfp.2021.djangocon.eu/porto/talk/GTQPVP/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-GUWCXE@cfp.2021.djangocon.eu
+DTSTART:20200919T093500Z
+DTEND:20200919T101500Z
+DESCRIPTION:Tired of dealing with structured data? Want to avoid database m
+ igrations? Try `JSONField`!\n\nThis talk explains the implementation of a 
+ cross-DB `JSONField`\, a new feature released in Django 3.1\, that can be 
+ used on all database backends supported by Django.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:Implementing a Cross-DB JSONField - Sage M. Abdullah
+URL:https://cfp.2021.djangocon.eu/porto/talk/GUWCXE/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-X3NQV3@cfp.2021.djangocon.eu
+DTSTART:20200919T101500Z
+DTEND:20200919T105500Z
+DESCRIPTION:GraphQL is a more flexible alternative to REST for building web
+  APIs\, and thus is becoming a strong foundation for any modern web stack.
+  This is especially true where static HTML templates are not cutting it or
+  a sophisticated single-page interface is needed\, which is often the case
+  on the web nowadays. Even though Django was designed as a model-view-temp
+ late framework\, it can work perfectly well as a GraphQL server to power J
+ avaScript apps. This talk will elaborate on the anatomy of a GraphQL-first
+  Django application\, in which GraphQL queries and mutations are the prima
+ ry interfaces exposed by the backend\, while the frontend remains fully dy
+ namic.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:GraphQL-first Django - Marcin Gębala
+URL:https://cfp.2021.djangocon.eu/porto/talk/X3NQV3/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-9WGTJF@cfp.2021.djangocon.eu
+DTSTART:20200919T105500Z
+DTEND:20200919T113500Z
+DESCRIPTION:Many Django apps use Celery as a task queue for long running ta
+ sks. Many talks and blogs focus on how to use Celery. But we can't stop th
+ ere. Once you're actually using Celery it's time to understand what it is 
+ actually doing so you can be prepared for when things go wrong and know wh
+ at tools are out there to help you troubleshoot any issues.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:Understanding Celery to maintain your sanity - Ashwini Balnaves
+URL:https://cfp.2021.djangocon.eu/porto/talk/9WGTJF/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-X38KZG@cfp.2021.djangocon.eu
+DTSTART:20200919T113500Z
+DTEND:20200919T121500Z
+DESCRIPTION:I like websites with search bars. If the search function works 
+ well\, I can enter a few words and get a list of results\, with the things
+  that interest me at the top. Whether you use it as a help system or for p
+ roduct information\, search functionality can add a lot of value to a Djan
+ go application. But implementing proper search functionality is not easy. 
+ Django offers multiple ways to implement search functionality\, each with 
+ its advantages and disadvantages.\n This talk will give you an overview of
+  the different ways in which you can implement search functionality in Dja
+ ngo. We will look at the full-text search options that come with databases
+  and the use of a dedicated search engine like Elastic Search or Postgres.
+  Along the way\, you will learn about the different ways in which you can 
+ index your data to learn how to evaluate your search results.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:Search Options in Django - Stefan Baerisch
+URL:https://cfp.2021.djangocon.eu/porto/talk/X38KZG/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-QFA38E@cfp.2021.djangocon.eu
+DTSTART:20200919T121500Z
+DTEND:20200919T125500Z
+DESCRIPTION:Accessibility is a big topic\, which can be hard to approach. W
+ e'll look at how the team behind Wagtail set to work on making their CMS m
+ ore accessible\, focusing on Django-specific improvements that are relevan
+ t to all projects.\n\nAlong the way we'll learn about\,\n\n- Why we care a
+ bout making accessible sites and apps\n- Accessibility considerations when
+  modelling a site’s content\n- Tooling and techniques to assess the acce
+ ssibility of Django projects
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:Accessibility wins for Django projects - Thibaud Colas
+URL:https://cfp.2021.djangocon.eu/porto/talk/QFA38E/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-AHTFPW@cfp.2021.djangocon.eu
+DTSTART:20200919T125500Z
+DTEND:20200919T133500Z
+DESCRIPTION:In the software industry\, developers\, designers and stakehold
+ ers should be working together to achieve the same goals and deliver high 
+ quality products to the final users. To be actually able to work together 
+ in an efficient and harmonic way\, though\, is a whole other thing. In a t
+ eam composed by developers and designers\, we were able to mitigate the im
+ pact of communication flaws and concepts divergences in a continuous effor
+ t to cover  the blank spots we found on every iteration we went through. I
+ n this talk I’m going to share some lessons learned about how to integra
+ te both teams’ work with a solid management process.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:Integrating Design and Development teams by implementing a Design S
+ ystem - Mariana Bedran Lesche\, Daniela Falcone
+URL:https://cfp.2021.djangocon.eu/porto/talk/AHTFPW/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-7D8YKQ@cfp.2021.djangocon.eu
+DTSTART:20200919T133500Z
+DTEND:20200919T145000Z
+DESCRIPTION:Over the last few years\, Portugal has become a pool of talent 
+ with an above-average success rate in tech-driven companies. This results 
+ in the fuelling of the country’s technological scene and in the growth o
+ f an ecosystem of innovative startups. These tech businesses are increasin
+ gly relying on the capabilities of a web framework like Django to power it
+ s developments.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:KEYNOTE - Ecosystem Revolution with Django - Luis Roque
+URL:https://cfp.2021.djangocon.eu/porto/talk/7D8YKQ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-JUJ3BX@cfp.2021.djangocon.eu
+DTSTART:20200919T145000Z
+DTEND:20200919T153000Z
+DESCRIPTION:Ever had a ModelForm\, a DRF Serializer\, a FilterSet grind to 
+ a halt rendering a choice field? Of course you have. Ever given up on it a
+ nd resorted to raw ids? -- No don't answer that.\n\nWe're going to look at
+  how you can get a grip on ModelChoiceField when you're dealing with lots 
+ of related objects\, and when you need to offer that choice again and agai
+ n and again\, without needing to put the kettle on.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:Choose\, and choose quickly: Optimising ModelChoiceField - Carlton 
+ Gibson
+URL:https://cfp.2021.djangocon.eu/porto/talk/JUJ3BX/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-GJGDDR@cfp.2021.djangocon.eu
+DTSTART:20200919T153000Z
+DTEND:20200919T161000Z
+DESCRIPTION:The story of how the Choices feature in Django 3.0 came to be\,
+  and how we met challenges of design\, implementation\, and the project's 
+ process. A peek "behind the curtains"(*) of Django development - from disc
+ ussions and proof-of-concept to a merged PR - and some lessons learned.\n\
+ n(*) It's all public
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:The Design and Development of Choices in Django 3.0 - Shai Berger
+URL:https://cfp.2021.djangocon.eu/porto/talk/GJGDDR/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-porto-JDCBMP@cfp.2021.djangocon.eu
+DTSTART:20200919T161000Z
+DTEND:20200919T165000Z
+DESCRIPTION:Curious how to put your code into a deadlock? Want infinite loo
+ ps\, but in parallel? Or just want a new\, exciting kind of data corruptio
+ n? We'll look at these and other ways that asynchronous code can make you 
+ write some spectacularly nasty code\, as well as the ways Django tries to 
+ save you from these terrible fates.
+DTSTAMP:20220201T162114Z
+LOCATION:Virtual
+SUMMARY:How To Break Django: With Async - Andrew Godwin
+URL:https://cfp.2021.djangocon.eu/porto/talk/JDCBMP/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//AF8EFE
+BEGIN:VEVENT
+UID:pretalx-porto-AF8EFE@cfp.2021.djangocon.eu
+DTSTART:20200918T081500Z
+DTEND:20200918T085500Z
+DESCRIPTION:Would you like to give a talk at DjangoCon\, but don't know whe
+ re to start? Does the idea of getting on the stage terrify you? This talk 
+ will tell you why you should give a talk and how to go about it. I'll cove
+ r submitting a proposal\, writing your talk\, preparing to speak and actua
+ lly getting behind the lectern to thunderous applause!
+DTSTAMP:20220201T162954Z
+LOCATION:Virtual
+SUMMARY:How To Get On This Stage (And What To Do When You Get There) - Mark
+  Smith
+URL:https://cfp.2021.djangocon.eu/porto/talk/AF8EFE/
+END:VEVENT
+END:VCALENDAR

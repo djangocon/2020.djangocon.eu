@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//7D8YKQ
+BEGIN:VEVENT
+UID:pretalx-porto-7D8YKQ@cfp.2021.djangocon.eu
+DTSTART:20200919T133500Z
+DTEND:20200919T145000Z
+DESCRIPTION:Over the last few years\, Portugal has become a pool of talent 
+ with an above-average success rate in tech-driven companies. This results 
+ in the fuelling of the country’s technological scene and in the growth o
+ f an ecosystem of innovative startups. These tech businesses are increasin
+ gly relying on the capabilities of a web framework like Django to power it
+ s developments.
+DTSTAMP:20220201T163233Z
+LOCATION:Virtual
+SUMMARY:KEYNOTE - Ecosystem Revolution with Django - Luis Roque
+URL:https://cfp.2021.djangocon.eu/porto/talk/7D8YKQ/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,361 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/QFA38E/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:32:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Accessibility wins for Django projects ::  DjangoCon Europe 2020 :: pretalx</title>
+    <meta name="title" content="Accessibility wins for Django projects  - DjangoCon Europe 2020 pretalx">
+    <meta name="description" content="## Introduction
+
+Over the last year, the team behind Wagtail set out to make their CMS more accessible. We wanted to both make the CMS more usable for users of assistive technologies, and reach the relevant compliance targets.
+
+We learned a lot about accessibility during this process. While most accessibility concerns are resolved at the UI level with templates and styles, there are a number of cases where deeper knowledge of Django comes in handy. Django developers can make a difference on their projects by being aware of cases where back-end customisations are needed, such as:
+
+- Forms and fields markup. Django’s defaults can hinder navigation for screen reader users, and need to be customised.
+- Required attributes for models of images. Administrators should also be able to customise their alt text, in the context images are used.
+
+Developers should also make the most of available tooling for Django projects: linters, HTML validation middleware, pattern libraries; that will all help building an accessible experience.
+
+And beyond developer tools, it’s also very valuable for developers to know how to use assistive technologies to test their work. It’s completely within reach of anyone to do basic testing with screen readers, and this is beneficial on all projects.
+
+## Talk structure
+
+### Intro: a Wagtail story
+
+- Thibaud, front-end developer, core developer of Wagtail
+- We started work on making Wagtail more accessible about a year ago
+- Here is what we learned along the way, that is relevant to all Django projects
+
+### Why we care about accessibility
+
+- Inclusive design – user experience should be good for_all_ users
+- Accessibility improvements generally lead to usability improvements
+- Legislation is evolving and compliance is now mandatory
+- This is relevant to all projects – not just public facing sites
+
+### Accessibility 101
+
+- Semantic page structure
+- Keyboard navigation
+- Images and icons
+
+### Django templates and accessibility
+
+- Forms
+- Pagination
+- HTML validation &amp; templates linting
+
+### Django models and accessibility
+
+- Headings, labels and landmarks
+- Images’ alt text
+
+### Live demo: screen reader testing
+
+- Testing a page with a browser extension
+- Testing a page with a real screen reader
+- Screen reader keyboard shortcuts you can learn in 1 minute
+
+### Key takeaways
+
+- Accessibility matters on all projects
+- Django developers can make a difference
+- Screen reader testing is within reach and has a big impact
+
+## Approach
+
+The talk starts with a case study of how we set out to make Wagtail more accessible, prompted by recent legislative changes in the EU and UK. We’ll then quickly move on to accessibility issues that tend to be specific to Django projects, demonstrating their consequences and suggesting solutions. We’ll showcase tools that can help developers on Django projects in particular – then do a live demo of screen reader testing, a technique that all developers should know the basics of to meaningfully test that what they build is accessible.
+
+This should generally be a beginner-level talk for Django developers, but there will be a lot to learn for all skill levels in the domain of accessibility. Finally I believe that screen reader testing is underused as a technique, and will be relevant to most of the audience.
+
+Video: https://www.youtube.com/watch?v=PO0w2BJk33s&amp;ab_channel=DjangoConEurope">
+    <meta name="application-name" content="pretalx">
+    <meta name="generator" content="pretalx">
+    <meta name="keywords" content="DjangoCon Europe 2020, porto, 2020, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+    <meta name="referrer" content="origin-when-crossorigin">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#120E3D">
+    <meta name="HandheldFriendly" content="True"/>
+    <meta property="thumbnail" content="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png">
+    <meta property="og:image" content="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png">
+    <meta property="og:title" content="Accessibility wins for Django projects DjangoCon Europe 2020">
+    <meta property="og:description" content="## Introduction
+
+Over the last year, the team behind Wagtail set out to make their CMS more accessible. We wanted to both make the CMS more usable for users of assistive technologies, and reach the relevant compliance targets.
+
+We learned a lot about accessibility during this process. While most accessibility concerns are resolved at the UI level with templates and styles, there are a number of cases where deeper knowledge of Django comes in handy. Django developers can make a difference on their projects by being aware of cases where back-end customisations are needed, such as:
+
+- Forms and fields markup. Django’s defaults can hinder navigation for screen reader users, and need to be customised.
+- Required attributes for models of images. Administrators should also be able to customise their alt text, in the context images are used.
+
+Developers should also make the most of available tooling for Django projects: linters, HTML validation middleware, pattern libraries; that will all help building an accessible experience.
+
+And beyond developer tools, it’s also very valuable for developers to know how to use assistive technologies to test their work. It’s completely within reach of anyone to do basic testing with screen readers, and this is beneficial on all projects.
+
+## Talk structure
+
+### Intro: a Wagtail story
+
+- Thibaud, front-end developer, core developer of Wagtail
+- We started work on making Wagtail more accessible about a year ago
+- Here is what we learned along the way, that is relevant to all Django projects
+
+### Why we care about accessibility
+
+- Inclusive design – user experience should be good for_all_ users
+- Accessibility improvements generally lead to usability improvements
+- Legislation is evolving and compliance is now mandatory
+- This is relevant to all projects – not just public facing sites
+
+### Accessibility 101
+
+- Semantic page structure
+- Keyboard navigation
+- Images and icons
+
+### Django templates and accessibility
+
+- Forms
+- Pagination
+- HTML validation &amp; templates linting
+
+### Django models and accessibility
+
+- Headings, labels and landmarks
+- Images’ alt text
+
+### Live demo: screen reader testing
+
+- Testing a page with a browser extension
+- Testing a page with a real screen reader
+- Screen reader keyboard shortcuts you can learn in 1 minute
+
+### Key takeaways
+
+- Accessibility matters on all projects
+- Django developers can make a difference
+- Screen reader testing is within reach and has a big impact
+
+## Approach
+
+The talk starts with a case study of how we set out to make Wagtail more accessible, prompted by recent legislative changes in the EU and UK. We’ll then quickly move on to accessibility issues that tend to be specific to Django projects, demonstrating their consequences and suggesting solutions. We’ll showcase tools that can help developers on Django projects in particular – then do a live demo of screen reader testing, a technique that all developers should know the basics of to meaningfully test that what they build is accessible.
+
+This should generally be a beginner-level talk for Django developers, but there will be a lot to learn for all skill levels in the domain of accessibility. Finally I believe that screen reader testing is underused as a technique, and will be relevant to most of the audience.
+
+Video: https://www.youtube.com/watch?v=PO0w2BJk33s&amp;ab_channel=DjangoConEurope">
+    <meta property="og:url" content="index.html">
+    <meta property="twitter:card" content="summary">
+
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../cfp-static/common/img/favicon-32x32.816e12963927.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../cfp-static/common/img/favicon-16x16.b1e178982893.png">
+    
+
+    <link rel="stylesheet" type="text/css" href="../../../cfp-static/common/scss/uncompressed.ec8d16cc3696.css" />
+    
+        <link rel="stylesheet" type="text/css" href="../../../cfp-static/vendored/fullcalendar/fullcalendar.min.ba055a2cd2b3.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/cfp.ff24a3f080cf5b33.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../cfp-media/djangocon-2020/agenda.db276abdb6c8be4d.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="../../../cfp-media/porto/css/cfp_mYuJO4r.css"/>
+    <script type="text/javascript" src="../../../cfp-static/CACHE/js/output.5b270a5bf623.js" defer></script>
+    
+    
+    <link rel="alternate" type="application/json" title="DjangoCon Europe 2020 API" href="https://cfp.2021.djangocon.eu/api/events/porto/talks/QFA38E" />
+
+    
+    
+
+</head>
+<body>
+    <div id="top-bg" class="header bg-primary">
+    
+        <img src="../../../cfp-media/porto/img/background_OluCp1S.jpg" id="header-image">
+    
+    </div>
+    
+    <div class="container" id="main-container">
+        <header>
+            <h1>
+                <a href="../../schedule/index.html">
+                    
+                    <img src="../../../cfp-media/porto/img/logo.1268edf3f259_vENtQ5y.png" id="event-logo" alt="The event's logo">
+                    
+                </a>
+            </h1>
+            <div class="d-flex" id="header-row">
+            
+            
+                <a href="../../login/index.html">login</a>
+            
+            </div>
+        </header>
+        <div class="card" id="main-card">
+            <main>
+                
+
+                
+    
+    
+<article>
+    <h3 class="talk-title">
+        <div class="heading-with-buttons">
+        Accessibility wins for Django projects
+        <div class="buttons" id="talk-buttons">
+            
+            <a class="btn btn-outline-primary" href="../porto-QFA38E.ics">
+                <i class="fa fa-calendar"></i> .ical
+            </a>
+            
+            
+                <a href="feedback/index.html"
+                        class="btn btn-success">
+                    <i class="fa fa-comments"></i> Feedback
+                </a>
+            
+            
+        </div>
+        </div>
+        <small>
+            
+                2020-09-19, 13:15–13:55, Virtual
+            
+            
+        </small>
+    </h3>
+    <div class="talk row">
+        <div class="talk-content col-lg-8 col-md-6 col-xs-12">
+            
+            
+            <section class="abstract">
+                <p>Accessibility is a big topic, which can be hard to approach. We'll look at how the team behind Wagtail set to work on making their CMS more accessible, focusing on Django-specific improvements that are relevant to all projects.</p>
+<p>Along the way we'll learn about,</p>
+<ul>
+<li>Why we care about making accessible sites and apps</li>
+<li>Accessibility considerations when modelling a site’s content</li>
+<li>Tooling and techniques to assess the accessibility of Django projects</li>
+</ul>
+            </section>
+            
+            <hr />
+            
+            <section class="description">
+                <h2>Introduction</h2>
+<p>Over the last year, the team behind Wagtail set out to make their CMS more accessible. We wanted to both make the CMS more usable for users of assistive technologies, and reach the relevant compliance targets.</p>
+<p>We learned a lot about accessibility during this process. While most accessibility concerns are resolved at the UI level with templates and styles, there are a number of cases where deeper knowledge of Django comes in handy. Django developers can make a difference on their projects by being aware of cases where back-end customisations are needed, such as:</p>
+<ul>
+<li>Forms and fields markup. Django’s defaults can hinder navigation for screen reader users, and need to be customised.</li>
+<li>Required attributes for models of images. Administrators should also be able to customise their alt text, in the context images are used.</li>
+</ul>
+<p>Developers should also make the most of available tooling for Django projects: linters, HTML validation middleware, pattern libraries; that will all help building an accessible experience.</p>
+<p>And beyond developer tools, it’s also very valuable for developers to know how to use assistive technologies to test their work. It’s completely within reach of anyone to do basic testing with screen readers, and this is beneficial on all projects.</p>
+<h2>Talk structure</h2>
+<h3>Intro: a Wagtail story</h3>
+<ul>
+<li>Thibaud, front-end developer, core developer of Wagtail</li>
+<li>We started work on making Wagtail more accessible about a year ago</li>
+<li>Here is what we learned along the way, that is relevant to all Django projects</li>
+</ul>
+<h3>Why we care about accessibility</h3>
+<ul>
+<li>Inclusive design – user experience should be good for_all_ users</li>
+<li>Accessibility improvements generally lead to usability improvements</li>
+<li>Legislation is evolving and compliance is now mandatory</li>
+<li>This is relevant to all projects – not just public facing sites</li>
+</ul>
+<h3>Accessibility 101</h3>
+<ul>
+<li>Semantic page structure</li>
+<li>Keyboard navigation</li>
+<li>Images and icons</li>
+</ul>
+<h3>Django templates and accessibility</h3>
+<ul>
+<li>Forms</li>
+<li>Pagination</li>
+<li>HTML validation &amp; templates linting</li>
+</ul>
+<h3>Django models and accessibility</h3>
+<ul>
+<li>Headings, labels and landmarks</li>
+<li>Images’ alt text</li>
+</ul>
+<h3>Live demo: screen reader testing</h3>
+<ul>
+<li>Testing a page with a browser extension</li>
+<li>Testing a page with a real screen reader</li>
+<li>Screen reader keyboard shortcuts you can learn in 1 minute</li>
+</ul>
+<h3>Key takeaways</h3>
+<ul>
+<li>Accessibility matters on all projects</li>
+<li>Django developers can make a difference</li>
+<li>Screen reader testing is within reach and has a big impact</li>
+</ul>
+<h2>Approach</h2>
+<p>The talk starts with a case study of how we set out to make Wagtail more accessible, prompted by recent legislative changes in the EU and UK. We’ll then quickly move on to accessibility issues that tend to be specific to Django projects, demonstrating their consequences and suggesting solutions. We’ll showcase tools that can help developers on Django projects in particular – then do a live demo of screen reader testing, a technique that all developers should know the basics of to meaningfully test that what they build is accessible.</p>
+<p>This should generally be a beginner-level talk for Django developers, but there will be a lot to learn for all skill levels in the domain of accessibility. Finally I believe that screen reader testing is underused as a technique, and will be relevant to most of the audience.</p>
+<p>Video: <a href="https://www.youtube.com/watch?v=PO0w2BJk33s&amp;ab_channel=DjangoConEurope" rel="nofollow">https://www.youtube.com/watch?v=PO0w2BJk33s&amp;ab_channel=DjangoConEurope</a></p>
+            </section>
+            
+            </section>
+            
+        </div>
+        <aside class="col-lg-4 col-md-6 col-xs-12">
+            
+            
+            <div class="speakers">
+                <div class="speaker-header">
+                    
+                        Speaker
+                    
+                </div>
+                
+                    <div class="speaker">
+                        <a href="../../speaker/FGTHLQ/index.html">
+                            <div class="name">
+                                Thibaud Colas
+                            </div>
+                        </a>
+                        <div class="info">
+                            
+                        </div>
+                    </div>
+                
+            </div>
+            
+            
+        </aside>
+    </div>
+</article>
+
+
+            </main>
+        </div>
+        <footer>
+            
+            <a href="http://pretalx.com/" target="_blank" rel="noopener">
+                <img src="../../../cfp-static/common/img/logo.c86a874657c9.svg" alt="The pretalx logo">
+            </a>
+            
+                &middot;
+                <a href="mailto:content@djangocon.eu">Contact us</a>
+            
+            
+                &middot;
+                <a href="https://2020.djangocon.eu/conduct/privacy_guide/" target="_blank" rel="noopener">Imprint</a>
+            
+            
+        </footer>
+    </div>
+</body>
+
+<!-- Mirrored from cfp.2021.djangocon.eu/porto/talk/QFA38E/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Feb 2022 16:32:32 GMT -->
+</html>

@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//porto//7ZHWE7
+BEGIN:VEVENT
+UID:pretalx-porto-GUWCXE@cfp.2021.djangocon.eu
+DTSTART:20200919T093500Z
+DTEND:20200919T101500Z
+DESCRIPTION:Tired of dealing with structured data? Want to avoid database m
+ igrations? Try `JSONField`!\n\nThis talk explains the implementation of a 
+ cross-DB `JSONField`\, a new feature released in Django 3.1\, that can be 
+ used on all database backends supported by Django.
+DTSTAMP:20220201T163422Z
+LOCATION:Virtual
+SUMMARY:Implementing a Cross-DB JSONField - Sage M. Abdullah
+URL:https://cfp.2021.djangocon.eu/porto/talk/GUWCXE/
+END:VEVENT
+END:VCALENDAR

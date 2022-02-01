@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//CEGCQX
+BEGIN:VEVENT
+UID:pretalx-porto-CEGCQX@cfp.2021.djangocon.eu
+DTSTART:20200918T101500Z
+DTEND:20200918T105500Z
+DESCRIPTION:Django ships with a built-in migration framework since version 
+ 1.7 in 2014. While migrations are widely used by almost every Django proje
+ ct ever since\, there is little known about the internals of the migration
+  framework. This talk will look into its components and how they are tied 
+ together.
+DTSTAMP:20220201T163041Z
+LOCATION:Virtual
+SUMMARY:A Pony On The Move: How Migrations Work In Django 🐎 - Markus Hol
+ termann
+URL:https://cfp.2021.djangocon.eu/porto/talk/CEGCQX/
+END:VEVENT
+END:VCALENDAR

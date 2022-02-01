@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//JDCBMP
+BEGIN:VEVENT
+UID:pretalx-porto-JDCBMP@cfp.2021.djangocon.eu
+DTSTART:20200919T161000Z
+DTEND:20200919T165000Z
+DESCRIPTION:Curious how to put your code into a deadlock? Want infinite loo
+ ps\, but in parallel? Or just want a new\, exciting kind of data corruptio
+ n? We'll look at these and other ways that asynchronous code can make you 
+ write some spectacularly nasty code\, as well as the ways Django tries to 
+ save you from these terrible fates.
+DTSTAMP:20220201T163239Z
+LOCATION:Virtual
+SUMMARY:How To Break Django: With Async - Andrew Godwin
+URL:https://cfp.2021.djangocon.eu/porto/talk/JDCBMP/
+END:VEVENT
+END:VCALENDAR

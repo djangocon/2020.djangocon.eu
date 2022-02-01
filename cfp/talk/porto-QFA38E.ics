@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//cfp.2021.djangocon.eu//QFA38E
+BEGIN:VEVENT
+UID:pretalx-porto-QFA38E@cfp.2021.djangocon.eu
+DTSTART:20200919T121500Z
+DTEND:20200919T125500Z
+DESCRIPTION:Accessibility is a big topic\, which can be hard to approach. W
+ e'll look at how the team behind Wagtail set to work on making their CMS m
+ ore accessible\, focusing on Django-specific improvements that are relevan
+ t to all projects.\n\nAlong the way we'll learn about\,\n\n- Why we care a
+ bout making accessible sites and apps\n- Accessibility considerations when
+  modelling a site’s content\n- Tooling and techniques to assess the acce
+ ssibility of Django projects
+DTSTAMP:20220201T163231Z
+LOCATION:Virtual
+SUMMARY:Accessibility wins for Django projects - Thibaud Colas
+URL:https://cfp.2021.djangocon.eu/porto/talk/QFA38E/
+END:VEVENT
+END:VCALENDAR
